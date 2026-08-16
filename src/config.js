@@ -74,9 +74,23 @@ export const FETCH_ATTEMPTS = 3;
 export const FETCH_TIMEOUT_MS = 20_000;
 export const FETCH_BACKOFF_MS = [2_000, 5_000];
 
-// Health policy (src/check.js).
+// Health policy (src/check.js, src/lib/health.js).
 export const STALE_AFTER_MS = 2 * 60 * 60 * 1000; // no successful poll for 2 h -> alarm
-export const RENOTIFY_AFTER_MS = 6 * 60 * 60 * 1000; // re-fail the workflow at most every 6 h per alarm
+export const RENOTIFY_AFTER_MS = 6 * 60 * 60 * 1000; // re-fail the workflow at most every 6 h per alarm key
+export const ZERO_ITEMS_AFTER_MS = 12 * 60 * 60 * 1000; // 0 items for 12 h while the sibling has items -> alarm
 export const GONE_RETENTION_MS = 14 * 24 * 60 * 60 * 1000; // remember disappeared ids for flap detection
+// Sources that describe the same warnings through different feeds. Used by the
+// zero-items rule: one of them empty for hours while the other is not is a
+// silent parser break (a calm day empties both).
+export const SIBLINGS = [
+  ["imgw-meteo", "imgw-osmet"],
+  ["meteoalarm-json", "meteoalarm-atom"],
+];
+
+// Snapshot policy for "daily" sources: besides the first poll of each UTC day,
+// take a keyframe when new/changed records arrived and the last one is older
+// than this — otherwise a record that appears after the day's keyframe and
+// drops before the next one has no raw CAP captured.
+export const KEYFRAME_MIN_GAP_MS = 6 * 60 * 60 * 1000;
 
 export const ROOT = process.env.RECORDER_ROOT?.trim() || fileURLToPath(new URL("..", import.meta.url));

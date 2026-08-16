@@ -2,8 +2,11 @@
 // design questions from what the ledger already holds:
 //   - ids ever seen / currently active / disappeared / reappeared
 //   - mutation rate: % of concluded ids that changed content at least once
-//   - cancel semantics: % of disappearances that had a Cancel msg_type or an
-//     expired valid_to at disappearance vs SILENT (still valid, just gone)
+//   - cancel semantics: % of disappearances that were referenced by a later
+//     Cancel/Update record (CAP: the Cancel is a NEW record whose `references`
+//     name the cancelled id — the cancelled record's own msg_type stays Alert),
+//     or expired (valid_to passed), or FLAP (came back within 2 polls), vs
+//     SILENT (still valid, just gone, never referenced)
 //   - lifetime: median observed id lifetime (first_seen -> last_seen)
 //   - latency: median (first_seen - published) — how stale the warning already
 //     was when we first observed it (upper bound: poll interval + feed delay)
@@ -55,15 +58,38 @@ for (const source of SOURCES) {
 
   const changedIds = new Set(changed.map((e) => e.id));
 
+  // refs -> ids join: which ids were named by a Cancel / Update record's references
+  const cancelledBy = new Map(); // referenced id -> msg_type of the referencing record
+  for (const e of events) {
+    if (e.ev !== "appeared" && e.ev !== "reappeared" && e.ev !== "changed") continue;
+    for (const ref of e.summary?.refs ?? []) {
+      const mt = String(e.summary?.msg_type ?? "").toLowerCase();
+      if (mt === "cancel" || !cancelledBy.has(ref)) cancelledBy.set(ref, mt || "?");
+    }
+  }
+  // flap: disappeared, then reappeared within <= 2 polls (~20 min)
+  const polls = await readPollLog(source.key);
+  const okPollTimes = polls.filter((p) => p.ok).map((p) => Date.parse(p.t));
+  const pollsBetween = (a, b) => okPollTimes.filter((t) => t > a && t <= b).length;
+  const reappearAt = new Map(); // id -> [t...]
+  for (const e of reappeared) (reappearAt.get(e.id) ?? reappearAt.set(e.id, []).get(e.id)).push(Date.parse(e.t));
+
   // Disappearance classification
   let viaCancel = 0;
+  let viaUpdate = 0;
   let viaExpiry = 0;
+  let flap = 0;
   let silent = 0;
   const lifetimes = [];
   for (const e of disappeared) {
     lifetimes.push(diffSeconds(e.first_seen, e.last_seen));
-    if (String(e.msg_type ?? "").toLowerCase() === "cancel") viaCancel += 1;
-    else if (e.valid_to && Date.parse(e.valid_to) <= Date.parse(e.t)) viaExpiry += 1;
+    const gone = Date.parse(e.t);
+    const back = (reappearAt.get(e.id) ?? []).find((t) => t > gone);
+    const ref = cancelledBy.get(e.id);
+    if (back && pollsBetween(gone, back) <= 2) flap += 1;
+    else if (ref === "cancel" || String(e.msg_type ?? "").toLowerCase() === "cancel") viaCancel += 1;
+    else if (ref === "update") viaUpdate += 1;
+    else if (e.valid_to && Date.parse(e.valid_to) <= gone) viaExpiry += 1;
     else silent += 1;
   }
 
@@ -79,14 +105,13 @@ for (const source of SOURCES) {
   console.log(`  currently active:     ${s ? Object.keys(s.ledger.active).length : "?"}`);
   console.log(`  appeared/reappeared:  ${appeared.length}/${reappeared.length}`);
   console.log(`  content mutations:    ${changed.length} events, ${changedIds.size} ids (${pct(changedIds.size, ids.size)} of ids mutated)`);
-  console.log(`  disappearances:       ${disappeared.length}  — cancel: ${viaCancel}, expired: ${viaExpiry}, SILENT: ${silent} (${pct(silent, disappeared.length)})`);
+  console.log(`  disappearances:       ${disappeared.length}  — cancelled(ref): ${viaCancel}, superseded(update ref): ${viaUpdate}, expired: ${viaExpiry}, flap(<=2 polls): ${flap}, SILENT: ${silent} (${pct(silent, disappeared.length)})`);
   console.log(`  median id lifetime:   ${fmtDur(median(lifetimes))} (n=${lifetimes.length}, concluded ids only)`);
   console.log(`  first-seen latency:   median ${fmtDur(median(latencies))}, max ${fmtDur(latencies.length ? Math.max(...latencies) : null)} (n=${latencies.length}, backfill excluded; upper-bounded by poll interval)`);
   console.log(`  areas per warning:    median ${median(areaCounts) ?? "n/a"}, max ${areaCounts.length ? Math.max(...areaCounts) : "n/a"}`);
-  console.log(`  schema drift events:  ${drift.length}`);
+  console.log(`  schema drift events:  ${drift.filter((e) => e.alarm !== false).length} alarming, ${drift.filter((e) => e.alarm === false).length} informational (keys absent)`);
 
   // Poll cadence and reliability from the poll log (GH cron drift shows up here)
-  const polls = await readPollLog(source.key);
   if (polls.length) {
     const ok = polls.filter((p) => p.ok);
     const gaps = [];

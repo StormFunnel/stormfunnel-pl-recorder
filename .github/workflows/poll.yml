@@ -10,8 +10,13 @@
 #     Our own commits count as activity, but if the workflow ever stops for
 #     60 days (e.g. all pushes fail), a human must re-enable it in the Actions tab.
 #   - the schedule event runs the workflow file from the DEFAULT branch only.
-#   - a failing run emails the person who last modified this file (default GitHub
-#     notification setting "failed workflows only"), which is our zero-config alarm.
+#   - scheduled runs (and their failure emails) are attributed to the AUTHOR of
+#     the commit that last touched the cron line — that email must be a verified
+#     address on the pushing GitHub account, or nobody is notified (RUNBOOK step 2).
+#   - GitHub emails on EVERY failed run, not only the first of a series; the
+#     dedupe (fail only when new / >6 h since last notification) is check.js's job.
+#   - pushes made with GITHUB_TOKEN never trigger workflows, so no [skip ci] is needed
+#     (and this workflow has no push trigger anyway).
 name: poll
 
 on:
@@ -31,33 +36,42 @@ permissions:
 jobs:
   poll:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    # Worst-case fetch path alone is 5 sources x (3 x 20 s + 7 s backoff) ≈ 6 min;
+    # add checkout of a repo that grows ~0.5 MB/day.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          # PAT fallback if the org forbids GITHUB_TOKEN pushes (RUNBOOK step 5):
+          # token: ${{ secrets.RECORDER_PUSH_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
       # No npm install: the recorder has zero dependencies.
+      # continue-on-error: whatever poll.js managed to write must still be
+      # committed; a crash is reported through check.js (deduped) instead.
       - name: Poll all sources
+        id: poll
+        continue-on-error: true
         env:
           RECORDER_CONTACT: ${{ vars.RECORDER_CONTACT }}
           RECORDER_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
         run: node src/poll.js
 
-      # Health gate. Its exit code is captured, NOT enforced yet, so the data
-      # from this tick is committed even when the check fails.
+      # Health gate. Exit 1 only for NEW problems (or re-notify after 6 h);
+      # known problems are ::warning:: annotations. Its exit code is captured
+      # here and enforced at the end so the data of a sick tick is committed.
       - name: Health check
         id: health
         continue-on-error: true
+        env:
+          RECORDER_POLL_OUTCOME: ${{ steps.poll.outcome }}
         run: node src/check.js
 
       - name: Commit and push
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           git config user.name "recorder-bot"
@@ -68,7 +82,7 @@ jobs:
             exit 0
           fi
           STAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          git commit -q -m "poll ${STAMP} [skip ci]"
+          git commit -q -m "poll ${STAMP}"
           # Retry the push a few times: a manual push by a human between our
           # checkout and our push is the only realistic conflict.
           for i in 1 2 3; do
@@ -79,8 +93,8 @@ jobs:
           done
           exit 1
 
-      - name: Fail loudly if health check failed
+      - name: Fail loudly if health check raised a new alarm
         if: steps.health.outcome == 'failure'
         run: |
-          echo "::error::Recorder health check failed — see the 'Health check' step above (stale source > 2h or schema drift)."
+          echo "::error::Recorder health check failed — see the 'Health check' step above (stale source > 2h, schema drift, zero items vs sibling, or poll crash)."
           exit 1

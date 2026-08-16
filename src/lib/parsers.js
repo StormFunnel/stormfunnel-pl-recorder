@@ -1,5 +1,8 @@
 // One parser per source. Each returns:
-//   { items: [{ id, hash, norm, summary }], envelope, malformed }
+//   { items: [{ id, hash, norm, summary }], envelope, malformed, meta? }
+// - meta     optional publisher-side timestamps (osmet program.LastChange, Atom
+//            feed <updated>) — recorded on the poll line so latency can be split
+//            into "publisher generated" vs "we fetched".
 // - id       stable identity of the warning within the source (synthesized for imgw-hydro)
 // - norm     the item as served, with ORDER-NORMALIZED arrays where the feed is
 //            known to shuffle them (imgw teryt / kod_zlewni). Hash input.
@@ -173,12 +176,18 @@ export function parseImgwOsmet(body) {
       },
     });
   }
+  const program = data.program && typeof data.program === "object" ? data.program : {};
   return {
     items,
     malformed: 0,
     envelope: {
       top: Object.keys(data).sort(),
       item_keys: unionKeys(Object.values(warnings)),
+    },
+    meta: {
+      upstream_t: isoToUtcIso(str(program.LxLastChange)) ?? isoToUtcIso(str(program.LastChange)) ?? null,
+      upstream_export_t: isoToUtcIso(str(program.LxExportTime)) ?? null,
+      upstream_unix: program.unixLastChange != null ? Number(program.unixLastChange) || null : null,
     },
   };
 }
@@ -285,15 +294,18 @@ function decodeXml(s) {
     .replace(/&amp;/g, "&");
 }
 
+// <entry> may carry attributes (xmlns, xml:lang) — match the tag, not the literal.
+const ENTRY_OPEN = /<entry(?:\s[^>]*)?>/;
+
 export function stripAtomFeedNoise(xml) {
   // Feed-level <updated> is the fetch time; strip it before hashing the envelope.
-  const head = xml.split("<entry>")[0];
+  const head = xml.split(ENTRY_OPEN)[0];
   return head.replace(/<updated>[^<]*<\/updated>/, "<updated/>");
 }
 
 export function parseMeteoalarmAtom(body) {
   if (typeof body !== "string" || !body.includes("<feed")) throw new Error("meteoalarm-atom: not an Atom feed");
-  const parts = body.split(/<entry>/);
+  const parts = body.split(ENTRY_OPEN);
   const entriesXml = parts.slice(1).map((e) => e.split("</entry>")[0]);
   const items = [];
   let malformed = 0;
@@ -361,6 +373,7 @@ export function parseMeteoalarmAtom(body) {
       top: [...new Set(headTags)].sort(),
       entry_tags: [...seenTags].sort(),
     },
+    meta: { feed_updated: isoToUtcIso(tag(body.split(ENTRY_OPEN)[0], "updated")) },
   };
 }
 

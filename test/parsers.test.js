@@ -125,3 +125,49 @@ test("mutating one IMGW row changes only that item's hash", () => {
   assert.notEqual(a.items[0].hash, b.items[0].hash);
   assert.equal(a.items[1].hash, b.items[1].hash);
 });
+
+// ---------------------------------------------------------------- negative / edge shapes
+test("negative bodies: HTML, empty array, empty warnings map, missing keys", () => {
+  assert.throws(() => parseSource("imgw-meteo", "<html><body>503</body></html>"), /JSON/);
+  assert.throws(() => parseSource("imgw-meteo", '{"not":"array"}'), /not an array/);
+  assert.throws(() => parseSource("imgw-hydro", "null"), /not an array/);
+  assert.throws(() => parseSource("imgw-osmet", "[]"), /missing warnings map/);
+  assert.throws(() => parseSource("imgw-osmet", '{"teryt":{}}'), /missing warnings map/);
+  assert.throws(() => parseSource("meteoalarm-json", '{"warnings":{}}'), /missing warnings array/);
+  assert.throws(() => parseSource("meteoalarm-atom", "<html>Bad gateway</html>"), /not an Atom feed/);
+  assert.throws(() => parseSource("nope", "{}"), /no parser/);
+
+  const emptyMeteo = parseSource("imgw-meteo", "[]");
+  assert.deepEqual(emptyMeteo, { items: [], malformed: 0, envelope: { top: "array", item_keys: [] } });
+  const emptyOsmet = parseSource("imgw-osmet", '{"warnings":[],"teryt":[],"program":{"LxLastChange":"2026-08-16T06:29:59+02:00"}}');
+  assert.equal(emptyOsmet.items.length, 0);
+  assert.equal(emptyOsmet.meta.upstream_t, "2026-08-16T04:29:59.000Z");
+  const emptyMa = parseSource("meteoalarm-json", '{"warnings":[]}');
+  assert.deepEqual(emptyMa.envelope, { top: ["warnings"], record_keys: [], alert_keys: [], info_keys: [] });
+  const emptyAtom = parseSource("meteoalarm-atom", '<feed xmlns="http://www.w3.org/2005/Atom"><updated>2026-08-16T04:05:16Z</updated></feed>');
+  assert.equal(emptyAtom.items.length, 0);
+  assert.equal(emptyAtom.meta.feed_updated, "2026-08-16T04:05:16.000Z");
+});
+
+test("rows without an id are counted as malformed, not thrown", () => {
+  const r = parseSource("imgw-meteo", JSON.stringify([{ nazwa_zdarzenia: "x" }, { id: "A1", teryt: ["1"] }, null]));
+  assert.equal(r.items.length, 1);
+  assert.equal(r.malformed, 2);
+  const h = parseSource("imgw-hydro", JSON.stringify([{ biuro: "b" }, 42]));
+  assert.equal(h.malformed, 2);
+  const m = parseSource("meteoalarm-json", JSON.stringify({ warnings: [{ uuid: "u" }, { alert: {} }] }));
+  assert.equal(m.malformed, 2);
+});
+
+test("meteoalarm-atom: <entry xmlns=...> with attributes still yields every entry (regression: literal '<entry>' split)", () => {
+  const body = fx("meteoalarm-atom-poland.xml").replace(/<entry>/g, '<entry xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">');
+  const r = parseSource("meteoalarm-atom", body);
+  assert.equal(r.items.length, 351);
+  assert.ok(!r.envelope.top.includes("entry"), "head tags stop at the first entry");
+});
+
+test("osmet meta carries IMGW's own generation time", () => {
+  const r = parseSource("imgw-osmet", fx("imgw-osmet-teryt.json"));
+  assert.equal(r.meta.upstream_t, "2026-08-16T04:29:59.000Z");
+  assert.equal(r.meta.upstream_unix, 1786854599);
+});

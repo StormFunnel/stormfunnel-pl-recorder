@@ -30,8 +30,10 @@ function warsawOffsetMs(utcMs) {
 /**
  * "YYYY-MM-DD HH:mm[:ss]" (Warsaw wall clock) -> ISO UTC string, or null.
  * "9999-12-31 23:59:59" (IMGW's "open-ended") -> null.
- * Two-pass offset resolution handles the DST edges well enough for a recorder
- * (the ambiguous autumn hour resolves to the first occurrence).
+ * Two-pass offset resolution handles the DST edges well enough for a recorder:
+ * the ambiguous autumn hour (02:00-02:59 on the last Sunday of October) resolves
+ * to the SECOND occurrence (CET, +01:00); the nonexistent spring hour maps
+ * forward into the following hour. Both edges are pinned by test/time.test.js.
  */
 export function warsawToUtcIso(text) {
   if (typeof text !== "string") return null;
