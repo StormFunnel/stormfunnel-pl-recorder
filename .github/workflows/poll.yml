@@ -1,0 +1,86 @@
+# Polish weather-warning recorder — scheduled poll.
+#
+# Facts this file relies on (GitHub docs, checked 2026-08-16):
+#   - shortest cron interval GitHub accepts is 5 minutes ("*/5"); we use */10
+#     because IMGW products live for hours and it halves the commit count.
+#   - schedule is BEST-EFFORT: runs are queued and can start minutes late or be
+#     skipped under load, especially at :00. poll.js records the actual time and
+#     report.js prints the observed gap distribution — the drift is data, not a bug.
+#   - scheduled workflows are auto-disabled after 60 days without repo activity.
+#     Our own commits count as activity, but if the workflow ever stops for
+#     60 days (e.g. all pushes fail), a human must re-enable it in the Actions tab.
+#   - the schedule event runs the workflow file from the DEFAULT branch only.
+#   - a failing run emails the person who last modified this file (default GitHub
+#     notification setting "failed workflows only"), which is our zero-config alarm.
+name: poll
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+# Never run two polls at once: they would both append to the same NDJSON files
+# and race on the push. Queue, do not cancel.
+concurrency:
+  group: recorder-poll
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No npm install: the recorder has zero dependencies.
+      - name: Poll all sources
+        env:
+          RECORDER_CONTACT: ${{ vars.RECORDER_CONTACT }}
+          RECORDER_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: node src/poll.js
+
+      # Health gate. Its exit code is captured, NOT enforced yet, so the data
+      # from this tick is committed even when the check fails.
+      - name: Health check
+        id: health
+        continue-on-error: true
+        run: node src/check.js
+
+      - name: Commit and push
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "recorder-bot"
+          git config user.email "recorder-bot@users.noreply.github.com"
+          git add -A data ledger state heartbeat.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          STAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          git commit -q -m "poll ${STAMP} [skip ci]"
+          # Retry the push a few times: a manual push by a human between our
+          # checkout and our push is the only realistic conflict.
+          for i in 1 2 3; do
+            if git push origin HEAD:${GITHUB_REF_NAME}; then exit 0; fi
+            echo "push failed (attempt $i), rebasing on remote"
+            git fetch origin ${GITHUB_REF_NAME}
+            git rebase origin/${GITHUB_REF_NAME} || { git rebase --abort; exit 1; }
+          done
+          exit 1
+
+      - name: Fail loudly if health check failed
+        if: steps.health.outcome == 'failure'
+        run: |
+          echo "::error::Recorder health check failed — see the 'Health check' step above (stale source > 2h or schema drift)."
+          exit 1

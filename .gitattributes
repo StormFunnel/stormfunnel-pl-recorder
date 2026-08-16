@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.ndjson text eol=lf
+*.json text eol=lf
+*.gz binary

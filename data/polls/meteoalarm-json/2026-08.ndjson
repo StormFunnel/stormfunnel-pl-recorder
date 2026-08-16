@@ -1,0 +1,1 @@
+{"t":"2026-08-16T04:51:09.808Z","run_id":null,"trigger":"local","ok":true,"status":200,"ms":5432,"attempts":1,"bytes":853369,"n_items":352,"malformed":0,"feed_hash":"2615a0464cdfcf9fe4f083c9115245a8ee7fb2c4e7b35aaa47b795aaf40cddc3","changed":true,"snapshot":"data/snapshots/2026/08/16/meteoalarm-json-2026-08-16-0451Z.json.gz","events":352}

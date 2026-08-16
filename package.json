@@ -1,0 +1,17 @@
+{
+  "name": "stormfunnel-pl-recorder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Append-only recorder for Polish weather warnings (IMGW danepubliczne, IMGW osmet, Meteoalarm CAP) with a per-warning observation ledger. Zero dependencies, zero build step.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "poll": "node src/poll.js",
+    "check": "node src/check.js",
+    "report": "node src/report.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED"
+}
