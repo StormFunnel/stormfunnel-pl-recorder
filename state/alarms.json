@@ -1,1 +1,8 @@
-{}
+{
+ "imgw-meteo:stale": {
+  "first_failed_at": "2026-08-26T09:21:40.052Z",
+  "last_notified_at": "2026-08-26T09:21:40.052Z",
+  "notified": 1,
+  "message": "imgw-meteo: last successful poll 3.0h ago (2026-08-26T06:22:12.150Z), 3 consecutive failures"
+ }
+}
