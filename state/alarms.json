@@ -3,6 +3,6 @@
   "first_failed_at": "2026-08-26T09:21:40.052Z",
   "last_notified_at": "2026-08-26T09:21:40.052Z",
   "notified": 1,
-  "message": "imgw-meteo: last successful poll 5.2h ago (2026-08-26T06:22:12.150Z), 6 consecutive failures"
+  "message": "imgw-meteo: last successful poll 5.7h ago (2026-08-26T06:22:12.150Z), 7 consecutive failures"
  }
 }
