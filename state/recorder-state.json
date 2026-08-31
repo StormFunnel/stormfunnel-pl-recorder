@@ -602,7 +602,7 @@
       "gone_at": "2026-08-30T17:37:10.156Z"
      }
     },
-    "last_poll_t": "2026-08-30T22:43:20.110Z"
+    "last_poll_t": "2026-08-31T00:56:11.077Z"
    },
    "last_feed_hash": "0f7c86183f0a77e2e9d101fbb1dc56f327e0d6db068700b9205ffc0551ff550c",
    "schema": {
@@ -640,7 +640,7 @@
      ]
     }
    },
-   "last_success": "2026-08-30T22:43:20.110Z",
+   "last_success": "2026-08-31T00:56:11.077Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-08-30",
    "last_fail_body_hash": null,
@@ -3438,7 +3438,7 @@
       "gone_at": "2026-08-29T23:27:29.717Z"
      }
     },
-    "last_poll_t": "2026-08-30T22:43:20.969Z"
+    "last_poll_t": "2026-08-31T00:56:11.985Z"
    },
    "last_feed_hash": "81934878a0fee14458109689cdfb97096f4737274d6a3c8bfa031ce7d487273d",
    "schema": {
@@ -3476,7 +3476,7 @@
      ]
     }
    },
-   "last_success": "2026-08-30T22:43:20.969Z",
+   "last_success": "2026-08-31T00:56:11.985Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-08-29",
    "last_fail_body_hash": null,
@@ -3489,7 +3489,7 @@
     "active": {
      "Sk20260830143033549": {
       "first_seen": "2026-08-30T17:37:13.378Z",
-      "hash": "27213ebd82f03a8d773336abbc17f3894fd8bdb69a4adeac1f634165ad56da5a",
+      "hash": "011021b1c878609dd2e082e978707e9ed9301e670aede79185cd0c76d5478333",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "cd97ec9efb1c",
@@ -3506,12 +3506,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "c360bdac5c70",
-       "SMS": "d76094b54c0d",
+       "SMS": "f11850ec9035",
        "ValidFrom": "6a5416513e3e",
        "ValidTo": "1a500aa41798",
        "_teryt": "82b003fb0a42"
       },
-      "changes": 0,
+      "changes": 1,
       "published": "2026-08-30T14:30:00.000Z",
       "valid_to": "2026-08-31T15:00:00.000Z",
       "msg_type": null,
@@ -4270,9 +4270,9 @@
       "gone_at": "2026-08-29T21:18:31.335Z"
      }
     },
-    "last_poll_t": "2026-08-30T22:43:21.399Z"
+    "last_poll_t": "2026-08-31T00:56:12.404Z"
    },
-   "last_feed_hash": "c9a36eaff424df99464217e5043a910614293c91a78b04a62e8a443a4c436b7d",
+   "last_feed_hash": "defa2905f5c0602c233efb37eb74433612ee8a1ed855bd5e5838cf5023b5028d",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -4330,11 +4330,11 @@
      ]
     }
    },
-   "last_success": "2026-08-30T22:43:21.399Z",
+   "last_success": "2026-08-31T00:56:12.404Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-08-30",
+   "last_snapshot_day": "2026-08-31",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-08-30T17:37:13.378Z",
+   "last_snapshot_t": "2026-08-31T00:56:12.404Z",
    "n_items": 1,
    "zero_since": null
   },
@@ -42191,7 +42191,7 @@
       "gone_at": "2026-08-30T01:35:45.486Z"
      }
     },
-    "last_poll_t": "2026-08-30T22:43:21.952Z"
+    "last_poll_t": "2026-08-31T00:56:12.861Z"
    },
    "last_feed_hash": "4f022e25fef4767dc7c09800b52e28edc0a5c5eda74e69f4d02f53c95bfacd18",
    "schema": {
@@ -42276,13 +42276,13 @@
      ]
     }
    },
-   "last_success": "2026-08-30T22:43:21.952Z",
+   "last_success": "2026-08-31T00:56:12.861Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-08-30",
+   "last_snapshot_day": "2026-08-31",
    "last_fail_body_hash": null,
    "n_items": 494,
    "zero_since": null,
-   "last_snapshot_t": "2026-08-30T17:37:15.889Z"
+   "last_snapshot_t": "2026-08-31T00:56:12.861Z"
   },
   "meteoalarm-atom": {
    "ledger": {
@@ -74892,7 +74892,7 @@
       "gone_at": "2026-08-30T22:43:25.226Z"
      }
     },
-    "last_poll_t": "2026-08-30T22:43:25.226Z"
+    "last_poll_t": "2026-08-31T00:56:16.390Z"
    },
    "last_feed_hash": "8939752fa277d2efbf941a37f6633ddecd0049dc16679ba1036cfbbbf807fee3",
    "schema": {
@@ -74974,13 +74974,13 @@
      ]
     }
    },
-   "last_success": "2026-08-30T22:43:25.226Z",
+   "last_success": "2026-08-31T00:56:16.390Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-08-30",
+   "last_snapshot_day": "2026-08-31",
    "last_fail_body_hash": null,
    "n_items": 19,
    "zero_since": null,
-   "last_snapshot_t": "2026-08-30T17:37:18.906Z"
+   "last_snapshot_t": "2026-08-31T00:56:16.390Z"
   }
  }
 }
