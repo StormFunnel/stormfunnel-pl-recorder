@@ -743,7 +743,7 @@
     }
    },
    "last_success": "2026-08-31T20:49:17.089Z",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "last_snapshot_day": "2026-08-31",
    "last_fail_body_hash": null,
    "n_items": 2,
@@ -3568,7 +3568,7 @@
       "gone_at": "2026-08-31T15:00:11.674Z"
      }
     },
-    "last_poll_t": "2026-09-01T00:14:07.210Z"
+    "last_poll_t": "2026-09-01T05:20:32.514Z"
    },
    "last_feed_hash": "c2513b00fe28ce6050ffa83d93a8835ce6a457fb92602e4d6db82515a0406c56",
    "schema": {
@@ -3606,7 +3606,7 @@
      ]
     }
    },
-   "last_success": "2026-09-01T00:14:07.210Z",
+   "last_success": "2026-09-01T05:20:32.514Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-08-31",
    "last_fail_body_hash": null,
@@ -4537,7 +4537,7 @@
       "gone_at": "2026-09-01T00:14:07.862Z"
      }
     },
-    "last_poll_t": "2026-09-01T00:14:07.862Z"
+    "last_poll_t": "2026-09-01T05:20:33.020Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -4597,7 +4597,7 @@
      ]
     }
    },
-   "last_success": "2026-09-01T00:14:07.862Z",
+   "last_success": "2026-09-01T05:20:33.020Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-01",
    "last_fail_body_hash": null,
@@ -16219,6 +16219,28 @@
       "changes": 0,
       "published": "2026-08-31T21:54:14.000Z",
       "valid_to": "2026-09-01T00:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Thunderstorm warning",
+      "level": "2; yellow; Moderate",
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.260901033420.PL804_01121": {
+      "first_seen": "2026-09-01T05:20:33.691Z",
+      "hash": "d5f6aec2fb39287e1d7114adf78e3570f8988c3820069f84dba116dde56ac960",
+      "key_hashes": {
+       "identifier": "c670ea877dbe",
+       "incidents": "e177b5907768",
+       "info": "3142958b9c62",
+       "msgType": "e177b5907768",
+       "scope": "ff2e96a9a685",
+       "sender": "3bb2238993e1",
+       "sent": "5cafc7172324",
+       "status": "516a5bec7439",
+       "uuid": "123e852458ab"
+      },
+      "changes": 0,
+      "published": "2026-09-01T03:34:20.000Z",
+      "valid_to": "2026-09-01T08:00:00.000Z",
       "msg_type": "Alert",
       "event": "Yellow Thunderstorm warning",
       "level": "2; yellow; Moderate",
@@ -47478,9 +47500,9 @@
       "gone_at": "2026-08-31T20:49:20.000Z"
      }
     },
-    "last_poll_t": "2026-09-01T00:14:08.541Z"
+    "last_poll_t": "2026-09-01T05:20:33.691Z"
    },
-   "last_feed_hash": "b256526b80010cdde35eb240dc6fb3fa4f2ea33233529170469623912c92a9ae",
+   "last_feed_hash": "819c1a840af98085893249b00920172ea81577242f853da50ecb9043cc8dd4e6",
    "schema": {
     "hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b",
     "seen": {
@@ -47563,11 +47585,11 @@
      ]
     }
    },
-   "last_success": "2026-09-01T00:14:08.541Z",
+   "last_success": "2026-09-01T05:20:33.691Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-01",
    "last_fail_body_hash": null,
-   "n_items": 528,
+   "n_items": 529,
    "zero_since": null,
    "last_snapshot_t": "2026-09-01T00:14:08.541Z"
   },
@@ -51249,6 +51271,38 @@
       "changes": 0,
       "published": "2026-08-31T21:54:14.000Z",
       "valid_to": "2026-09-01T00:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Thunderstorm warning",
+      "level": null,
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.260901033420.PL804_01121": {
+      "first_seen": "2026-09-01T05:20:37.667Z",
+      "hash": "5575ecf6742bc559dc1d834f657e5d3050feec61dbb074d819b56368072d64b1",
+      "key_hashes": {
+       "areaDesc": "f3a1c0d5e207",
+       "cap_link": "b320c354141d",
+       "certainty": "a93a3a106e9b",
+       "effective": "cd3a960bedc5",
+       "entry_xml_hash": "17100f23899f",
+       "event": "703c1f04c998",
+       "expires": "c6f80ae2ff53",
+       "geocodes": "6c7ca984a58b",
+       "identifier": "c670ea877dbe",
+       "message_type": "e177b5907768",
+       "onset": "d0f6c20679a7",
+       "published": "1ffc5186459f",
+       "scope": "ff2e96a9a685",
+       "sent": "ca3e6803af21",
+       "severity": "3f41c1ae844e",
+       "status": "516a5bec7439",
+       "title": "4930b5042d09",
+       "updated": "1ffc5186459f",
+       "urgency": "8bb56d632ef7"
+      },
+      "changes": 0,
+      "published": "2026-09-01T03:34:20.000Z",
+      "valid_to": "2026-09-01T08:00:00.000Z",
       "msg_type": "Alert",
       "event": "Yellow Thunderstorm warning",
       "level": null,
@@ -87195,9 +87249,9 @@
       "gone_at": "2026-09-01T00:14:13.274Z"
      }
     },
-    "last_poll_t": "2026-09-01T00:14:13.274Z"
+    "last_poll_t": "2026-09-01T05:20:37.667Z"
    },
-   "last_feed_hash": "a12d8162ab46a3ade0fbe13141bb96f1a410de48ec922c1a52f0349ee0030a19",
+   "last_feed_hash": "116e892d045a4a770c40edcac5cc52f5ded2d9991e9b7da2fd688db3eccceaeb",
    "schema": {
     "hash": "b016417e7714dec7d2424de8362607abe242fa37e56cd0238a67ef494b2559da",
     "seen": {
@@ -87277,11 +87331,11 @@
      ]
     }
    },
-   "last_success": "2026-09-01T00:14:13.274Z",
+   "last_success": "2026-09-01T05:20:37.667Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-01",
    "last_fail_body_hash": null,
-   "n_items": 115,
+   "n_items": 116,
    "zero_since": null,
    "last_snapshot_t": "2026-09-01T00:14:13.274Z"
   }
