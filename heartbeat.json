@@ -1,8 +1,8 @@
 {
- "updated": "2026-09-03T23:29:19.812Z",
+ "updated": "2026-09-04T01:19:18.426Z",
  "sources": {
   "imgw-meteo": {
-   "last_success": "2026-09-03T23:29:19.812Z",
+   "last_success": "2026-09-04T01:19:18.426Z",
    "consecutive_failures": 0,
    "active_ids": 2,
    "n_items": 2,
@@ -10,7 +10,7 @@
    "schema_hash": "cd6c64de970696386cb234bbe656f68ffff51cf749f7048d3e4566b5c08a7d43"
   },
   "imgw-hydro": {
-   "last_success": "2026-09-03T23:29:20.715Z",
+   "last_success": "2026-09-04T01:19:21.027Z",
    "consecutive_failures": 0,
    "active_ids": 92,
    "n_items": 92,
@@ -18,7 +18,7 @@
    "schema_hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532"
   },
   "imgw-osmet": {
-   "last_success": "2026-09-03T23:29:21.389Z",
+   "last_success": "2026-09-04T01:19:21.702Z",
    "consecutive_failures": 0,
    "active_ids": 2,
    "n_items": 2,
@@ -26,15 +26,15 @@
    "schema_hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb"
   },
   "meteoalarm-json": {
-   "last_success": "2026-09-03T23:29:23.446Z",
+   "last_success": "2026-09-04T01:19:22.446Z",
    "consecutive_failures": 0,
-   "active_ids": 294,
-   "n_items": 294,
+   "active_ids": 168,
+   "n_items": 168,
    "zero_since": null,
    "schema_hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b"
   },
   "meteoalarm-atom": {
-   "last_success": "2026-09-03T23:29:27.603Z",
+   "last_success": "2026-09-04T01:19:25.185Z",
    "consecutive_failures": 0,
    "active_ids": 48,
    "n_items": 48,
