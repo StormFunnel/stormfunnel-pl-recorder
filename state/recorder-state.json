@@ -1081,7 +1081,7 @@
     }
    },
    "last_success": "2026-09-06T00:00:07.455Z",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "last_snapshot_day": "2026-09-05",
    "last_fail_body_hash": null,
    "n_items": 2,
@@ -3347,97 +3347,25 @@
       "level": "-1",
       "n_areas": 3
      },
-     "hydro:2026:187:1e288358": {
-      "first_seen": "2026-09-04T11:28:57.872Z",
-      "hash": "9d49619866c1f93d4160a4b88b92167a95052065ad68f23102ff4a59d4dfe141",
-      "key_hashes": {
-       "biuro": "1f885f047c04",
-       "data_do": "921323ca0bdf",
-       "data_od": "fc43b5ec10e9",
-       "komentarz": "78cfd50f04df",
-       "numer": "870e971f4835",
-       "obszary": "7b51863c4e50",
-       "opublikowano": "1c25092e52ea",
-       "prawdopodobienstwo": "6bdea40ac842",
-       "przebieg": "a9e1c4711302",
-       "stopień": "cc11310c456c",
-       "zdarzenie": "8edbe8ffc4e0"
-      },
-      "changes": 0,
-      "published": "2026-09-04T07:31:46.000Z",
-      "valid_to": "2026-09-06T08:00:00.000Z",
-      "msg_type": null,
-      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
-      "level": "2",
-      "n_areas": 1
-     },
-     "hydro:2026:114:016238f4": {
-      "first_seen": "2026-09-05T09:21:20.392Z",
-      "hash": "074de7309d1c4f6f548bf4ebc2adf762c8b76f059e565ba982258fda6bbb21c1",
-      "key_hashes": {
-       "biuro": "3edf739d411d",
-       "data_do": "921323ca0bdf",
-       "data_od": "9ae3f3d3512d",
-       "komentarz": "78cfd50f04df",
-       "numer": "18f04adca71c",
-       "obszary": "7220c97e5e43",
-       "opublikowano": "1b8b83b23cdf",
-       "prawdopodobienstwo": "6bdea40ac842",
-       "przebieg": "fbca66b93556",
-       "stopień": "cc11310c456c",
-       "zdarzenie": "8edbe8ffc4e0"
-      },
-      "changes": 0,
-      "published": "2026-09-05T05:30:51.000Z",
-      "valid_to": "2026-09-06T08:00:00.000Z",
-      "msg_type": null,
-      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
-      "level": "2",
-      "n_areas": 1
-     },
-     "hydro:2026:116:016238f4": {
-      "first_seen": "2026-09-06T00:00:08.706Z",
-      "hash": "535a92bbe6823f8725e6c4a069e7744c28e64e4c2ae39bf69b95b193d5c54e49",
-      "key_hashes": {
-       "biuro": "3edf739d411d",
-       "data_do": "b1866c0ac27e",
-       "data_od": "3d6e7b34c4b7",
-       "komentarz": "0a840b17d2b5",
-       "numer": "96fc2701d1fa",
-       "obszary": "678b71512a74",
-       "opublikowano": "fa88e2ecd6ab",
-       "prawdopodobienstwo": "6bdea40ac842",
-       "przebieg": "ecb25aa20d17",
-       "stopień": "cc11310c456c",
-       "zdarzenie": "8edbe8ffc4e0"
-      },
-      "changes": 0,
-      "published": "2026-09-05T22:59:33.000Z",
-      "valid_to": "2026-09-06T06:00:00.000Z",
-      "msg_type": null,
-      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
-      "level": "2",
-      "n_areas": 1
-     },
      "hydro:2026:117:016238f4": {
       "first_seen": "2026-09-06T00:00:08.706Z",
-      "hash": "b92b2ec2a6fd0548719768741b5d11eefc5aaaed941d6662fe25aa1518b14a4e",
+      "hash": "500234e3dc7f35972131896a0e5bf87133199be5fbae2c5f7eb2c49ca0ae295c",
       "key_hashes": {
        "biuro": "3edf739d411d",
-       "data_do": "b1866c0ac27e",
-       "data_od": "907eaf89870e",
-       "komentarz": "0a840b17d2b5",
+       "data_do": "9c4f0a074ff0",
+       "data_od": "87d7b5852504",
+       "komentarz": "338a2e0df811",
        "numer": "168578b517bb",
        "obszary": "ac4cdfd11ede",
-       "opublikowano": "dca24dbcfa24",
+       "opublikowano": "0facf6d1a388",
        "prawdopodobienstwo": "6bdea40ac842",
        "przebieg": "e2f56199fd36",
        "stopień": "cc11310c456c",
        "zdarzenie": "8edbe8ffc4e0"
       },
-      "changes": 0,
+      "changes": 1,
       "published": "2026-09-05T23:00:30.000Z",
-      "valid_to": "2026-09-06T06:00:00.000Z",
+      "valid_to": "2026-09-07T13:00:00.000Z",
       "msg_type": null,
       "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
       "level": "2",
@@ -4224,11 +4152,89 @@
       "n_areas": 42,
       "last_seen": "2026-09-05T22:14:31.959Z",
       "gone_at": "2026-09-06T00:00:08.706Z"
+     },
+     "hydro:2026:187:1e288358": {
+      "first_seen": "2026-09-04T11:28:57.872Z",
+      "hash": "9d49619866c1f93d4160a4b88b92167a95052065ad68f23102ff4a59d4dfe141",
+      "key_hashes": {
+       "biuro": "1f885f047c04",
+       "data_do": "921323ca0bdf",
+       "data_od": "fc43b5ec10e9",
+       "komentarz": "78cfd50f04df",
+       "numer": "870e971f4835",
+       "obszary": "7b51863c4e50",
+       "opublikowano": "1c25092e52ea",
+       "prawdopodobienstwo": "6bdea40ac842",
+       "przebieg": "a9e1c4711302",
+       "stopień": "cc11310c456c",
+       "zdarzenie": "8edbe8ffc4e0"
+      },
+      "changes": 0,
+      "published": "2026-09-04T07:31:46.000Z",
+      "valid_to": "2026-09-06T08:00:00.000Z",
+      "msg_type": null,
+      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
+      "level": "2",
+      "n_areas": 1,
+      "last_seen": "2026-09-06T04:28:51.738Z",
+      "gone_at": "2026-09-06T08:51:24.670Z"
+     },
+     "hydro:2026:114:016238f4": {
+      "first_seen": "2026-09-05T09:21:20.392Z",
+      "hash": "074de7309d1c4f6f548bf4ebc2adf762c8b76f059e565ba982258fda6bbb21c1",
+      "key_hashes": {
+       "biuro": "3edf739d411d",
+       "data_do": "921323ca0bdf",
+       "data_od": "9ae3f3d3512d",
+       "komentarz": "78cfd50f04df",
+       "numer": "18f04adca71c",
+       "obszary": "7220c97e5e43",
+       "opublikowano": "1b8b83b23cdf",
+       "prawdopodobienstwo": "6bdea40ac842",
+       "przebieg": "fbca66b93556",
+       "stopień": "cc11310c456c",
+       "zdarzenie": "8edbe8ffc4e0"
+      },
+      "changes": 0,
+      "published": "2026-09-05T05:30:51.000Z",
+      "valid_to": "2026-09-06T08:00:00.000Z",
+      "msg_type": null,
+      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
+      "level": "2",
+      "n_areas": 1,
+      "last_seen": "2026-09-06T04:28:51.738Z",
+      "gone_at": "2026-09-06T08:51:24.670Z"
+     },
+     "hydro:2026:116:016238f4": {
+      "first_seen": "2026-09-06T00:00:08.706Z",
+      "hash": "535a92bbe6823f8725e6c4a069e7744c28e64e4c2ae39bf69b95b193d5c54e49",
+      "key_hashes": {
+       "biuro": "3edf739d411d",
+       "data_do": "b1866c0ac27e",
+       "data_od": "3d6e7b34c4b7",
+       "komentarz": "0a840b17d2b5",
+       "numer": "96fc2701d1fa",
+       "obszary": "678b71512a74",
+       "opublikowano": "fa88e2ecd6ab",
+       "prawdopodobienstwo": "6bdea40ac842",
+       "przebieg": "ecb25aa20d17",
+       "stopień": "cc11310c456c",
+       "zdarzenie": "8edbe8ffc4e0"
+      },
+      "changes": 0,
+      "published": "2026-09-05T22:59:33.000Z",
+      "valid_to": "2026-09-06T06:00:00.000Z",
+      "msg_type": null,
+      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
+      "level": "2",
+      "n_areas": 1,
+      "last_seen": "2026-09-06T04:28:51.738Z",
+      "gone_at": "2026-09-06T08:51:24.670Z"
      }
     },
-    "last_poll_t": "2026-09-06T04:28:51.738Z"
+    "last_poll_t": "2026-09-06T08:51:24.670Z"
    },
-   "last_feed_hash": "3962ed815022f64c22659b9ccb7c16df567081e5689d9671f037a8a278bb2d09",
+   "last_feed_hash": "620571b129662adebc7e80aba81e1ec3a545b431c0fd84228a9b9271184e5002",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -4264,13 +4270,13 @@
      ]
     }
    },
-   "last_success": "2026-09-06T04:28:51.738Z",
+   "last_success": "2026-09-06T08:51:24.670Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-06",
    "last_fail_body_hash": null,
-   "n_items": 98,
+   "n_items": 95,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-06T00:00:08.706Z"
+   "last_snapshot_t": "2026-09-06T08:51:24.670Z"
   },
   "imgw-osmet": {
    "ledger": {
@@ -5637,7 +5643,7 @@
       "gone_at": "2026-09-06T04:28:52.235Z"
      }
     },
-    "last_poll_t": "2026-09-06T04:28:52.235Z"
+    "last_poll_t": "2026-09-06T08:51:25.202Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -5697,7 +5703,7 @@
      ]
     }
    },
-   "last_success": "2026-09-06T04:28:52.235Z",
+   "last_success": "2026-09-06T08:51:25.202Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-06",
    "last_fail_body_hash": null,
@@ -65478,7 +65484,7 @@
       "gone_at": "2026-09-06T04:28:53.291Z"
      }
     },
-    "last_poll_t": "2026-09-06T04:28:53.291Z"
+    "last_poll_t": "2026-09-06T08:51:25.920Z"
    },
    "last_feed_hash": "b5505bff4d3511cb74c8bc2b60fad22405d3a805a92d6e4031daaf989354e66d",
    "schema": {
@@ -65564,7 +65570,7 @@
      ]
     }
    },
-   "last_success": "2026-09-06T04:28:53.291Z",
+   "last_success": "2026-09-06T08:51:25.920Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-06",
    "last_fail_body_hash": null,
@@ -128602,7 +128608,7 @@
       "gone_at": "2026-09-06T04:28:57.637Z"
      }
     },
-    "last_poll_t": "2026-09-06T04:28:57.637Z"
+    "last_poll_t": "2026-09-06T08:51:30.096Z"
    },
    "last_feed_hash": "e263fe9eeee105f582b4709f331ebbfeceb5a4f1f5f2ea445bfa00d68c4bf651",
    "schema": {
@@ -128684,7 +128690,7 @@
      ]
     }
    },
-   "last_success": "2026-09-06T04:28:57.637Z",
+   "last_success": "2026-09-06T08:51:30.096Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-06",
    "last_fail_body_hash": null,
