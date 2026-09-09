@@ -3,78 +3,6 @@
   "imgw-meteo": {
    "ledger": {
     "active": {
-     "Sk20260908095236833": {
-      "first_seen": "2026-09-08T14:21:14.695Z",
-      "hash": "96b95c77117f0beb1c12dbbf7bcb21c88cb3e27ff10def0f00e6db567118a587",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "8591f1042104",
-       "komentarz": "4a73b4378094",
-       "nazwa_zdarzenia": "188e58c6536f",
-       "obowiazuje_do": "b54a2e59e88f",
-       "obowiazuje_od": "6f6a5b4e2c4f",
-       "opublikowano": "10883c4ecd86",
-       "prawdopodobienstwo": "12b8c0944c94",
-       "stopien": "391552c099c1",
-       "teryt": "5f728ac511cb",
-       "tresc": "d5d3b70b1863"
-      },
-      "changes": 0,
-      "published": "2026-09-08T09:52:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "Upał",
-      "level": "1",
-      "n_areas": 99
-     },
-     "Sk20260908095226687": {
-      "first_seen": "2026-09-08T14:21:14.695Z",
-      "hash": "eaadbfb476fa2072ae569cd3e1c9917d8588e945d6195f52d981ef99c925e234",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "7e60e3f235a2",
-       "komentarz": "4a73b4378094",
-       "nazwa_zdarzenia": "188e58c6536f",
-       "obowiazuje_do": "b54a2e59e88f",
-       "obowiazuje_od": "8b0f2595c6a0",
-       "opublikowano": "10883c4ecd86",
-       "prawdopodobienstwo": "12b8c0944c94",
-       "stopien": "391552c099c1",
-       "teryt": "764f79d99959",
-       "tresc": "b3909746e6db"
-      },
-      "changes": 0,
-      "published": "2026-09-08T09:52:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "Upał",
-      "level": "1",
-      "n_areas": 39
-     },
-     "Sk20260908175425895": {
-      "first_seen": "2026-09-08T18:02:17.285Z",
-      "hash": "f183d9d17c472164aea141d0f5d4a780eb1e035c8d937bf93a2266f7d925a020",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "ae128e482f8a",
-       "komentarz": "4a73b4378094",
-       "nazwa_zdarzenia": "188e58c6536f",
-       "obowiazuje_do": "b54a2e59e88f",
-       "obowiazuje_od": "6f6a5b4e2c4f",
-       "opublikowano": "b289f0080c33",
-       "prawdopodobienstwo": "12b8c0944c94",
-       "stopien": "391552c099c1",
-       "teryt": "daf81079f36e",
-       "tresc": "d5d3b70b1863"
-      },
-      "changes": 0,
-      "published": "2026-09-08T17:54:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "Upał",
-      "level": "1",
-      "n_areas": 5
-     },
      "Sk20260909035713260": {
       "first_seen": "2026-09-09T06:35:59.457Z",
       "hash": "1083abc35a382b62a833041477981bd1db93463b7d02df608c8ab07fd6e65551",
@@ -1008,11 +936,89 @@
       "n_areas": 28,
       "last_seen": "2026-09-08T14:21:14.695Z",
       "gone_at": "2026-09-08T18:02:17.285Z"
+     },
+     "Sk20260908095236833": {
+      "first_seen": "2026-09-08T14:21:14.695Z",
+      "hash": "96b95c77117f0beb1c12dbbf7bcb21c88cb3e27ff10def0f00e6db567118a587",
+      "key_hashes": {
+       "biuro": "f624642a0e44",
+       "id": "8591f1042104",
+       "komentarz": "4a73b4378094",
+       "nazwa_zdarzenia": "188e58c6536f",
+       "obowiazuje_do": "b54a2e59e88f",
+       "obowiazuje_od": "6f6a5b4e2c4f",
+       "opublikowano": "10883c4ecd86",
+       "prawdopodobienstwo": "12b8c0944c94",
+       "stopien": "391552c099c1",
+       "teryt": "5f728ac511cb",
+       "tresc": "d5d3b70b1863"
+      },
+      "changes": 0,
+      "published": "2026-09-08T09:52:00.000Z",
+      "valid_to": "2026-09-09T16:00:00.000Z",
+      "msg_type": null,
+      "event": "Upał",
+      "level": "1",
+      "n_areas": 99,
+      "last_seen": "2026-09-09T11:51:37.354Z",
+      "gone_at": "2026-09-09T16:27:11.416Z"
+     },
+     "Sk20260908095226687": {
+      "first_seen": "2026-09-08T14:21:14.695Z",
+      "hash": "eaadbfb476fa2072ae569cd3e1c9917d8588e945d6195f52d981ef99c925e234",
+      "key_hashes": {
+       "biuro": "f624642a0e44",
+       "id": "7e60e3f235a2",
+       "komentarz": "4a73b4378094",
+       "nazwa_zdarzenia": "188e58c6536f",
+       "obowiazuje_do": "b54a2e59e88f",
+       "obowiazuje_od": "8b0f2595c6a0",
+       "opublikowano": "10883c4ecd86",
+       "prawdopodobienstwo": "12b8c0944c94",
+       "stopien": "391552c099c1",
+       "teryt": "764f79d99959",
+       "tresc": "b3909746e6db"
+      },
+      "changes": 0,
+      "published": "2026-09-08T09:52:00.000Z",
+      "valid_to": "2026-09-09T16:00:00.000Z",
+      "msg_type": null,
+      "event": "Upał",
+      "level": "1",
+      "n_areas": 39,
+      "last_seen": "2026-09-09T11:51:37.354Z",
+      "gone_at": "2026-09-09T16:27:11.416Z"
+     },
+     "Sk20260908175425895": {
+      "first_seen": "2026-09-08T18:02:17.285Z",
+      "hash": "f183d9d17c472164aea141d0f5d4a780eb1e035c8d937bf93a2266f7d925a020",
+      "key_hashes": {
+       "biuro": "f624642a0e44",
+       "id": "ae128e482f8a",
+       "komentarz": "4a73b4378094",
+       "nazwa_zdarzenia": "188e58c6536f",
+       "obowiazuje_do": "b54a2e59e88f",
+       "obowiazuje_od": "6f6a5b4e2c4f",
+       "opublikowano": "b289f0080c33",
+       "prawdopodobienstwo": "12b8c0944c94",
+       "stopien": "391552c099c1",
+       "teryt": "daf81079f36e",
+       "tresc": "d5d3b70b1863"
+      },
+      "changes": 0,
+      "published": "2026-09-08T17:54:00.000Z",
+      "valid_to": "2026-09-09T16:00:00.000Z",
+      "msg_type": null,
+      "event": "Upał",
+      "level": "1",
+      "n_areas": 5,
+      "last_seen": "2026-09-09T11:51:37.354Z",
+      "gone_at": "2026-09-09T16:27:11.416Z"
      }
     },
-    "last_poll_t": "2026-09-09T11:51:37.354Z"
+    "last_poll_t": "2026-09-09T16:27:11.416Z"
    },
-   "last_feed_hash": "cd5f6b26bb123c003916398f3a880a8825cfe068690131833c4b3973b22868b9",
+   "last_feed_hash": "21408c5885efe1f1f569a30d9458e475503be52fe869f95190dc7adfc4ee4b6f",
    "schema": {
     "hash": "cd6c64de970696386cb234bbe656f68ffff51cf749f7048d3e4566b5c08a7d43",
     "seen": {
@@ -1048,13 +1054,13 @@
      ]
     }
    },
-   "last_success": "2026-09-09T11:51:37.354Z",
+   "last_success": "2026-09-09T16:27:11.416Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
-   "n_items": 5,
+   "n_items": 2,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-09T11:51:37.354Z"
+   "last_snapshot_t": "2026-09-09T16:27:11.416Z"
   },
   "imgw-hydro": {
    "ledger": {
@@ -3290,6 +3296,30 @@
       "event": "Susza hydrologiczna",
       "level": "-1",
       "n_areas": 6
+     },
+     "hydro:2026:115:0921701b": {
+      "first_seen": "2026-09-09T16:27:12.884Z",
+      "hash": "2ed920e34768fc60de5604efa1da4479ad39fbf06151b931f08301c1f5cafaa5",
+      "key_hashes": {
+       "biuro": "141cd13b595d",
+       "data_do": "ac06bed0568e",
+       "data_od": "3fab35a2d192",
+       "komentarz": "fc8db089a7f4",
+       "numer": "83b6f35ab5bc",
+       "obszary": "e89713857aa4",
+       "opublikowano": "9585f81fb260",
+       "prawdopodobienstwo": "12b8c0944c94",
+       "przebieg": "a951798ed425",
+       "stopień": "391552c099c1",
+       "zdarzenie": "98b3faedc67d"
+      },
+      "changes": 0,
+      "published": "2026-09-09T12:05:00.000Z",
+      "valid_to": "2026-09-10T05:00:00.000Z",
+      "msg_type": null,
+      "event": "Gwałtowne wzrosty stanów wody",
+      "level": "1",
+      "n_areas": 27
      }
     },
     "gone": {
@@ -4022,9 +4052,9 @@
       "gone_at": "2026-09-08T09:52:09.983Z"
      }
     },
-    "last_poll_t": "2026-09-09T11:51:38.331Z"
+    "last_poll_t": "2026-09-09T16:27:12.884Z"
    },
-   "last_feed_hash": "b001481095a5e2fc54c51e11495a6472d52fe06ef2a60fa0aaa916ef0581821c",
+   "last_feed_hash": "79240f31c73df7f06666ca3024bdc8c7464f73f3f36cea3cb4baf4a01e11e588",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -4060,116 +4090,20 @@
      ]
     }
    },
-   "last_success": "2026-09-09T11:51:38.331Z",
+   "last_success": "2026-09-09T16:27:12.884Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
-   "n_items": 93,
+   "n_items": 94,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-09T11:51:38.331Z"
+   "last_snapshot_t": "2026-09-09T16:27:12.884Z"
   },
   "imgw-osmet": {
    "ledger": {
     "active": {
-     "Sk20260908095236833": {
-      "first_seen": "2026-09-08T14:21:16.056Z",
-      "hash": "d1bed35ab0f450f14bd17ba2b80d92ba7fbcbca41b9db05315e2eb10a49251f8",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "d5d3b70b1863",
-       "EnComments": "45f1160f7272",
-       "EnContent": "f56d766f07c4",
-       "EnPhenomenonName": "570ba93436b4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "4069cc410797",
-       "LxValidFrom": "a36b96340b03",
-       "LxValidTo": "697a72a913f6",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "dc566d1e3abe",
-       "PhenomenonName": "188e58c6536f",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "a889cc6745c3",
-       "SMS": "8e96a2c9cb23",
-       "ValidFrom": "4c5eaa31baea",
-       "ValidTo": "48dce6b49398",
-       "_teryt": "5f728ac511cb"
-      },
-      "changes": 5,
-      "published": "2026-09-08T09:52:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "UP:Upał",
-      "level": "1",
-      "n_areas": 99
-     },
-     "Sk20260908095226687": {
-      "first_seen": "2026-09-08T14:21:16.056Z",
-      "hash": "9e28180f859c59cd00faaf3acc30d720eaf344b84bf349ef3a0fde3c35e37583",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "b3909746e6db",
-       "EnComments": "45f1160f7272",
-       "EnContent": "5c1f98197764",
-       "EnPhenomenonName": "570ba93436b4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "4069cc410797",
-       "LxValidFrom": "01ad79e6c242",
-       "LxValidTo": "697a72a913f6",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "dc566d1e3abe",
-       "PhenomenonName": "188e58c6536f",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "a889cc6745c3",
-       "SMS": "9d987420aeb9",
-       "ValidFrom": "e3b46d654d18",
-       "ValidTo": "48dce6b49398",
-       "_teryt": "764f79d99959"
-      },
-      "changes": 2,
-      "published": "2026-09-08T09:52:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "UP:Upał",
-      "level": "1",
-      "n_areas": 39
-     },
-     "Sk20260908175425895": {
-      "first_seen": "2026-09-08T18:02:18.521Z",
-      "hash": "e86a0ac5d05e0164d79cc8d5ea73d73ffb8c6ae1c19a726e2699ed3d32040eed",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "d5d3b70b1863",
-       "EnComments": "45f1160f7272",
-       "EnContent": "f56d766f07c4",
-       "EnPhenomenonName": "570ba93436b4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "e9af9ca12732",
-       "LxValidFrom": "a36b96340b03",
-       "LxValidTo": "697a72a913f6",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "dc566d1e3abe",
-       "PhenomenonName": "188e58c6536f",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "910631dd6f35",
-       "SMS": "4549ad58b49c",
-       "ValidFrom": "4c5eaa31baea",
-       "ValidTo": "48dce6b49398",
-       "_teryt": "daf81079f36e"
-      },
-      "changes": 1,
-      "published": "2026-09-08T17:54:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "UP:Upał",
-      "level": "1",
-      "n_areas": 5
-     },
      "Sk20260909035713260": {
       "first_seen": "2026-09-09T06:36:01.209Z",
-      "hash": "039cf31e355d3ea970df0ed7f9ca6fbc980936d4c3ef90ebcd9743b72fb3c4f6",
+      "hash": "f08b1b6a6ceeb7c7bfb5840947d97da894e8bae751feeb0d15c44b0917db8614",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "c64f18177c07",
@@ -4186,12 +4120,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "03c7f8d83d8c",
-       "SMS": "867f5a892c54",
+       "SMS": "9845dc761e6f",
        "ValidFrom": "c5fdcf6422bf",
        "ValidTo": "8690e3e7cb28",
        "_teryt": "4045bc42f2a2"
       },
-      "changes": 1,
+      "changes": 2,
       "published": "2026-09-09T03:57:00.000Z",
       "valid_to": "2026-09-10T03:00:00.000Z",
       "msg_type": null,
@@ -4201,7 +4135,7 @@
      },
      "Sk20260909093104849": {
       "first_seen": "2026-09-09T11:51:38.788Z",
-      "hash": "44d03ed8bb091f84e9ff30388587a2732a114befbd7d91621b02e1318ac03bc5",
+      "hash": "d8c5f6a6efbdbee9b8cf97322203bb70afbf595cd8aa8633e5e16e6656a62f36",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "561c47ad2782",
@@ -4218,12 +4152,12 @@
        "Probability": "ff5a1ae012af",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "0f008564d4b3",
-       "SMS": "f25bd40fec50",
+       "SMS": "e6ae62c0ac71",
        "ValidFrom": "a255d645423c",
        "ValidTo": "9df4953f7aa0",
        "_teryt": "15af4e309954"
       },
-      "changes": 0,
+      "changes": 1,
       "published": "2026-09-09T09:31:00.000Z",
       "valid_to": "2026-09-09T23:00:00.000Z",
       "msg_type": null,
@@ -5354,11 +5288,113 @@
       "n_areas": 28,
       "last_seen": "2026-09-08T14:21:16.056Z",
       "gone_at": "2026-09-08T18:02:18.521Z"
+     },
+     "Sk20260908095236833": {
+      "first_seen": "2026-09-08T14:21:16.056Z",
+      "hash": "d1bed35ab0f450f14bd17ba2b80d92ba7fbcbca41b9db05315e2eb10a49251f8",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "d5d3b70b1863",
+       "EnComments": "45f1160f7272",
+       "EnContent": "f56d766f07c4",
+       "EnPhenomenonName": "570ba93436b4",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "4069cc410797",
+       "LxValidFrom": "a36b96340b03",
+       "LxValidTo": "697a72a913f6",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "dc566d1e3abe",
+       "PhenomenonName": "188e58c6536f",
+       "Probability": "ff5a1ae012af",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "a889cc6745c3",
+       "SMS": "8e96a2c9cb23",
+       "ValidFrom": "4c5eaa31baea",
+       "ValidTo": "48dce6b49398",
+       "_teryt": "5f728ac511cb"
+      },
+      "changes": 5,
+      "published": "2026-09-08T09:52:00.000Z",
+      "valid_to": "2026-09-09T16:00:00.000Z",
+      "msg_type": null,
+      "event": "UP:Upał",
+      "level": "1",
+      "n_areas": 99,
+      "last_seen": "2026-09-09T11:51:38.788Z",
+      "gone_at": "2026-09-09T16:27:13.343Z"
+     },
+     "Sk20260908095226687": {
+      "first_seen": "2026-09-08T14:21:16.056Z",
+      "hash": "9e28180f859c59cd00faaf3acc30d720eaf344b84bf349ef3a0fde3c35e37583",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "b3909746e6db",
+       "EnComments": "45f1160f7272",
+       "EnContent": "5c1f98197764",
+       "EnPhenomenonName": "570ba93436b4",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "4069cc410797",
+       "LxValidFrom": "01ad79e6c242",
+       "LxValidTo": "697a72a913f6",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "dc566d1e3abe",
+       "PhenomenonName": "188e58c6536f",
+       "Probability": "ff5a1ae012af",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "a889cc6745c3",
+       "SMS": "9d987420aeb9",
+       "ValidFrom": "e3b46d654d18",
+       "ValidTo": "48dce6b49398",
+       "_teryt": "764f79d99959"
+      },
+      "changes": 2,
+      "published": "2026-09-08T09:52:00.000Z",
+      "valid_to": "2026-09-09T16:00:00.000Z",
+      "msg_type": null,
+      "event": "UP:Upał",
+      "level": "1",
+      "n_areas": 39,
+      "last_seen": "2026-09-09T11:51:38.788Z",
+      "gone_at": "2026-09-09T16:27:13.343Z"
+     },
+     "Sk20260908175425895": {
+      "first_seen": "2026-09-08T18:02:18.521Z",
+      "hash": "e86a0ac5d05e0164d79cc8d5ea73d73ffb8c6ae1c19a726e2699ed3d32040eed",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "d5d3b70b1863",
+       "EnComments": "45f1160f7272",
+       "EnContent": "f56d766f07c4",
+       "EnPhenomenonName": "570ba93436b4",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "e9af9ca12732",
+       "LxValidFrom": "a36b96340b03",
+       "LxValidTo": "697a72a913f6",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "dc566d1e3abe",
+       "PhenomenonName": "188e58c6536f",
+       "Probability": "ff5a1ae012af",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "910631dd6f35",
+       "SMS": "4549ad58b49c",
+       "ValidFrom": "4c5eaa31baea",
+       "ValidTo": "48dce6b49398",
+       "_teryt": "daf81079f36e"
+      },
+      "changes": 1,
+      "published": "2026-09-08T17:54:00.000Z",
+      "valid_to": "2026-09-09T16:00:00.000Z",
+      "msg_type": null,
+      "event": "UP:Upał",
+      "level": "1",
+      "n_areas": 5,
+      "last_seen": "2026-09-09T11:51:38.788Z",
+      "gone_at": "2026-09-09T16:27:13.343Z"
      }
     },
-    "last_poll_t": "2026-09-09T11:51:38.788Z"
+    "last_poll_t": "2026-09-09T16:27:13.343Z"
    },
-   "last_feed_hash": "92666e4bcc19192239b640a661e44b6f44b9abc7594ca018606a31fc1f1dc899",
+   "last_feed_hash": "32671d5a856d41da52924224f5e2930e49f63133211b01ce3abb3f561a862f09",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -5416,12 +5452,12 @@
      ]
     }
    },
-   "last_success": "2026-09-09T11:51:38.788Z",
+   "last_success": "2026-09-09T16:27:13.343Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-09-09T11:51:38.788Z",
-   "n_items": 5,
+   "last_snapshot_t": "2026-09-09T16:27:13.343Z",
+   "n_items": 2,
    "zero_since": null
   },
   "meteoalarm-json": {
@@ -58909,7 +58945,7 @@
       "gone_at": "2026-09-09T01:26:40.750Z"
      }
     },
-    "last_poll_t": "2026-09-09T11:51:39.321Z"
+    "last_poll_t": "2026-09-09T16:27:14.441Z"
    },
    "last_feed_hash": "8ab053ce3747902b443c82dedd71c6977fc49d906da8df9d649e99e0fd5d7ca2",
    "schema": {
@@ -58995,7 +59031,7 @@
      ]
     }
    },
-   "last_success": "2026-09-09T11:51:39.321Z",
+   "last_success": "2026-09-09T16:27:14.441Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
@@ -116811,7 +116847,7 @@
       "gone_at": "2026-09-07T22:25:10.096Z"
      }
     },
-    "last_poll_t": "2026-09-09T11:51:43.358Z"
+    "last_poll_t": "2026-09-09T16:27:18.458Z"
    },
    "last_feed_hash": "092ddcad3b4af018ea05dda3f64f6a57f5440b9ae07de9124a00165c90f5baaa",
    "schema": {
@@ -116893,7 +116929,7 @@
      ]
     }
    },
-   "last_success": "2026-09-09T11:51:43.358Z",
+   "last_success": "2026-09-09T16:27:18.458Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
