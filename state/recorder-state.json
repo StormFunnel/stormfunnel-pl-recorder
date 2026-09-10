@@ -1057,7 +1057,7 @@
     }
    },
    "last_success": "2026-09-10T00:02:08.780Z",
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
    "n_items": 1,
@@ -2435,30 +2435,6 @@
       "level": "-1",
       "n_areas": 7
      },
-     "hydro:2026:66:0988565c": {
-      "first_seen": "2026-08-16T04:51:08.768Z",
-      "hash": "f0dc5638b6367ed9c22ff58f1e26f00f7ac1a9d67dd7349b13be4cad564a1dca",
-      "key_hashes": {
-       "biuro": "6acee8d2c85b",
-       "data_do": "75ea2ad87bd2",
-       "data_od": "abf4a1b5a51c",
-       "komentarz": "38e89c9f0b03",
-       "numer": "895b57228a87",
-       "obszary": "72ee02b867ef",
-       "opublikowano": "99a5dca7ad8b",
-       "prawdopodobienstwo": "c05204d076c5",
-       "przebieg": "284a5657b378",
-       "stopień": "6b54ef0f2b5a",
-       "zdarzenie": "d2c8f600f6dc"
-      },
-      "changes": 0,
-      "published": "2026-07-13T08:34:04.000Z",
-      "valid_to": null,
-      "msg_type": null,
-      "event": "Susza hydrologiczna",
-      "level": "-1",
-      "n_areas": 6
-     },
      "hydro:2026:188:842c32a7": {
       "first_seen": "2026-08-16T04:51:08.768Z",
       "hash": "344b0731e14713d8c7607b29111d21dc6146b2de13d78230de280978b739128c",
@@ -3299,29 +3275,29 @@
       "level": "-1",
       "n_areas": 6
      },
-     "hydro:2026:115:0921701b": {
-      "first_seen": "2026-09-09T16:27:12.884Z",
-      "hash": "2ed920e34768fc60de5604efa1da4479ad39fbf06151b931f08301c1f5cafaa5",
+     "hydro:2026:118:016238f4": {
+      "first_seen": "2026-09-10T09:12:32.388Z",
+      "hash": "2a3af1606aca0cc0acc0cd6e7ae98bc4239be8bd619355b20bd2d5b373dd2767",
       "key_hashes": {
-       "biuro": "141cd13b595d",
-       "data_do": "ac06bed0568e",
-       "data_od": "3fab35a2d192",
-       "komentarz": "fc8db089a7f4",
-       "numer": "83b6f35ab5bc",
-       "obszary": "e89713857aa4",
-       "opublikowano": "9585f81fb260",
+       "biuro": "3edf739d411d",
+       "data_do": "ec5723bec9af",
+       "data_od": "b25b1a1ac9e6",
+       "komentarz": "78cfd50f04df",
+       "numer": "246d38f588b6",
+       "obszary": "38ae24dfffd7",
+       "opublikowano": "265638677058",
        "prawdopodobienstwo": "12b8c0944c94",
-       "przebieg": "a951798ed425",
+       "przebieg": "d239a8403166",
        "stopień": "391552c099c1",
        "zdarzenie": "98b3faedc67d"
       },
       "changes": 0,
-      "published": "2026-09-09T12:05:00.000Z",
-      "valid_to": "2026-09-10T05:00:00.000Z",
+      "published": "2026-09-10T07:17:32.000Z",
+      "valid_to": "2026-09-11T08:00:00.000Z",
       "msg_type": null,
       "event": "Gwałtowne wzrosty stanów wody",
       "level": "1",
-      "n_areas": 27
+      "n_areas": 2
      }
     },
     "gone": {
@@ -4052,11 +4028,63 @@
       "n_areas": 2,
       "last_seen": "2026-09-08T05:17:35.870Z",
       "gone_at": "2026-09-08T09:52:09.983Z"
+     },
+     "hydro:2026:66:0988565c": {
+      "first_seen": "2026-08-16T04:51:08.768Z",
+      "hash": "f0dc5638b6367ed9c22ff58f1e26f00f7ac1a9d67dd7349b13be4cad564a1dca",
+      "key_hashes": {
+       "biuro": "6acee8d2c85b",
+       "data_do": "75ea2ad87bd2",
+       "data_od": "abf4a1b5a51c",
+       "komentarz": "38e89c9f0b03",
+       "numer": "895b57228a87",
+       "obszary": "72ee02b867ef",
+       "opublikowano": "99a5dca7ad8b",
+       "prawdopodobienstwo": "c05204d076c5",
+       "przebieg": "284a5657b378",
+       "stopień": "6b54ef0f2b5a",
+       "zdarzenie": "d2c8f600f6dc"
+      },
+      "changes": 0,
+      "published": "2026-07-13T08:34:04.000Z",
+      "valid_to": null,
+      "msg_type": null,
+      "event": "Susza hydrologiczna",
+      "level": "-1",
+      "n_areas": 6,
+      "last_seen": "2026-09-10T04:38:46.477Z",
+      "gone_at": "2026-09-10T09:12:32.388Z"
+     },
+     "hydro:2026:115:0921701b": {
+      "first_seen": "2026-09-09T16:27:12.884Z",
+      "hash": "2ed920e34768fc60de5604efa1da4479ad39fbf06151b931f08301c1f5cafaa5",
+      "key_hashes": {
+       "biuro": "141cd13b595d",
+       "data_do": "ac06bed0568e",
+       "data_od": "3fab35a2d192",
+       "komentarz": "fc8db089a7f4",
+       "numer": "83b6f35ab5bc",
+       "obszary": "e89713857aa4",
+       "opublikowano": "9585f81fb260",
+       "prawdopodobienstwo": "12b8c0944c94",
+       "przebieg": "a951798ed425",
+       "stopień": "391552c099c1",
+       "zdarzenie": "98b3faedc67d"
+      },
+      "changes": 0,
+      "published": "2026-09-09T12:05:00.000Z",
+      "valid_to": "2026-09-10T05:00:00.000Z",
+      "msg_type": null,
+      "event": "Gwałtowne wzrosty stanów wody",
+      "level": "1",
+      "n_areas": 27,
+      "last_seen": "2026-09-10T04:38:46.477Z",
+      "gone_at": "2026-09-10T09:12:32.388Z"
      }
     },
-    "last_poll_t": "2026-09-10T04:38:46.477Z"
+    "last_poll_t": "2026-09-10T09:12:32.388Z"
    },
-   "last_feed_hash": "79240f31c73df7f06666ca3024bdc8c7464f73f3f36cea3cb4baf4a01e11e588",
+   "last_feed_hash": "536f609eff8247fb9b51a84f126ce49574ef320457aea6b15191716338bbfb77",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -4092,13 +4120,13 @@
      ]
     }
    },
-   "last_success": "2026-09-10T04:38:46.477Z",
+   "last_success": "2026-09-10T09:12:32.388Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-09-09",
+   "last_snapshot_day": "2026-09-10",
    "last_fail_body_hash": null,
-   "n_items": 94,
+   "n_items": 93,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-09T16:27:12.884Z"
+   "last_snapshot_t": "2026-09-10T09:12:32.388Z"
   },
   "imgw-osmet": {
    "ledger": {
@@ -5397,7 +5425,7 @@
       "gone_at": "2026-09-10T04:38:46.895Z"
      }
     },
-    "last_poll_t": "2026-09-10T04:38:46.895Z"
+    "last_poll_t": "2026-09-10T09:12:33.006Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -5457,7 +5485,7 @@
      ]
     }
    },
-   "last_success": "2026-09-10T04:38:46.895Z",
+   "last_success": "2026-09-10T09:12:33.006Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-10",
    "last_fail_body_hash": null,
@@ -12970,6 +12998,28 @@
       "changes": 0,
       "published": "2026-09-09T20:12:33.000Z",
       "valid_to": "2026-09-10T11:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": "2; yellow; Moderate",
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.260910063221.PL803_01341": {
+      "first_seen": "2026-09-10T09:12:33.695Z",
+      "hash": "535950091ccfe7e340fc1dd8e76f51eb582eaf9aa625d18ea99b8f3631a0ad67",
+      "key_hashes": {
+       "identifier": "99f7df730b3f",
+       "incidents": "e177b5907768",
+       "info": "81331e0e3526",
+       "msgType": "e177b5907768",
+       "scope": "ff2e96a9a685",
+       "sender": "3bb2238993e1",
+       "sent": "3fd3c4c1372e",
+       "status": "516a5bec7439",
+       "uuid": "34aa158c8997"
+      },
+      "changes": 0,
+      "published": "2026-09-10T06:32:21.000Z",
+      "valid_to": "2026-09-10T13:02:00.000Z",
       "msg_type": "Alert",
       "event": "Yellow Wind warning",
       "level": "2; yellow; Moderate",
@@ -49619,9 +49669,9 @@
       "gone_at": "2026-09-10T04:38:47.397Z"
      }
     },
-    "last_poll_t": "2026-09-10T04:38:47.397Z"
+    "last_poll_t": "2026-09-10T09:12:33.695Z"
    },
-   "last_feed_hash": "c06884586ca0d0992f50481e63616f3e7d57cface5ae03f3dc9cab661d6db648",
+   "last_feed_hash": "17ce34daa25789dc3f789eb8519e8fd96ae43dcac7f2c26052577a8c602369aa",
    "schema": {
     "hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b",
     "seen": {
@@ -49705,13 +49755,13 @@
      ]
     }
    },
-   "last_success": "2026-09-10T04:38:47.397Z",
+   "last_success": "2026-09-10T09:12:33.695Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-10",
    "last_fail_body_hash": null,
-   "n_items": 341,
+   "n_items": 342,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-10T00:02:12.986Z"
+   "last_snapshot_t": "2026-09-10T09:12:33.695Z"
   },
   "meteoalarm-atom": {
    "ledger": {
@@ -54673,6 +54723,38 @@
       "valid_to": "2026-09-10T08:00:00.000Z",
       "msg_type": "Alert",
       "event": "Orange Wind warning",
+      "level": null,
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.260910063221.PL803_01341": {
+      "first_seen": "2026-09-10T09:12:36.822Z",
+      "hash": "85e9db144e6df386c9715113b237f860fb75425b2a09243bc35c8ce2b6b35446",
+      "key_hashes": {
+       "areaDesc": "7ed0d7a1ebf4",
+       "cap_link": "ddd0d96ff782",
+       "certainty": "a93a3a106e9b",
+       "effective": "8e2a7af7cafe",
+       "entry_xml_hash": "533b4046ffd7",
+       "event": "0b769654efcd",
+       "expires": "5f7d92fbcacf",
+       "geocodes": "e50fbe4f4b07",
+       "identifier": "99f7df730b3f",
+       "message_type": "e177b5907768",
+       "onset": "ffd08b11c45a",
+       "published": "ad5603ec1da0",
+       "scope": "ff2e96a9a685",
+       "sent": "10db9f78182b",
+       "severity": "3f41c1ae844e",
+       "status": "516a5bec7439",
+       "title": "e9cf3a2fa6d8",
+       "updated": "ad5603ec1da0",
+       "urgency": "8bb56d632ef7"
+      },
+      "changes": 0,
+      "published": "2026-09-10T06:32:21.000Z",
+      "valid_to": "2026-09-10T13:02:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
       "level": null,
       "n_areas": 1
      }
@@ -105441,9 +105523,9 @@
       "gone_at": "2026-09-10T00:02:19.842Z"
      }
     },
-    "last_poll_t": "2026-09-10T04:38:49.778Z"
+    "last_poll_t": "2026-09-10T09:12:36.822Z"
    },
-   "last_feed_hash": "8fa5e936b0294def61f42532cabb19b32ba0d291aa3273c268ebcf8609aae6f3",
+   "last_feed_hash": "6eb5cf43584b41451ee04ba1276785c83b47fa4b1db8891ef005d388310b26fe",
    "schema": {
     "hash": "b016417e7714dec7d2424de8362607abe242fa37e56cd0238a67ef494b2559da",
     "seen": {
@@ -105523,13 +105605,13 @@
      ]
     }
    },
-   "last_success": "2026-09-10T04:38:49.778Z",
+   "last_success": "2026-09-10T09:12:36.822Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-10",
    "last_fail_body_hash": null,
-   "n_items": 155,
+   "n_items": 156,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-10T00:02:19.842Z"
+   "last_snapshot_t": "2026-09-10T09:12:36.822Z"
   }
  }
 }
