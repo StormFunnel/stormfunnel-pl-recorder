@@ -1057,7 +1057,7 @@
     }
    },
    "last_success": "2026-09-10T00:02:08.780Z",
-   "consecutive_failures": 20,
+   "consecutive_failures": 21,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
    "n_items": 1,
@@ -3796,7 +3796,7 @@
       "gone_at": "2026-09-11T09:42:09.192Z"
      }
     },
-    "last_poll_t": "2026-09-12T20:57:01.378Z"
+    "last_poll_t": "2026-09-12T22:57:08.774Z"
    },
    "last_feed_hash": "3c35306c611b08465a1f1bb772672c87dc933cd9988c5ced1a7a99e3b93628c7",
    "schema": {
@@ -3834,7 +3834,7 @@
      ]
     }
    },
-   "last_success": "2026-09-12T20:57:01.378Z",
+   "last_success": "2026-09-12T22:57:08.774Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-12",
    "last_fail_body_hash": null,
@@ -3846,40 +3846,6 @@
    "ledger": {
     "active": {},
     "gone": {
-     "Po20260829043116711": {
-      "first_seen": "2026-08-29T10:23:08.169Z",
-      "hash": "0aed66c2e7edb2b6e9288018d59dbe1c4c5202fb774d65197b34a4df501a65f4",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "5d5e5fbe4b8e",
-       "EnComments": "45f1160f7272",
-       "EnContent": "81bd11241be3",
-       "EnPhenomenonName": "e74312aaf33e",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "91f12446b5be",
-       "LxValidFrom": "2ab99788f733",
-       "LxValidTo": "6bc6819413da",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "cb60c77747fb",
-       "PhenomenonName": "09e40571b2bf",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "5049ccfe0458",
-       "SMS": "8260001325fe",
-       "ValidFrom": "d2e3800cd3c6",
-       "ValidTo": "8614f7f0718c",
-       "_teryt": "5b77ba65521c"
-      },
-      "changes": 2,
-      "published": "2026-08-29T04:31:00.000Z",
-      "valid_to": "2026-08-29T19:00:00.000Z",
-      "msg_type": null,
-      "event": "BU:Burze",
-      "level": "1",
-      "n_areas": 46,
-      "last_seen": "2026-08-29T18:39:59.023Z",
-      "gone_at": "2026-08-29T21:18:31.335Z"
-     },
      "Sk20260830143033549": {
       "first_seen": "2026-08-30T17:37:13.378Z",
       "hash": "011021b1c878609dd2e082e978707e9ed9301e670aede79185cd0c76d5478333",
@@ -4697,7 +4663,7 @@
       "gone_at": "2026-09-10T04:38:46.895Z"
      }
     },
-    "last_poll_t": "2026-09-12T20:57:01.840Z"
+    "last_poll_t": "2026-09-12T22:57:09.406Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -4757,7 +4723,7 @@
      ]
     }
    },
-   "last_success": "2026-09-12T20:57:01.840Z",
+   "last_success": "2026-09-12T22:57:09.406Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-10",
    "last_fail_body_hash": null,
@@ -44524,7 +44490,7 @@
       "gone_at": "2026-09-12T05:06:57.761Z"
      }
     },
-    "last_poll_t": "2026-09-12T20:57:02.460Z"
+    "last_poll_t": "2026-09-12T22:57:10.128Z"
    },
    "last_feed_hash": "d04c259f3e7a025bd162fa79b736a5b02d441163bbf946c005d17ef9ee05e53d",
    "schema": {
@@ -44610,7 +44576,7 @@
      ]
     }
    },
-   "last_success": "2026-09-12T20:57:02.460Z",
+   "last_success": "2026-09-12T22:57:10.128Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-12",
    "last_fail_body_hash": null,
@@ -96881,7 +96847,7 @@
       "gone_at": "2026-09-11T22:34:07.814Z"
      }
     },
-    "last_poll_t": "2026-09-12T20:57:04.276Z"
+    "last_poll_t": "2026-09-12T22:57:12.615Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -96963,7 +96929,7 @@
      ]
     }
    },
-   "last_success": "2026-09-12T20:57:04.276Z",
+   "last_success": "2026-09-12T22:57:12.615Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-12",
    "last_fail_body_hash": null,
