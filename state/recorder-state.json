@@ -1057,7 +1057,7 @@
     }
    },
    "last_success": "2026-09-10T00:02:08.780Z",
-   "consecutive_failures": 28,
+   "consecutive_failures": 29,
    "last_snapshot_day": "2026-09-09",
    "last_fail_body_hash": null,
    "n_items": 1,
@@ -3718,7 +3718,7 @@
       "gone_at": "2026-09-11T09:42:09.192Z"
      }
     },
-    "last_poll_t": "2026-09-13T23:05:08.601Z"
+    "last_poll_t": "2026-09-14T01:02:31.622Z"
    },
    "last_feed_hash": "3c35306c611b08465a1f1bb772672c87dc933cd9988c5ced1a7a99e3b93628c7",
    "schema": {
@@ -3756,7 +3756,7 @@
      ]
     }
    },
-   "last_success": "2026-09-13T23:05:08.601Z",
+   "last_success": "2026-09-14T01:02:31.622Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-12",
    "last_fail_body_hash": null,
@@ -4585,7 +4585,7 @@
       "gone_at": "2026-09-10T04:38:46.895Z"
      }
     },
-    "last_poll_t": "2026-09-13T23:05:09.105Z"
+    "last_poll_t": "2026-09-14T01:02:32.189Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -4645,7 +4645,7 @@
      ]
     }
    },
-   "last_success": "2026-09-13T23:05:09.105Z",
+   "last_success": "2026-09-14T01:02:32.189Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-10",
    "last_fail_body_hash": null,
@@ -42884,7 +42884,7 @@
       "gone_at": "2026-09-13T05:54:47.806Z"
      }
     },
-    "last_poll_t": "2026-09-13T23:05:09.641Z"
+    "last_poll_t": "2026-09-14T01:02:33.164Z"
    },
    "last_feed_hash": "24e17d1b41baf1edaa9bc2055fc76ba2cffab7337dfebc20e41880becc2bd053",
    "schema": {
@@ -42970,13 +42970,13 @@
      ]
     }
    },
-   "last_success": "2026-09-13T23:05:09.641Z",
+   "last_success": "2026-09-14T01:02:33.164Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-09-13",
+   "last_snapshot_day": "2026-09-14",
    "last_fail_body_hash": null,
    "n_items": 158,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-13T00:50:35.891Z"
+   "last_snapshot_t": "2026-09-14T01:02:33.164Z"
   },
   "meteoalarm-atom": {
    "ledger": {
@@ -81335,7 +81335,7 @@
       "gone_at": "2026-09-11T22:34:07.814Z"
      }
     },
-    "last_poll_t": "2026-09-13T23:05:11.514Z"
+    "last_poll_t": "2026-09-14T01:02:35.231Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -81417,13 +81417,13 @@
      ]
     }
    },
-   "last_success": "2026-09-13T23:05:11.514Z",
+   "last_success": "2026-09-14T01:02:35.231Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-09-13",
+   "last_snapshot_day": "2026-09-14",
    "last_fail_body_hash": null,
    "n_items": 0,
    "zero_since": "2026-09-11T22:34:07.814Z",
-   "last_snapshot_t": "2026-09-13T00:50:37.643Z"
+   "last_snapshot_t": "2026-09-14T01:02:35.231Z"
   }
  }
 }
