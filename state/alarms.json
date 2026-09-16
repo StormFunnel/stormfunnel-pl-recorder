@@ -1,14 +1,1 @@
-{
- "imgw-meteo:stale": {
-  "first_failed_at": "2026-09-16T10:04:50.077Z",
-  "last_notified_at": "2026-09-16T10:04:50.077Z",
-  "notified": 1,
-  "message": "imgw-meteo: last successful poll 4.8h ago (2026-09-16T05:15:59.843Z), 1 consecutive failures"
- },
- "imgw-hydro:stale": {
-  "first_failed_at": "2026-09-16T10:04:50.077Z",
-  "last_notified_at": "2026-09-16T10:04:50.077Z",
-  "notified": 1,
-  "message": "imgw-hydro: last successful poll 4.8h ago (2026-09-16T05:16:00.744Z), 1 consecutive failures"
- }
-}
+{}
