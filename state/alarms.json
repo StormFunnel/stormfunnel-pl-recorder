@@ -3,12 +3,12 @@
   "first_failed_at": "2026-09-18T11:54:20.903Z",
   "last_notified_at": "2026-09-19T11:35:23.726Z",
   "notified": 4,
-  "message": "imgw-meteo: last successful poll 28.9h ago (2026-09-18T06:41:11.382Z), 8 consecutive failures"
+  "message": "imgw-meteo: last successful poll 32.1h ago (2026-09-18T06:41:11.382Z), 9 consecutive failures"
  },
  "imgw-osmet:zero-items": {
   "first_failed_at": "2026-09-19T01:37:08.655Z",
   "last_notified_at": "2026-09-19T11:35:23.726Z",
   "notified": 2,
-  "message": "imgw-osmet: 0 items for 23.7h while sibling imgw-meteo serves 1 — parser silently broken? Check data/snapshots for imgw-osmet."
+  "message": "imgw-osmet: 0 items for 26.9h while sibling imgw-meteo serves 1 — parser silently broken? Check data/snapshots for imgw-osmet."
  }
 }
