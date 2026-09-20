@@ -27,30 +27,6 @@
       "level": "1",
       "n_areas": 107
      },
-     "Sk20260920101301725": {
-      "first_seen": "2026-09-20T12:21:37.362Z",
-      "hash": "986108e8832e6e381d2809e09741df68f656453fa9104f2f7ee660a080b178bd",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "fd9112a117c5",
-       "komentarz": "4a73b4378094",
-       "nazwa_zdarzenia": "28ffd1dda388",
-       "obowiazuje_do": "9c6d85ac2cf2",
-       "obowiazuje_od": "c2577b1c0e1c",
-       "opublikowano": "1c9c5c12c12d",
-       "prawdopodobienstwo": "9728ac83eb87",
-       "stopien": "391552c099c1",
-       "teryt": "e6e5632b8ec3",
-       "tresc": "d73e70db5cbc"
-      },
-      "changes": 0,
-      "published": "2026-09-20T10:13:00.000Z",
-      "valid_to": "2026-09-20T20:00:00.000Z",
-      "msg_type": null,
-      "event": "Silny wiatr",
-      "level": "1",
-      "n_areas": 59
-     },
      "Sk20260920101306072": {
       "first_seen": "2026-09-20T12:21:37.362Z",
       "hash": "8ba6c7d58c2e42710a0bd086dfa791e3fb70e96cc38f1b5dfd6b5e2f9737f1c5",
@@ -566,11 +542,37 @@
       "n_areas": 14,
       "last_seen": "2026-09-20T16:25:42.922Z",
       "gone_at": "2026-09-20T19:00:41.632Z"
+     },
+     "Sk20260920101301725": {
+      "first_seen": "2026-09-20T12:21:37.362Z",
+      "hash": "986108e8832e6e381d2809e09741df68f656453fa9104f2f7ee660a080b178bd",
+      "key_hashes": {
+       "biuro": "f624642a0e44",
+       "id": "fd9112a117c5",
+       "komentarz": "4a73b4378094",
+       "nazwa_zdarzenia": "28ffd1dda388",
+       "obowiazuje_do": "9c6d85ac2cf2",
+       "obowiazuje_od": "c2577b1c0e1c",
+       "opublikowano": "1c9c5c12c12d",
+       "prawdopodobienstwo": "9728ac83eb87",
+       "stopien": "391552c099c1",
+       "teryt": "e6e5632b8ec3",
+       "tresc": "d73e70db5cbc"
+      },
+      "changes": 0,
+      "published": "2026-09-20T10:13:00.000Z",
+      "valid_to": "2026-09-20T20:00:00.000Z",
+      "msg_type": null,
+      "event": "Silny wiatr",
+      "level": "1",
+      "n_areas": 59,
+      "last_seen": "2026-09-20T19:00:41.632Z",
+      "gone_at": "2026-09-20T21:29:19.630Z"
      }
     },
-    "last_poll_t": "2026-09-20T19:00:41.632Z"
+    "last_poll_t": "2026-09-20T21:29:19.630Z"
    },
-   "last_feed_hash": "868cf0db38858e70237698cd73ce9e29dc4c6bf6af7b8a44707acac4a3a2ee64",
+   "last_feed_hash": "c2cbd3d28bcc3e217d51036d58860fed8079368027bc21225ffc868844e61300",
    "schema": {
     "hash": "cd6c64de970696386cb234bbe656f68ffff51cf749f7048d3e4566b5c08a7d43",
     "seen": {
@@ -606,13 +608,13 @@
      ]
     }
    },
-   "last_success": "2026-09-20T19:00:41.632Z",
+   "last_success": "2026-09-20T21:29:19.630Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-20",
    "last_fail_body_hash": null,
-   "n_items": 5,
+   "n_items": 4,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-20T19:00:41.632Z"
+   "last_snapshot_t": "2026-09-20T21:29:19.630Z"
   },
   "imgw-hydro": {
    "ledger": {
@@ -3188,7 +3190,7 @@
       "gone_at": "2026-09-18T11:54:17.946Z"
      }
     },
-    "last_poll_t": "2026-09-20T19:00:42.413Z"
+    "last_poll_t": "2026-09-20T21:29:20.737Z"
    },
    "last_feed_hash": "2ab90a7d3164f14674db8e293f36be03bdb23efea8e4c70a84c65acaec008d7b",
    "schema": {
@@ -3226,7 +3228,7 @@
      ]
     }
    },
-   "last_success": "2026-09-20T19:00:42.413Z",
+   "last_success": "2026-09-20T21:29:20.737Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-20",
    "last_fail_body_hash": null,
@@ -3239,7 +3241,7 @@
     "active": {
      "Sk20260920101258858": {
       "first_seen": "2026-09-20T12:21:41.494Z",
-      "hash": "50e80cccb50c08007f6462ff6ea07d2465b547b20ea7c4b554014d2590cef444",
+      "hash": "21e58d4310e4e22ea705ec76c1e36f45900837e90b4a5275e162511378f62012",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "d73e70db5cbc",
@@ -3256,12 +3258,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "22867d2986df",
-       "SMS": "48b13753a722",
+       "SMS": "c244719eeb9b",
        "ValidFrom": "a39fbe69f7ca",
        "ValidTo": "0d211f87eaa7",
        "_teryt": "acde22653a95"
       },
-      "changes": 2,
+      "changes": 3,
       "published": "2026-09-20T10:12:00.000Z",
       "valid_to": "2026-09-20T22:00:00.000Z",
       "msg_type": null,
@@ -3269,41 +3271,9 @@
       "level": "1",
       "n_areas": 107
      },
-     "Sk20260920101301725": {
-      "first_seen": "2026-09-20T12:21:41.494Z",
-      "hash": "6896b95a45354f03212a403d623e76cdef5d535131086598400495d3efcf6050",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "d73e70db5cbc",
-       "EnComments": "45f1160f7272",
-       "EnContent": "ffb6def05cac",
-       "EnPhenomenonName": "31be5f4d7414",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "830708664de4",
-       "LxValidFrom": "f36fc92b5d14",
-       "LxValidTo": "4948bc4ba64a",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "d4bb165db73a",
-       "PhenomenonName": "28ffd1dda388",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "6bd72fd2e009",
-       "SMS": "96cf0a85ff6a",
-       "ValidFrom": "eb1f424e9e60",
-       "ValidTo": "9ae5817bc8c0",
-       "_teryt": "e6e5632b8ec3"
-      },
-      "changes": 2,
-      "published": "2026-09-20T10:13:00.000Z",
-      "valid_to": "2026-09-20T20:00:00.000Z",
-      "msg_type": null,
-      "event": "SW:Silny wiatr",
-      "level": "1",
-      "n_areas": 59
-     },
      "Sk20260920101306072": {
       "first_seen": "2026-09-20T12:21:41.494Z",
-      "hash": "93043965fe1d7e9a95029dd256657fc9c78c0a3a37ff04cceffcfa0a0ed66877",
+      "hash": "f7d89acfea6d8db1f811710ace489f3061849a8d500ad3ffe90ac7205ccc1fe7",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "d73e70db5cbc",
@@ -3320,12 +3290,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "6bd72fd2e009",
-       "SMS": "0fe384e39529",
+       "SMS": "c6e0d0113e2b",
        "ValidFrom": "f8dc6cb208c3",
        "ValidTo": "d9928059a331",
        "_teryt": "7eb5cb09e7a2"
       },
-      "changes": 2,
+      "changes": 3,
       "published": "2026-09-20T10:13:00.000Z",
       "valid_to": "2026-09-21T03:00:00.000Z",
       "msg_type": null,
@@ -3335,7 +3305,7 @@
      },
      "Sk20260920101303513": {
       "first_seen": "2026-09-20T12:21:41.494Z",
-      "hash": "c7b2ca94dc48e608687b87ce876b21a5f7a5167d19bd894a1c9786316b25f3ac",
+      "hash": "ee1562d0ce84a7142859d2fe09685424ff05353b7acba900744f22183765e4a0",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "d73e70db5cbc",
@@ -3352,12 +3322,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "6bd72fd2e009",
-       "SMS": "2b5c22789ea5",
+       "SMS": "e7d76a0f02b5",
        "ValidFrom": "6c36ad668be7",
        "ValidTo": "c79c60dc97d7",
        "_teryt": "17b4ad991550"
       },
-      "changes": 2,
+      "changes": 3,
       "published": "2026-09-20T10:13:00.000Z",
       "valid_to": "2026-09-21T01:00:00.000Z",
       "msg_type": null,
@@ -3908,11 +3878,45 @@
       "n_areas": 14,
       "last_seen": "2026-09-20T16:25:44.329Z",
       "gone_at": "2026-09-20T19:00:42.871Z"
+     },
+     "Sk20260920101301725": {
+      "first_seen": "2026-09-20T12:21:41.494Z",
+      "hash": "6896b95a45354f03212a403d623e76cdef5d535131086598400495d3efcf6050",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "d73e70db5cbc",
+       "EnComments": "45f1160f7272",
+       "EnContent": "ffb6def05cac",
+       "EnPhenomenonName": "31be5f4d7414",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "830708664de4",
+       "LxValidFrom": "f36fc92b5d14",
+       "LxValidTo": "4948bc4ba64a",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "d4bb165db73a",
+       "PhenomenonName": "28ffd1dda388",
+       "Probability": "48449a14a4ff",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "6bd72fd2e009",
+       "SMS": "96cf0a85ff6a",
+       "ValidFrom": "eb1f424e9e60",
+       "ValidTo": "9ae5817bc8c0",
+       "_teryt": "e6e5632b8ec3"
+      },
+      "changes": 2,
+      "published": "2026-09-20T10:13:00.000Z",
+      "valid_to": "2026-09-20T20:00:00.000Z",
+      "msg_type": null,
+      "event": "SW:Silny wiatr",
+      "level": "1",
+      "n_areas": 59,
+      "last_seen": "2026-09-20T19:00:42.871Z",
+      "gone_at": "2026-09-20T21:29:21.380Z"
      }
     },
-    "last_poll_t": "2026-09-20T19:00:42.871Z"
+    "last_poll_t": "2026-09-20T21:29:21.380Z"
    },
-   "last_feed_hash": "d6fc90a942cd169f17a4b31e0d868cc0e8c990c52e48ec5a07f6b4ed53541331",
+   "last_feed_hash": "4f881f00a9aadc14a00817b8fadc49f24f537906687f4675f36502f14bcd6c9b",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -3970,12 +3974,12 @@
      ]
     }
    },
-   "last_success": "2026-09-20T19:00:42.871Z",
+   "last_success": "2026-09-20T21:29:21.380Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-20",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-09-20T19:00:42.871Z",
-   "n_items": 5,
+   "last_snapshot_t": "2026-09-20T21:29:21.380Z",
+   "n_items": 4,
    "zero_since": null
   },
   "meteoalarm-json": {
@@ -35069,7 +35073,7 @@
       "gone_at": "2026-09-20T12:21:44.634Z"
      }
     },
-    "last_poll_t": "2026-09-20T19:00:43.648Z"
+    "last_poll_t": "2026-09-20T21:29:22.089Z"
    },
    "last_feed_hash": "bda1ada6ebbf0e86ac9f287ae83de05a69c9baf7f9dabca50a969f3675851062",
    "schema": {
@@ -35155,7 +35159,7 @@
      ]
     }
    },
-   "last_success": "2026-09-20T19:00:43.648Z",
+   "last_success": "2026-09-20T21:29:22.089Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-20",
    "last_fail_body_hash": null,
@@ -73787,7 +73791,7 @@
       "gone_at": "2026-09-20T12:21:54.104Z"
      }
     },
-    "last_poll_t": "2026-09-20T19:00:47.154Z"
+    "last_poll_t": "2026-09-20T21:29:26.681Z"
    },
    "last_feed_hash": "0c82e9456139627dfc4fb049b372ca58926519044e6a4110d16ad992209b57a2",
    "schema": {
@@ -73869,7 +73873,7 @@
      ]
     }
    },
-   "last_success": "2026-09-20T19:00:47.154Z",
+   "last_success": "2026-09-20T21:29:26.681Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-20",
    "last_fail_body_hash": null,
