@@ -589,7 +589,7 @@
     }
    },
    "last_success": "2026-09-22T20:06:50.847Z",
-   "consecutive_failures": 4,
+   "consecutive_failures": 5,
    "last_snapshot_day": "2026-09-21",
    "last_fail_body_hash": null,
    "n_items": 1,
@@ -3176,7 +3176,7 @@
       "gone_at": "2026-09-23T12:10:11.292Z"
      }
     },
-    "last_poll_t": "2026-09-23T12:10:11.292Z"
+    "last_poll_t": "2026-09-23T17:06:56.920Z"
    },
    "last_feed_hash": "f46af86d7c7c065159bfecf5fcd1c1263b6e44ae934f4475572f5bf514b9576b",
    "schema": {
@@ -3214,7 +3214,7 @@
      ]
     }
    },
-   "last_success": "2026-09-23T12:10:11.292Z",
+   "last_success": "2026-09-23T17:06:56.920Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-23",
    "last_fail_body_hash": null,
@@ -3226,108 +3226,6 @@
    "ledger": {
     "active": {},
     "gone": {
-     "Sk20260908095236833": {
-      "first_seen": "2026-09-08T14:21:16.056Z",
-      "hash": "d1bed35ab0f450f14bd17ba2b80d92ba7fbcbca41b9db05315e2eb10a49251f8",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "d5d3b70b1863",
-       "EnComments": "45f1160f7272",
-       "EnContent": "f56d766f07c4",
-       "EnPhenomenonName": "570ba93436b4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "4069cc410797",
-       "LxValidFrom": "a36b96340b03",
-       "LxValidTo": "697a72a913f6",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "dc566d1e3abe",
-       "PhenomenonName": "188e58c6536f",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "a889cc6745c3",
-       "SMS": "8e96a2c9cb23",
-       "ValidFrom": "4c5eaa31baea",
-       "ValidTo": "48dce6b49398",
-       "_teryt": "5f728ac511cb"
-      },
-      "changes": 5,
-      "published": "2026-09-08T09:52:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "UP:Upał",
-      "level": "1",
-      "n_areas": 99,
-      "last_seen": "2026-09-09T11:51:38.788Z",
-      "gone_at": "2026-09-09T16:27:13.343Z"
-     },
-     "Sk20260908095226687": {
-      "first_seen": "2026-09-08T14:21:16.056Z",
-      "hash": "9e28180f859c59cd00faaf3acc30d720eaf344b84bf349ef3a0fde3c35e37583",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "b3909746e6db",
-       "EnComments": "45f1160f7272",
-       "EnContent": "5c1f98197764",
-       "EnPhenomenonName": "570ba93436b4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "4069cc410797",
-       "LxValidFrom": "01ad79e6c242",
-       "LxValidTo": "697a72a913f6",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "dc566d1e3abe",
-       "PhenomenonName": "188e58c6536f",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "a889cc6745c3",
-       "SMS": "9d987420aeb9",
-       "ValidFrom": "e3b46d654d18",
-       "ValidTo": "48dce6b49398",
-       "_teryt": "764f79d99959"
-      },
-      "changes": 2,
-      "published": "2026-09-08T09:52:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "UP:Upał",
-      "level": "1",
-      "n_areas": 39,
-      "last_seen": "2026-09-09T11:51:38.788Z",
-      "gone_at": "2026-09-09T16:27:13.343Z"
-     },
-     "Sk20260908175425895": {
-      "first_seen": "2026-09-08T18:02:18.521Z",
-      "hash": "e86a0ac5d05e0164d79cc8d5ea73d73ffb8c6ae1c19a726e2699ed3d32040eed",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "d5d3b70b1863",
-       "EnComments": "45f1160f7272",
-       "EnContent": "f56d766f07c4",
-       "EnPhenomenonName": "570ba93436b4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "e9af9ca12732",
-       "LxValidFrom": "a36b96340b03",
-       "LxValidTo": "697a72a913f6",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "dc566d1e3abe",
-       "PhenomenonName": "188e58c6536f",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "910631dd6f35",
-       "SMS": "4549ad58b49c",
-       "ValidFrom": "4c5eaa31baea",
-       "ValidTo": "48dce6b49398",
-       "_teryt": "daf81079f36e"
-      },
-      "changes": 1,
-      "published": "2026-09-08T17:54:00.000Z",
-      "valid_to": "2026-09-09T16:00:00.000Z",
-      "msg_type": null,
-      "event": "UP:Upał",
-      "level": "1",
-      "n_areas": 5,
-      "last_seen": "2026-09-09T11:51:38.788Z",
-      "gone_at": "2026-09-09T16:27:13.343Z"
-     },
      "Sk20260909093104849": {
       "first_seen": "2026-09-09T11:51:38.788Z",
       "hash": "44d03ed8bb091f84e9ff30388587a2732a114befbd7d91621b02e1318ac03bc5",
@@ -3941,7 +3839,7 @@
       "gone_at": "2026-09-22T22:56:36.401Z"
      }
     },
-    "last_poll_t": "2026-09-23T12:10:12.032Z"
+    "last_poll_t": "2026-09-23T17:06:57.480Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -4001,7 +3899,7 @@
      ]
     }
    },
-   "last_success": "2026-09-23T12:10:12.032Z",
+   "last_success": "2026-09-23T17:06:57.480Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-22",
    "last_fail_body_hash": null,
@@ -34655,7 +34553,7 @@
       "gone_at": "2026-09-23T01:24:56.841Z"
      }
     },
-    "last_poll_t": "2026-09-23T12:10:12.739Z"
+    "last_poll_t": "2026-09-23T17:06:58.117Z"
    },
    "last_feed_hash": "379f3d0fecda1dccc4ede45982a3ccccb46626e6d0846c678d2c087efe599c77",
    "schema": {
@@ -34741,7 +34639,7 @@
      ]
     }
    },
-   "last_success": "2026-09-23T12:10:12.739Z",
+   "last_success": "2026-09-23T17:06:58.117Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-23",
    "last_fail_body_hash": null,
@@ -61405,7 +61303,7 @@
       "gone_at": "2026-09-22T22:56:41.279Z"
      }
     },
-    "last_poll_t": "2026-09-23T12:10:17.908Z"
+    "last_poll_t": "2026-09-23T17:07:01.675Z"
    },
    "last_feed_hash": "661fd940c6839780cc2a74ddfbf7427b6b9a862eb5b950161901b74614be7722",
    "schema": {
@@ -61487,7 +61385,7 @@
      ]
     }
    },
-   "last_success": "2026-09-23T12:10:17.908Z",
+   "last_success": "2026-09-23T17:07:01.675Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-23",
    "last_fail_body_hash": null,
