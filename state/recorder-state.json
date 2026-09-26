@@ -472,7 +472,7 @@
       "gone_at": "2026-09-26T09:48:12.486Z"
      }
     },
-    "last_poll_t": "2026-09-26T17:43:03.241Z"
+    "last_poll_t": "2026-09-26T20:12:37.831Z"
    },
    "last_feed_hash": "c3b09d00546ebde58e057d4768176fa02ffe198287a08d1f5541a3c1ff22efd8",
    "schema": {
@@ -510,7 +510,7 @@
      ]
     }
    },
-   "last_success": "2026-09-26T17:43:03.241Z",
+   "last_success": "2026-09-26T20:12:37.831Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
@@ -2680,30 +2680,6 @@
       "event": "Susza hydrologiczna",
       "level": "-1",
       "n_areas": 6
-     },
-     "hydro:2026:125:016238f4": {
-      "first_seen": "2026-09-26T04:56:20.607Z",
-      "hash": "fcb990a8555ad1d9cbd1d8085aaca396cdf12b9f076eed57d34b58283003ee69",
-      "key_hashes": {
-       "biuro": "3edf739d411d",
-       "data_do": "2bf1a50a52a9",
-       "data_od": "5fedd8c28c9c",
-       "komentarz": "22a2307f7033",
-       "numer": "9b61792a6e7d",
-       "obszary": "583ed0fcab4b",
-       "opublikowano": "a31e2949d20c",
-       "prawdopodobienstwo": "dfff24769b1b",
-       "przebieg": "2d7407c23b1e",
-       "stopień": "cc11310c456c",
-       "zdarzenie": "8edbe8ffc4e0"
-      },
-      "changes": 1,
-      "published": "2026-09-26T02:05:18.000Z",
-      "valid_to": "2026-09-26T19:00:22.000Z",
-      "msg_type": null,
-      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
-      "level": "2",
-      "n_areas": 1
      }
     },
     "gone": {
@@ -3070,11 +3046,37 @@
       "n_areas": 3,
       "last_seen": "2026-09-25T17:54:36.719Z",
       "gone_at": "2026-09-25T21:26:25.791Z"
+     },
+     "hydro:2026:125:016238f4": {
+      "first_seen": "2026-09-26T04:56:20.607Z",
+      "hash": "fcb990a8555ad1d9cbd1d8085aaca396cdf12b9f076eed57d34b58283003ee69",
+      "key_hashes": {
+       "biuro": "3edf739d411d",
+       "data_do": "2bf1a50a52a9",
+       "data_od": "5fedd8c28c9c",
+       "komentarz": "22a2307f7033",
+       "numer": "9b61792a6e7d",
+       "obszary": "583ed0fcab4b",
+       "opublikowano": "a31e2949d20c",
+       "prawdopodobienstwo": "dfff24769b1b",
+       "przebieg": "2d7407c23b1e",
+       "stopień": "cc11310c456c",
+       "zdarzenie": "8edbe8ffc4e0"
+      },
+      "changes": 1,
+      "published": "2026-09-26T02:05:18.000Z",
+      "valid_to": "2026-09-26T19:00:22.000Z",
+      "msg_type": null,
+      "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
+      "level": "2",
+      "n_areas": 1,
+      "last_seen": "2026-09-26T17:43:05.811Z",
+      "gone_at": "2026-09-26T20:12:38.941Z"
      }
     },
-    "last_poll_t": "2026-09-26T17:43:05.811Z"
+    "last_poll_t": "2026-09-26T20:12:38.941Z"
    },
-   "last_feed_hash": "03cfd208ec2898ad494ede315e3cbd64e01f7ceaa6542dd499c91522557ac057",
+   "last_feed_hash": "92b72f6fd0ba12feaf7eb56e4564ab7ffc9be3c7d07851f2095fb68e4d4f4186",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -3110,20 +3112,20 @@
      ]
     }
    },
-   "last_success": "2026-09-26T17:43:05.811Z",
+   "last_success": "2026-09-26T20:12:38.941Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
-   "n_items": 91,
+   "n_items": 90,
    "zero_since": null,
-   "last_snapshot_t": "2026-09-26T09:48:13.974Z"
+   "last_snapshot_t": "2026-09-26T20:12:38.941Z"
   },
   "imgw-osmet": {
    "ledger": {
     "active": {
      "Sk20260926091536745": {
       "first_seen": "2026-09-26T09:48:14.589Z",
-      "hash": "a103f18ae61fc3a05fce4b469521898f599647f45a7344412c46ce182c5e2fe8",
+      "hash": "89096bc9121d22f965e1f6d5b27b0defeb5ec11c4c705bd29e8eb63727fc8942",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "89afd238c041",
@@ -3140,12 +3142,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "0e57f4df287f",
-       "SMS": "6982724dadc5",
+       "SMS": "71cdc115ed0b",
        "ValidFrom": "3712f3e75c8e",
        "ValidTo": "e3c4e9318eac",
        "_teryt": "b20f44520806"
       },
-      "changes": 1,
+      "changes": 2,
       "published": "2026-09-26T09:15:00.000Z",
       "valid_to": "2026-09-27T07:00:00.000Z",
       "msg_type": null,
@@ -3700,9 +3702,9 @@
       "gone_at": "2026-09-22T22:56:36.401Z"
      }
     },
-    "last_poll_t": "2026-09-26T17:43:06.352Z"
+    "last_poll_t": "2026-09-26T20:12:39.630Z"
    },
-   "last_feed_hash": "52a500eabd0b6a905aa2d48683a758e9baf72ab88e1e23a4b9d7a433f9b5cb18",
+   "last_feed_hash": "806695644c270d92918cc0c5ca881e367b68809df58c955618af01f1939d8d47",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -3760,11 +3762,11 @@
      ]
     }
    },
-   "last_success": "2026-09-26T17:43:06.352Z",
+   "last_success": "2026-09-26T20:12:39.630Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-09-26T17:43:06.352Z",
+   "last_snapshot_t": "2026-09-26T20:12:39.630Z",
    "n_items": 1,
    "zero_since": null
   },
@@ -23966,7 +23968,7 @@
       "gone_at": "2026-09-26T04:56:21.946Z"
      }
     },
-    "last_poll_t": "2026-09-26T17:43:09.327Z"
+    "last_poll_t": "2026-09-26T20:12:40.787Z"
    },
    "last_feed_hash": "75c407b8ff1106df8a7daef7a073035882ce56ffbda5b47538af7a10dce37a49",
    "schema": {
@@ -24052,7 +24054,7 @@
      ]
     }
    },
-   "last_success": "2026-09-26T17:43:09.327Z",
+   "last_success": "2026-09-26T20:12:40.787Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
@@ -46402,7 +46404,7 @@
       "gone_at": "2026-09-23T23:05:03.951Z"
      }
     },
-    "last_poll_t": "2026-09-26T17:43:10.857Z"
+    "last_poll_t": "2026-09-26T20:12:42.735Z"
    },
    "last_feed_hash": "2952354c997171afa26e79bd0aa25a7731ca4edd941e58cbc5a9347c8000aecb",
    "schema": {
@@ -46484,7 +46486,7 @@
      ]
     }
    },
-   "last_success": "2026-09-26T17:43:10.857Z",
+   "last_success": "2026-09-26T20:12:42.735Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
