@@ -472,7 +472,7 @@
       "gone_at": "2026-09-26T09:48:12.486Z"
      }
     },
-    "last_poll_t": "2026-09-27T01:20:53.837Z"
+    "last_poll_t": "2026-09-27T07:01:04.241Z"
    },
    "last_feed_hash": "c3b09d00546ebde58e057d4768176fa02ffe198287a08d1f5541a3c1ff22efd8",
    "schema": {
@@ -510,7 +510,7 @@
      ]
     }
    },
-   "last_success": "2026-09-27T01:20:53.837Z",
+   "last_success": "2026-09-27T07:01:04.241Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
@@ -3074,7 +3074,7 @@
       "gone_at": "2026-09-26T20:12:38.941Z"
      }
     },
-    "last_poll_t": "2026-09-27T01:20:55.044Z"
+    "last_poll_t": "2026-09-27T07:01:05.715Z"
    },
    "last_feed_hash": "92b72f6fd0ba12feaf7eb56e4564ab7ffc9be3c7d07851f2095fb68e4d4f4186",
    "schema": {
@@ -3112,7 +3112,7 @@
      ]
     }
    },
-   "last_success": "2026-09-27T01:20:55.044Z",
+   "last_success": "2026-09-27T07:01:05.715Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": null,
@@ -3122,40 +3122,7 @@
   },
   "imgw-osmet": {
    "ledger": {
-    "active": {
-     "Sk20260926091536745": {
-      "first_seen": "2026-09-26T09:48:14.589Z",
-      "hash": "7aceca59bc09e125e70326177c453609027709df69414faba12d85ca0508f0cd",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "89afd238c041",
-       "EnComments": "45f1160f7272",
-       "EnContent": "0895ef402ee6",
-       "EnPhenomenonName": "a67bf4b3e2d4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "dfe3c7706fe9",
-       "LxValidFrom": "ea24884b7363",
-       "LxValidTo": "c0c7cbff6985",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "1de6f2e7f5e8",
-       "PhenomenonName": "d08aa294a89e",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "0e57f4df287f",
-       "SMS": "32b242f3888d",
-       "ValidFrom": "3712f3e75c8e",
-       "ValidTo": "e3c4e9318eac",
-       "_teryt": "b20f44520806"
-      },
-      "changes": 4,
-      "published": "2026-09-26T09:15:00.000Z",
-      "valid_to": "2026-09-27T07:00:00.000Z",
-      "msg_type": null,
-      "event": "MG:Gęsta mgła",
-      "level": "1",
-      "n_areas": 69
-     }
-    },
+    "active": {},
     "gone": {
      "Sk20260916034840826": {
       "first_seen": "2026-09-16T05:16:01.168Z",
@@ -3700,11 +3667,45 @@
       "n_areas": 1,
       "last_seen": "2026-09-22T20:06:53.946Z",
       "gone_at": "2026-09-22T22:56:36.401Z"
+     },
+     "Sk20260926091536745": {
+      "first_seen": "2026-09-26T09:48:14.589Z",
+      "hash": "7aceca59bc09e125e70326177c453609027709df69414faba12d85ca0508f0cd",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "89afd238c041",
+       "EnComments": "45f1160f7272",
+       "EnContent": "0895ef402ee6",
+       "EnPhenomenonName": "a67bf4b3e2d4",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "dfe3c7706fe9",
+       "LxValidFrom": "ea24884b7363",
+       "LxValidTo": "c0c7cbff6985",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "1de6f2e7f5e8",
+       "PhenomenonName": "d08aa294a89e",
+       "Probability": "48449a14a4ff",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "0e57f4df287f",
+       "SMS": "32b242f3888d",
+       "ValidFrom": "3712f3e75c8e",
+       "ValidTo": "e3c4e9318eac",
+       "_teryt": "b20f44520806"
+      },
+      "changes": 4,
+      "published": "2026-09-26T09:15:00.000Z",
+      "valid_to": "2026-09-27T07:00:00.000Z",
+      "msg_type": null,
+      "event": "MG:Gęsta mgła",
+      "level": "1",
+      "n_areas": 69,
+      "last_seen": "2026-09-27T01:20:55.694Z",
+      "gone_at": "2026-09-27T07:01:06.230Z"
      }
     },
-    "last_poll_t": "2026-09-27T01:20:55.694Z"
+    "last_poll_t": "2026-09-27T07:01:06.230Z"
    },
-   "last_feed_hash": "2b983f86f3f7a29e70a0b8d265a91b2caa2b5c5fb1460b3770670da5f34a560b",
+   "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -3762,13 +3763,13 @@
      ]
     }
    },
-   "last_success": "2026-09-27T01:20:55.694Z",
+   "last_success": "2026-09-27T07:01:06.230Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-27",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-09-27T01:20:55.694Z",
-   "n_items": 1,
-   "zero_since": null
+   "last_snapshot_t": "2026-09-27T07:01:06.230Z",
+   "n_items": 0,
+   "zero_since": "2026-09-27T07:01:06.230Z"
   },
   "meteoalarm-json": {
    "ledger": {
@@ -5338,678 +5339,6 @@
      }
     },
     "gone": {
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0202": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "8df0b5c70f305338cca651af1893dd3953e30daf431fbaa07bf28dbe075c09a4",
-      "key_hashes": {
-       "identifier": "dbc027371d9a",
-       "incidents": "e177b5907768",
-       "info": "a3b1b3304502",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "22541e8dafb0"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0205": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "62de5a7a87da9b9cfe0b85b1352d448af54ff0397fbdb7ee36f7ac4458a7e9ed",
-      "key_hashes": {
-       "identifier": "719a24ff581c",
-       "incidents": "e177b5907768",
-       "info": "51e99b8851a1",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "8deaff5b1a02"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0209": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "19586e3de34b98cce4e8f4847d9925fedee21dc4521c1b490aa810d264702677",
-      "key_hashes": {
-       "identifier": "91d95635181b",
-       "incidents": "e177b5907768",
-       "info": "1e2bef496e94",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "d80bd22eb5a9"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0214": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "1d7b0a22da49fbfa08cb93e7abdbce512724ef0b895950a16c5147bc79581694",
-      "key_hashes": {
-       "identifier": "7e341f70be9a",
-       "incidents": "e177b5907768",
-       "info": "1313cd1d42cb",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "cc08b062d614"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0211": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "f3abc9dd56cf12e7ec1f831ba6f0136ab7bddbbeb27b356bf3284d5e06794be9",
-      "key_hashes": {
-       "identifier": "6fcd3bd7b978",
-       "incidents": "e177b5907768",
-       "info": "9cc59679c8df",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "a351afb55af9"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0217": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "b4cc2fc389f9f9274acef0034cf438a32019de88467a3a759adf0deb13959403",
-      "key_hashes": {
-       "identifier": "8d8585d12fc3",
-       "incidents": "e177b5907768",
-       "info": "db13005232fd",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "222dce52edf8"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0215": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "4c0390b7a0b7b329df186dc4fe3220c8c858d4327dc7e4c2c82ed34c607ba88f",
-      "key_hashes": {
-       "identifier": "6bed48fa9e69",
-       "incidents": "e177b5907768",
-       "info": "cec0e46ecd13",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "329c847d5c88"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0218": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "fbc65c173c81997e360036c3270396125936ac3d03f48d85a6583634fa7f88f8",
-      "key_hashes": {
-       "identifier": "aa8551e7fe3d",
-       "incidents": "e177b5907768",
-       "info": "7e526f812a75",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "e94f62be9167"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0219": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "c02779c7237086b5dbcbe7c782a7371c4a6cdac98895f9b9f64237c9ff9ec330",
-      "key_hashes": {
-       "identifier": "bc905e3944a9",
-       "incidents": "e177b5907768",
-       "info": "3609e588aa94",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "743c83d8cec1"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0220": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "eb1382e70fc74dae203a18d7028ff696d1f822f299a9f7bfe03e1fa6d8d9bcac",
-      "key_hashes": {
-       "identifier": "a597771036d8",
-       "incidents": "e177b5907768",
-       "info": "74ee491629d3",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "981343b3c689"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0222": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "2981e178a5c20a3f4c7f2bb9586eb07f89421453669850e1ce226a1cf7dac709",
-      "key_hashes": {
-       "identifier": "d353bba65363",
-       "incidents": "e177b5907768",
-       "info": "7ec2aa263cb3",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "a7a6d9b152e7"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0223": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "dea7cdcd57b6faa7e7ab8e3207c39d27e352eec357484871bdd4a8e46bb7f2e4",
-      "key_hashes": {
-       "identifier": "626b81be3b61",
-       "incidents": "e177b5907768",
-       "info": "a38af593bf9e",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "a317d554b9d9"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0224": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "746d7e5cb2766786b200b73a553bc0bef5977726aeb9074b807446f2feddaf23",
-      "key_hashes": {
-       "identifier": "88d831b79e56",
-       "incidents": "e177b5907768",
-       "info": "650892400a61",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "06dd4ab3599e"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0262": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "da0b0af0aeb845bcd3c54d9a6b37dc3c61ad94d008958d49b12b588af25831ce",
-      "key_hashes": {
-       "identifier": "5f58bbc922f2",
-       "incidents": "e177b5907768",
-       "info": "75d3be9f21d9",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "e6144a1915cc"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1601": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "74c8e8c0ecc419e892b4b2621f74a6c6bc63604ddeebec99a9f36f3d91f5c850",
-      "key_hashes": {
-       "identifier": "4be0363223e3",
-       "incidents": "e177b5907768",
-       "info": "e7039a826020",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "67e1581f119f"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0226": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "364fbf3becbeb4db344f01bbef02c4192e163ced5ae8c17f40e2f5186c0ceae5",
-      "key_hashes": {
-       "identifier": "fc1ce8e40b60",
-       "incidents": "e177b5907768",
-       "info": "1758efba0d82",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "de49bb2037a5"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1603": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "51a47b2cd06d4264a22be1febe39463e0fde8c5c89ba732b5709a24f078f3843",
-      "key_hashes": {
-       "identifier": "f1be43698f6f",
-       "incidents": "e177b5907768",
-       "info": "79d7c4eaeda9",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "9484a0389392"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL0264": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "e54657e6f7cdc43e07688a2d115a2af378d466bea581c9bd726a9a59c2c8fff0",
-      "key_hashes": {
-       "identifier": "7799f475d8ef",
-       "incidents": "e177b5907768",
-       "info": "de1211a57d88",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "a27f84a0a317"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1605": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "33a7afb0a5c4b78151a516025d22a8cff5ffb32c236fab5285b1fb13cbcc61f7",
-      "key_hashes": {
-       "identifier": "e89bb79fa3d9",
-       "incidents": "e177b5907768",
-       "info": "b32dccf98c3e",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "ad0f686e800c"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1606": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "31fb77e87e0c15d52d0e10b7db73047e612d17b09c99a343c1b6db0470547f1a",
-      "key_hashes": {
-       "identifier": "c1c974ffe75b",
-       "incidents": "e177b5907768",
-       "info": "53d501300622",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "c4732586afc3"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1602": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "31578678f60f5fa360a4de022c5d157d506d2e2c6ea56f8e4ffe86952df3db3f",
-      "key_hashes": {
-       "identifier": "48503f21c2fd",
-       "incidents": "e177b5907768",
-       "info": "6834266e1c10",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "9de7ddab7143"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1607": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "3e16a7579d1c4aa8508ab6eee0278a89da505b2efab5c942d93e4769d1ba19a9",
-      "key_hashes": {
-       "identifier": "5660be1679b2",
-       "incidents": "e177b5907768",
-       "info": "5c9bcee29a29",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "41125bcf0a54"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1604": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "1689f3f293e17a232f681168d6bcf9e079f45b1bda364b5ec9968534b24bc798",
-      "key_hashes": {
-       "identifier": "3e5634ee321d",
-       "incidents": "e177b5907768",
-       "info": "7b5334073f2d",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "38a1c9d5252d"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1608": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "0adef6ecbadd4ce97609bb3fe5215bf15ae73c8711ba9852cd9f61d5de1b9bd0",
-      "key_hashes": {
-       "identifier": "9211752e5622",
-       "incidents": "e177b5907768",
-       "info": "390380177952",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "10573b132e19"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1610": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "442573503e30bc878ed316aa7827588a4a101d4ed5f8aac13be38cc4bc64103d",
-      "key_hashes": {
-       "identifier": "2ea9f1fed8f4",
-       "incidents": "e177b5907768",
-       "info": "58ae84d9ff19",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "bfb4e3a2f115"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1609": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "3077c731b7b1f0e1dc25e799df7d4528949838ebbe669a5f11e44677ba9e73ef",
-      "key_hashes": {
-       "identifier": "042a02927966",
-       "incidents": "e177b5907768",
-       "info": "fa87d4866d6e",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "c1228ac8aa98"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1611": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "f1c72c768f20de80d3f11f307d95de29b82635acbdf0f754bdad0f04afc4478d",
-      "key_hashes": {
-       "identifier": "e20900bca355",
-       "incidents": "e177b5907768",
-       "info": "22bbb8358cfd",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "b47c9f0290ad"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20260907093200927.PL1661": {
-      "first_seen": "2026-09-07T10:07:52.035Z",
-      "hash": "3a11121ad7a9aa2f68f9f3cb30b016e1e63838537694adce5b64e2fb4a228792",
-      "key_hashes": {
-       "identifier": "7345f2702f59",
-       "incidents": "e177b5907768",
-       "info": "8e8629da424a",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "d1ad75d65063",
-       "status": "516a5bec7439",
-       "uuid": "4d1219d8bafc"
-      },
-      "changes": 0,
-      "published": "2026-09-07T09:32:00.000Z",
-      "valid_to": "2026-09-08T15:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow high-temperature warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-09-13T00:50:35.891Z",
-      "gone_at": "2026-09-13T05:54:47.806Z"
-     },
      "2.49.0.0.616.0.PL.Sk20260908095226687.PL1201": {
       "first_seen": "2026-09-08T14:21:16.589Z",
       "hash": "db2651557627ab3e936857d438ad586bff873c3ccd12db716f7bd78b2de9e7e1",
@@ -23990,7 +23319,7 @@
       "gone_at": "2026-09-27T01:20:56.384Z"
      }
     },
-    "last_poll_t": "2026-09-27T01:20:56.384Z"
+    "last_poll_t": "2026-09-27T07:01:06.972Z"
    },
    "last_feed_hash": "5adaeec90880f766adc5aa3ea7384a9cf54207518d324cc283677841216e5958",
    "schema": {
@@ -24076,7 +23405,7 @@
      ]
     }
    },
-   "last_success": "2026-09-27T01:20:56.384Z",
+   "last_success": "2026-09-27T07:01:06.972Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-27",
    "last_fail_body_hash": null,
@@ -46426,7 +45755,7 @@
       "gone_at": "2026-09-23T23:05:03.951Z"
      }
     },
-    "last_poll_t": "2026-09-27T01:20:58.369Z"
+    "last_poll_t": "2026-09-27T07:01:08.391Z"
    },
    "last_feed_hash": "2952354c997171afa26e79bd0aa25a7731ca4edd941e58cbc5a9347c8000aecb",
    "schema": {
@@ -46508,7 +45837,7 @@
      ]
     }
    },
-   "last_success": "2026-09-27T01:20:58.369Z",
+   "last_success": "2026-09-27T07:01:08.391Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-27",
    "last_fail_body_hash": null,
