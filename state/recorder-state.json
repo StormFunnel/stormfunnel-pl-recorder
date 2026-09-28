@@ -511,7 +511,7 @@
     }
    },
    "last_success": "2026-09-27T07:01:04.241Z",
-   "consecutive_failures": 6,
+   "consecutive_failures": 7,
    "last_snapshot_day": "2026-09-26",
    "last_fail_body_hash": "571a53e5e9a7a43042d47000b531fed3f9d580d3ece5183a038fd7af8088de8b",
    "n_items": 1,
@@ -2659,32 +2659,6 @@
      }
     },
     "gone": {
-     "hydro:2026:126:1e288358": {
-      "first_seen": "2026-08-16T04:51:08.768Z",
-      "hash": "86d53bdb770646edad08af663cacceff8adb2711a0fca09ef808c31982c3a9c5",
-      "key_hashes": {
-       "biuro": "1f885f047c04",
-       "data_do": "75ea2ad87bd2",
-       "data_od": "d9a8cd772868",
-       "komentarz": "38e89c9f0b03",
-       "numer": "d88b0556fa60",
-       "obszary": "603fd60e34b3",
-       "opublikowano": "b1dba474a4ac",
-       "prawdopodobienstwo": "d77ccb69e3f9",
-       "przebieg": "29dd72be062b",
-       "stopień": "6b54ef0f2b5a",
-       "zdarzenie": "d2c8f600f6dc"
-      },
-      "changes": 0,
-      "published": "2026-07-05T06:24:18.000Z",
-      "valid_to": null,
-      "msg_type": null,
-      "event": "Susza hydrologiczna",
-      "level": "-1",
-      "n_areas": 2,
-      "last_seen": "2026-09-14T06:15:15.872Z",
-      "gone_at": "2026-09-14T13:02:35.323Z"
-     },
      "hydro:2026:116:0921701b": {
       "first_seen": "2026-09-16T14:57:45.759Z",
       "hash": "c625d724e70a97399f364b88219e712934adaf5cb86c19f330ff9e0e834113a1",
@@ -3076,7 +3050,7 @@
       "gone_at": "2026-09-28T08:36:01.531Z"
      }
     },
-    "last_poll_t": "2026-09-28T08:36:01.531Z"
+    "last_poll_t": "2026-09-28T17:00:55.078Z"
    },
    "last_feed_hash": "4fbd5d2c2257377a629feb99e8fb194b2085dc06d046eb0ae871576722e1bc59",
    "schema": {
@@ -3114,7 +3088,7 @@
      ]
     }
    },
-   "last_success": "2026-09-28T08:36:01.531Z",
+   "last_success": "2026-09-28T17:00:55.078Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-28",
    "last_fail_body_hash": null,
@@ -3705,7 +3679,7 @@
       "gone_at": "2026-09-27T07:01:06.230Z"
      }
     },
-    "last_poll_t": "2026-09-28T08:36:01.960Z"
+    "last_poll_t": "2026-09-28T17:00:55.759Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -3765,7 +3739,7 @@
      ]
     }
    },
-   "last_success": "2026-09-28T08:36:01.960Z",
+   "last_success": "2026-09-28T17:00:55.759Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-27",
    "last_fail_body_hash": null,
@@ -19893,7 +19867,7 @@
       "gone_at": "2026-09-28T01:55:52.928Z"
      }
     },
-    "last_poll_t": "2026-09-28T08:36:02.422Z"
+    "last_poll_t": "2026-09-28T17:00:56.502Z"
    },
    "last_feed_hash": "27748a78843b56dbf72ba4d99eaf1b06b72a0e48e50ca416d701bbaa575a49aa",
    "schema": {
@@ -19978,7 +19952,7 @@
      ]
     }
    },
-   "last_success": "2026-09-28T08:36:02.422Z",
+   "last_success": "2026-09-28T17:00:56.502Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-28",
    "last_fail_body_hash": null,
@@ -42328,7 +42302,7 @@
       "gone_at": "2026-09-23T23:05:03.951Z"
      }
     },
-    "last_poll_t": "2026-09-28T08:36:03.692Z"
+    "last_poll_t": "2026-09-28T17:00:58.478Z"
    },
    "last_feed_hash": "2952354c997171afa26e79bd0aa25a7731ca4edd941e58cbc5a9347c8000aecb",
    "schema": {
@@ -42410,7 +42384,7 @@
      ]
     }
    },
-   "last_success": "2026-09-28T08:36:03.692Z",
+   "last_success": "2026-09-28T17:00:58.478Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-09-28",
    "last_fail_body_hash": null,
