@@ -3,18 +3,18 @@
   "first_failed_at": "2026-09-27T12:59:55.169Z",
   "last_notified_at": "2026-09-29T23:39:20.068Z",
   "notified": 8,
-  "message": "imgw-meteo: last successful poll 64.6h ago (2026-09-27T07:01:04.241Z), 13 consecutive failures"
+  "message": "imgw-meteo: last successful poll 67.4h ago (2026-09-27T07:01:04.241Z), 14 consecutive failures"
  },
  "imgw-osmet:zero-items": {
   "first_failed_at": "2026-09-27T20:27:57.349Z",
   "last_notified_at": "2026-09-29T23:39:20.068Z",
   "notified": 7,
-  "message": "imgw-osmet: 0 items for 64.6h while sibling imgw-meteo serves 1 — parser silently broken? Check data/snapshots for imgw-osmet."
+  "message": "imgw-osmet: 0 items for 67.4h while sibling imgw-meteo serves 1 — parser silently broken? Check data/snapshots for imgw-osmet."
  },
  "meteoalarm-atom:zero-items": {
   "first_failed_at": "2026-09-29T15:08:53.285Z",
   "last_notified_at": "2026-09-29T23:39:20.068Z",
   "notified": 2,
-  "message": "meteoalarm-atom: 0 items for 25.1h while sibling meteoalarm-json serves 69 — parser silently broken? Check data/snapshots for meteoalarm-atom."
+  "message": "meteoalarm-atom: 0 items for 27.9h while sibling meteoalarm-json serves 69 — parser silently broken? Check data/snapshots for meteoalarm-atom."
  }
 }
