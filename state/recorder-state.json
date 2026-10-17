@@ -576,7 +576,7 @@
       "gone_at": "2026-10-17T11:31:31.194Z"
      }
     },
-    "last_poll_t": "2026-10-17T17:29:24.876Z"
+    "last_poll_t": "2026-10-17T19:41:25.696Z"
    },
    "last_feed_hash": "c7a0ced9a1e91e96520865e5557a3e46f948c63381baa9e9f1d5944f8767b9e6",
    "schema": {
@@ -614,7 +614,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T17:29:24.876Z",
+   "last_success": "2026-10-17T19:41:25.696Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
@@ -3112,7 +3112,7 @@
       "gone_at": "2026-10-15T10:05:40.268Z"
      }
     },
-    "last_poll_t": "2026-10-17T17:29:25.653Z"
+    "last_poll_t": "2026-10-17T19:41:26.697Z"
    },
    "last_feed_hash": "9234bdeb484e894beadb759bdb1748dac159238006aac44bfc6f2e9461c6e315",
    "schema": {
@@ -3150,7 +3150,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T17:29:25.653Z",
+   "last_success": "2026-10-17T19:41:26.697Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
@@ -3910,7 +3910,7 @@
       "gone_at": "2026-10-17T11:31:34.381Z"
      }
     },
-    "last_poll_t": "2026-10-17T17:29:26.174Z"
+    "last_poll_t": "2026-10-17T19:41:27.305Z"
    },
    "last_feed_hash": "fca945049ebf761b9907b8f7e939c84dac50c5c7fa694a995bcb064936b4eaf1",
    "schema": {
@@ -3970,7 +3970,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T17:29:26.174Z",
+   "last_success": "2026-10-17T19:41:27.305Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
@@ -31318,7 +31318,7 @@
       "gone_at": "2026-10-17T01:59:16.884Z"
      }
     },
-    "last_poll_t": "2026-10-17T17:29:26.914Z"
+    "last_poll_t": "2026-10-17T19:41:27.974Z"
    },
    "last_feed_hash": "785d310f4ffe188e2815e8cd58b69f57d855313d4140b8b112faa08ed7c71575",
    "schema": {
@@ -31404,7 +31404,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T17:29:26.914Z",
+   "last_success": "2026-10-17T19:41:27.974Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
@@ -70434,7 +70434,7 @@
       "gone_at": "2026-10-15T22:14:33.429Z"
      }
     },
-    "last_poll_t": "2026-10-17T17:29:30.520Z"
+    "last_poll_t": "2026-10-17T19:41:32.142Z"
    },
    "last_feed_hash": "783c02c516cc4641bdd6e7cf773914a0ceb4600e7f06e8cc0d69560c00f0a652",
    "schema": {
@@ -70516,7 +70516,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T17:29:30.520Z",
+   "last_success": "2026-10-17T19:41:32.142Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
