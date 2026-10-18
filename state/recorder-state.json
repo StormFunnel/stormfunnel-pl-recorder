@@ -576,7 +576,7 @@
       "gone_at": "2026-10-17T11:31:31.194Z"
      }
     },
-    "last_poll_t": "2026-10-17T23:31:33.568Z"
+    "last_poll_t": "2026-10-18T01:31:48.591Z"
    },
    "last_feed_hash": "c7a0ced9a1e91e96520865e5557a3e46f948c63381baa9e9f1d5944f8767b9e6",
    "schema": {
@@ -614,7 +614,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T23:31:33.568Z",
+   "last_success": "2026-10-18T01:31:48.591Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
@@ -3112,7 +3112,7 @@
       "gone_at": "2026-10-15T10:05:40.268Z"
      }
     },
-    "last_poll_t": "2026-10-17T23:31:34.675Z"
+    "last_poll_t": "2026-10-18T01:31:49.604Z"
    },
    "last_feed_hash": "9234bdeb484e894beadb759bdb1748dac159238006aac44bfc6f2e9461c6e315",
    "schema": {
@@ -3150,7 +3150,7 @@
      ]
     }
    },
-   "last_success": "2026-10-17T23:31:34.675Z",
+   "last_success": "2026-10-18T01:31:49.604Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-17",
    "last_fail_body_hash": null,
@@ -3163,7 +3163,7 @@
     "active": {
      "Sk20261017094856112": {
       "first_seen": "2026-10-17T11:31:34.381Z",
-      "hash": "2cad3708914a18c2163fd45e5cbc708345370c0cf893915967fbd5324bf3c9dc",
+      "hash": "0209ffbdd3cbbc71be0b44d086e452c08a042e03f6343e55f103250a9606d293",
       "key_hashes": {
        "Comments": "4a73b4378094",
        "Content": "d277c5ffb971",
@@ -3180,12 +3180,12 @@
        "Probability": "48449a14a4ff",
        "Rcb": "5feceb66ffc8",
        "ReleaseDateTime": "2c434f225726",
-       "SMS": "e59487a5d84a",
+       "SMS": "689c165faad9",
        "ValidFrom": "efe434e793b7",
        "ValidTo": "8829ded25a2d",
        "_teryt": "8acc6ea685e8"
       },
-      "changes": 4,
+      "changes": 5,
       "published": "2026-10-17T09:48:00.000Z",
       "valid_to": "2026-10-18T08:30:00.000Z",
       "msg_type": null,
@@ -3910,9 +3910,9 @@
       "gone_at": "2026-10-17T11:31:34.381Z"
      }
     },
-    "last_poll_t": "2026-10-17T23:31:35.364Z"
+    "last_poll_t": "2026-10-18T01:31:50.218Z"
    },
-   "last_feed_hash": "3b7e4bdc64aaf18da20ca139bf46583d7e275942a5bdde883d71a95504e27f97",
+   "last_feed_hash": "16de494d6544a745873df2afee2876a6ea4d54c73632aadbd353f19c61705dc1",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -3970,39 +3970,17 @@
      ]
     }
    },
-   "last_success": "2026-10-17T23:31:35.364Z",
+   "last_success": "2026-10-18T01:31:50.218Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-10-17",
+   "last_snapshot_day": "2026-10-18",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-10-17T23:31:35.364Z",
+   "last_snapshot_t": "2026-10-18T01:31:50.218Z",
    "n_items": 1,
    "zero_since": null
   },
   "meteoalarm-json": {
    "ledger": {
     "active": {
-     "2.49.0.0.616.0.PL.261012065823.PL803_01421": {
-      "first_seen": "2026-10-12T08:07:23.758Z",
-      "hash": "117af34cea6ea27cda584705d2473c29c626a73be8b10236a92ac07cdb4fca27",
-      "key_hashes": {
-       "identifier": "ae3c083eb28e",
-       "incidents": "e177b5907768",
-       "info": "9058f4491d0e",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "b0752ffd6bab",
-       "status": "516a5bec7439",
-       "uuid": "076e32ebd15a"
-      },
-      "changes": 0,
-      "published": "2026-10-12T06:58:23.000Z",
-      "valid_to": "2026-10-12T11:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Wind warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1
-     },
      "2.49.0.0.616.0.PL.261013200541.PL805_01161": {
       "first_seen": "2026-10-13T20:39:52.190Z",
       "hash": "74b922c5e5011e8f25f8a1107ad4ba89946584891254b5ae125e7fa2e92604eb",
@@ -31341,11 +31319,35 @@
       "n_areas": 1,
       "last_seen": "2026-10-17T19:41:27.974Z",
       "gone_at": "2026-10-17T21:47:15.929Z"
+     },
+     "2.49.0.0.616.0.PL.261012065823.PL803_01421": {
+      "first_seen": "2026-10-12T08:07:23.758Z",
+      "hash": "117af34cea6ea27cda584705d2473c29c626a73be8b10236a92ac07cdb4fca27",
+      "key_hashes": {
+       "identifier": "ae3c083eb28e",
+       "incidents": "e177b5907768",
+       "info": "9058f4491d0e",
+       "msgType": "e177b5907768",
+       "scope": "ff2e96a9a685",
+       "sender": "3bb2238993e1",
+       "sent": "b0752ffd6bab",
+       "status": "516a5bec7439",
+       "uuid": "076e32ebd15a"
+      },
+      "changes": 0,
+      "published": "2026-10-12T06:58:23.000Z",
+      "valid_to": "2026-10-12T11:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": "2; yellow; Moderate",
+      "n_areas": 1,
+      "last_seen": "2026-10-17T23:31:36.079Z",
+      "gone_at": "2026-10-18T01:31:50.866Z"
      }
     },
-    "last_poll_t": "2026-10-17T23:31:36.079Z"
+    "last_poll_t": "2026-10-18T01:31:50.866Z"
    },
-   "last_feed_hash": "4a221e18513af676e65608fcf256c55923c508a84b2403efb2cca465dbc0cab9",
+   "last_feed_hash": "c94a6895f200cd58eacf33b27ac15f332292deb3ca0a775bedbddfd87b98d2cf",
    "schema": {
     "hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b",
     "seen": {
@@ -31429,13 +31431,13 @@
      ]
     }
    },
-   "last_success": "2026-10-17T23:31:36.079Z",
+   "last_success": "2026-10-18T01:31:50.866Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-10-17",
+   "last_snapshot_day": "2026-10-18",
    "last_fail_body_hash": null,
-   "n_items": 386,
+   "n_items": 385,
    "zero_since": null,
-   "last_snapshot_t": "2026-10-17T21:47:15.929Z"
+   "last_snapshot_t": "2026-10-18T01:31:50.866Z"
   },
   "meteoalarm-atom": {
    "ledger": {
@@ -70771,7 +70773,7 @@
       "gone_at": "2026-10-17T23:31:39.913Z"
      }
     },
-    "last_poll_t": "2026-10-17T23:31:39.913Z"
+    "last_poll_t": "2026-10-18T01:31:55.316Z"
    },
    "last_feed_hash": "5c396140849a48cd08eb264a632d9d0bd10a0f0d42f7d4bb0b4eb6a6db588f46",
    "schema": {
@@ -70853,13 +70855,13 @@
      ]
     }
    },
-   "last_success": "2026-10-17T23:31:39.913Z",
+   "last_success": "2026-10-18T01:31:55.316Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-10-17",
+   "last_snapshot_day": "2026-10-18",
    "last_fail_body_hash": null,
    "n_items": 243,
    "zero_since": null,
-   "last_snapshot_t": "2026-10-17T21:47:18.566Z"
+   "last_snapshot_t": "2026-10-18T01:31:55.316Z"
   }
  }
 }
