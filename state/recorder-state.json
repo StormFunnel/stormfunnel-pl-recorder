@@ -615,7 +615,7 @@
     }
    },
    "last_success": "2026-10-18T06:35:37.897Z",
-   "consecutive_failures": 8,
+   "consecutive_failures": 9,
    "last_snapshot_day": "2026-10-18",
    "last_fail_body_hash": "571a53e5e9a7a43042d47000b531fed3f9d580d3ece5183a038fd7af8088de8b",
    "n_items": 1,
@@ -3124,7 +3124,7 @@
       "gone_at": "2026-10-19T11:01:24.034Z"
      }
     },
-    "last_poll_t": "2026-10-19T11:01:24.034Z"
+    "last_poll_t": "2026-10-19T17:27:31.148Z"
    },
    "last_feed_hash": "fd406b8b5f5601034014b8f4bfb1dfb8ebe0b9c5640527e9b677fdc17efa03a5",
    "schema": {
@@ -3162,7 +3162,7 @@
      ]
     }
    },
-   "last_success": "2026-10-19T11:01:24.034Z",
+   "last_success": "2026-10-19T17:27:31.148Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-19",
    "last_fail_body_hash": null,
@@ -3174,40 +3174,6 @@
    "ledger": {
     "active": {},
     "gone": {
-     "Sk20261004095036980": {
-      "first_seen": "2026-10-04T14:58:33.302Z",
-      "hash": "9ebeb85612e27d7446c7a7ce7da414d6b76c7466efe60c72a6cf73ca0e49d28e",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "89afd238c041",
-       "EnComments": "45f1160f7272",
-       "EnContent": "0895ef402ee6",
-       "EnPhenomenonName": "a67bf4b3e2d4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "26009dddf4e3",
-       "LxValidFrom": "5574f20486c9",
-       "LxValidTo": "4125c9c8054d",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "1de6f2e7f5e8",
-       "PhenomenonName": "d08aa294a89e",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "b7383a3cb668",
-       "SMS": "959e969ccbda",
-       "ValidFrom": "5eadc256b26e",
-       "ValidTo": "c11e2229ba6b",
-       "_teryt": "0dfd5bb78855"
-      },
-      "changes": 3,
-      "published": "2026-10-04T09:50:00.000Z",
-      "valid_to": "2026-10-05T07:00:00.000Z",
-      "msg_type": null,
-      "event": "MG:Gęsta mgła",
-      "level": "1",
-      "n_areas": 264,
-      "last_seen": "2026-10-05T06:19:37.592Z",
-      "gone_at": "2026-10-05T15:04:21.019Z"
-     },
      "Sk20261005080808655": {
       "first_seen": "2026-10-05T15:04:21.019Z",
       "hash": "facfb84fd1d7cb5b544585e96aed3e4867981fd0911681602d477ee3305a8c1c",
@@ -3889,7 +3855,7 @@
       "gone_at": "2026-10-18T11:43:06.941Z"
      }
     },
-    "last_poll_t": "2026-10-19T11:01:25.514Z"
+    "last_poll_t": "2026-10-19T17:27:31.564Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -3949,7 +3915,7 @@
      ]
     }
    },
-   "last_success": "2026-10-19T11:01:25.514Z",
+   "last_success": "2026-10-19T17:27:31.564Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-18",
    "last_fail_body_hash": null,
@@ -31460,7 +31426,7 @@
       "gone_at": "2026-10-19T05:19:45.348Z"
      }
     },
-    "last_poll_t": "2026-10-19T11:01:26.196Z"
+    "last_poll_t": "2026-10-19T17:27:32.218Z"
    },
    "last_feed_hash": "5e1de65402beb46df56a81cd5b83d1b899809c3fba7a6f711b9a9d01038c4d84",
    "schema": {
@@ -31546,7 +31512,7 @@
      ]
     }
    },
-   "last_success": "2026-10-19T11:01:26.196Z",
+   "last_success": "2026-10-19T17:27:32.218Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-19",
    "last_fail_body_hash": null,
@@ -71254,7 +71220,7 @@
       "gone_at": "2026-10-18T22:36:31.816Z"
      }
     },
-    "last_poll_t": "2026-10-19T11:01:29.466Z"
+    "last_poll_t": "2026-10-19T17:27:34.657Z"
    },
    "last_feed_hash": "7cbe2cdf35a79213793262acb053efd0ceecc9ec0a4018c36692da003438f8e9",
    "schema": {
@@ -71336,7 +71302,7 @@
      ]
     }
    },
-   "last_success": "2026-10-19T11:01:29.466Z",
+   "last_success": "2026-10-19T17:27:34.657Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-19",
    "last_fail_body_hash": null,
