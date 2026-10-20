@@ -29,32 +29,6 @@
      }
     },
     "gone": {
-     "Sk20261005080808655": {
-      "first_seen": "2026-10-05T15:04:19.279Z",
-      "hash": "b0a9bb22866f009b2c593651c89755c7af60728776dcdd199c53cdd35045299b",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "c90c5093039d",
-       "komentarz": "4a73b4378094",
-       "nazwa_zdarzenia": "d08aa294a89e",
-       "obowiazuje_do": "3b993e9bd965",
-       "obowiazuje_od": "157254508c80",
-       "opublikowano": "45701068e184",
-       "prawdopodobienstwo": "9728ac83eb87",
-       "stopien": "391552c099c1",
-       "teryt": "5f683b188f83",
-       "tresc": "89afd238c041"
-      },
-      "changes": 0,
-      "published": "2026-10-05T08:08:00.000Z",
-      "valid_to": "2026-10-06T07:00:00.000Z",
-      "msg_type": null,
-      "event": "Gęsta mgła",
-      "level": "1",
-      "n_areas": 140,
-      "last_seen": "2026-10-06T02:13:31.974Z",
-      "gone_at": "2026-10-06T15:57:05.234Z"
-     },
      "Sk20261006093952063": {
       "first_seen": "2026-10-06T15:57:05.234Z",
       "hash": "57d5e9f9c0bc854f90aa8d8ab7126f3b1cbf6964537695c570811d1ec9414132",
@@ -550,7 +524,7 @@
       "gone_at": "2026-10-20T10:22:12.934Z"
      }
     },
-    "last_poll_t": "2026-10-20T15:19:42.529Z"
+    "last_poll_t": "2026-10-20T19:26:10.531Z"
    },
    "last_feed_hash": "2fa8eb44c2e42ce711c7eb3068fe59b411766fc31f7ec887e861e77427fda0d4",
    "schema": {
@@ -588,7 +562,7 @@
      ]
     }
    },
-   "last_success": "2026-10-20T15:19:42.529Z",
+   "last_success": "2026-10-20T19:26:10.531Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-20",
    "last_fail_body_hash": null,
@@ -3098,7 +3072,7 @@
       "gone_at": "2026-10-19T11:01:24.034Z"
      }
     },
-    "last_poll_t": "2026-10-20T15:19:43.971Z"
+    "last_poll_t": "2026-10-20T19:26:11.528Z"
    },
    "last_feed_hash": "fd406b8b5f5601034014b8f4bfb1dfb8ebe0b9c5640527e9b677fdc17efa03a5",
    "schema": {
@@ -3136,7 +3110,7 @@
      ]
     }
    },
-   "last_success": "2026-10-20T15:19:43.971Z",
+   "last_success": "2026-10-20T19:26:11.528Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-19",
    "last_fail_body_hash": null,
@@ -3828,7 +3802,7 @@
       "gone_at": "2026-10-18T11:43:06.941Z"
      }
     },
-    "last_poll_t": "2026-10-20T15:19:44.511Z"
+    "last_poll_t": "2026-10-20T19:26:11.951Z"
    },
    "last_feed_hash": "58c3640a59c76ae46f1125a0c0da91487bc7fa7fd5de132f3c22a8aaf3fe19f6",
    "schema": {
@@ -3888,7 +3862,7 @@
      ]
     }
    },
-   "last_success": "2026-10-20T15:19:44.511Z",
+   "last_success": "2026-10-20T19:26:11.951Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-20",
    "last_fail_body_hash": null,
@@ -31687,7 +31661,7 @@
       "gone_at": "2026-10-20T05:26:21.318Z"
      }
     },
-    "last_poll_t": "2026-10-20T15:19:45.655Z"
+    "last_poll_t": "2026-10-20T19:26:12.566Z"
    },
    "last_feed_hash": "288a53992091fd28b0ed3318cb1e36142bf0783e52ece4d05b18d2b646c0afd0",
    "schema": {
@@ -31773,7 +31747,7 @@
      ]
     }
    },
-   "last_success": "2026-10-20T15:19:45.655Z",
+   "last_success": "2026-10-20T19:26:12.566Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-20",
    "last_fail_body_hash": null,
@@ -66095,7 +66069,7 @@
       "gone_at": "2026-10-20T00:45:00.865Z"
      }
     },
-    "last_poll_t": "2026-10-20T15:19:48.534Z"
+    "last_poll_t": "2026-10-20T19:26:15.017Z"
    },
    "last_feed_hash": "d95eff9f018f1f5c6b5b2d0eaa9317642eb4ab72a33388307e90139863eaccc1",
    "schema": {
@@ -66177,7 +66151,7 @@
      ]
     }
    },
-   "last_success": "2026-10-20T15:19:48.534Z",
+   "last_success": "2026-10-20T19:26:15.017Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-20",
    "last_fail_body_hash": null,
