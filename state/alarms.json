@@ -1,8 +1,8 @@
 {
  "imgw-hydro:stale": {
   "first_failed_at": "2026-10-29T16:27:01.163Z",
-  "last_notified_at": "2026-10-30T01:17:47.321Z",
-  "notified": 2,
-  "message": "imgw-hydro: last successful poll 15.5h ago (2026-10-29T09:45:12.280Z), 3 consecutive failures"
+  "last_notified_at": "2026-10-30T07:19:56.876Z",
+  "notified": 3,
+  "message": "imgw-hydro: last successful poll 21.6h ago (2026-10-29T09:45:12.280Z), 4 consecutive failures"
  }
 }
