@@ -691,9 +691,9 @@
     }
    },
    "last_success": "2026-10-30T07:19:51.448Z",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "last_snapshot_day": "2026-10-30",
-   "last_fail_body_hash": null,
+   "last_fail_body_hash": "571a53e5e9a7a43042d47000b531fed3f9d580d3ece5183a038fd7af8088de8b",
    "n_items": 2,
    "zero_since": null,
    "last_snapshot_t": "2026-10-30T07:19:51.448Z"
@@ -1829,30 +1829,6 @@
       "level": "-1",
       "n_areas": 3
      },
-     "hydro:2026:211:842c32a7": {
-      "first_seen": "2026-08-16T04:51:08.768Z",
-      "hash": "6a3b68a697bab30c967a9af3ca1e530b3e7d0130d3039745c47804d6aa7e1b45",
-      "key_hashes": {
-       "biuro": "d53c646cb7ab",
-       "data_do": "75ea2ad87bd2",
-       "data_od": "f5b0aacf4c2a",
-       "komentarz": "38e89c9f0b03",
-       "numer": "54c021924798",
-       "obszary": "142df281a533",
-       "opublikowano": "cc833ae8bfb6",
-       "prawdopodobienstwo": "c05204d076c5",
-       "przebieg": "f8168fce756d",
-       "stopień": "6b54ef0f2b5a",
-       "zdarzenie": "d2c8f600f6dc"
-      },
-      "changes": 0,
-      "published": "2026-08-07T08:19:41.000Z",
-      "valid_to": null,
-      "msg_type": null,
-      "event": "Susza hydrologiczna",
-      "level": "-1",
-      "n_areas": 6
-     },
      "hydro:2026:214:842c32a7": {
       "first_seen": "2026-08-16T04:51:08.768Z",
       "hash": "dd4ffd43a59fe0e067336ae7cb3f009d6e79e8473419b1b67533ce8653574cc0",
@@ -2141,30 +2117,6 @@
       "level": "-1",
       "n_areas": 2
      },
-     "hydro:2026:233:842c32a7": {
-      "first_seen": "2026-08-28T11:22:17.292Z",
-      "hash": "68f8e0ede64011090636d18f48995925493af4a104a8c51fe49fe653719f995d",
-      "key_hashes": {
-       "biuro": "d53c646cb7ab",
-       "data_do": "75ea2ad87bd2",
-       "data_od": "11b87fca9ff8",
-       "komentarz": "38e89c9f0b03",
-       "numer": "bc8754734f14",
-       "obszary": "3f69d7a3e445",
-       "opublikowano": "2e9aac71d827",
-       "prawdopodobienstwo": "05d16921ba94",
-       "przebieg": "24481dcef1a2",
-       "stopień": "6b54ef0f2b5a",
-       "zdarzenie": "d2c8f600f6dc"
-      },
-      "changes": 0,
-      "published": "2026-08-28T07:32:15.000Z",
-      "valid_to": null,
-      "msg_type": null,
-      "event": "Susza hydrologiczna",
-      "level": "-1",
-      "n_areas": 2
-     },
      "hydro:2026:234:842c32a7": {
       "first_seen": "2026-08-28T11:22:17.292Z",
       "hash": "f824fa1dc11bbfb010c73bda6e2b01090626be7b08b8e05599b39d563e935e64",
@@ -2335,32 +2287,6 @@
      }
     },
     "gone": {
-     "hydro:2026:130:016238f4": {
-      "first_seen": "2026-10-14T09:47:37.955Z",
-      "hash": "2b5b37a44ce5f3e1ea50b376c1a96846337fa08cbe323a586f0566ab5fd07ab9",
-      "key_hashes": {
-       "biuro": "3edf739d411d",
-       "data_do": "505d9f93e744",
-       "data_od": "c701cfe29379",
-       "komentarz": "0a840b17d2b5",
-       "numer": "e3a4fdda0003",
-       "obszary": "8b3785a7b025",
-       "opublikowano": "713201d0c417",
-       "prawdopodobienstwo": "12b8c0944c94",
-       "przebieg": "a91627ec5588",
-       "stopień": "391552c099c1",
-       "zdarzenie": "98b3faedc67d"
-      },
-      "changes": 0,
-      "published": "2026-10-14T07:34:47.000Z",
-      "valid_to": "2026-10-15T08:00:00.000Z",
-      "msg_type": null,
-      "event": "Gwałtowne wzrosty stanów wody",
-      "level": "1",
-      "n_areas": 3,
-      "last_seen": "2026-10-15T05:13:36.628Z",
-      "gone_at": "2026-10-15T10:05:40.268Z"
-     },
      "hydro:2026:131:016238f4": {
       "first_seen": "2026-10-16T21:23:16.535Z",
       "hash": "660d9e8df650dcd106662d7336688e2e507910db068f711fe5dabe2c8db7512e",
@@ -3192,11 +3118,63 @@
       "n_areas": 9,
       "last_seen": "2026-10-29T02:52:52.753Z",
       "gone_at": "2026-10-29T09:45:12.280Z"
+     },
+     "hydro:2026:211:842c32a7": {
+      "first_seen": "2026-08-16T04:51:08.768Z",
+      "hash": "6a3b68a697bab30c967a9af3ca1e530b3e7d0130d3039745c47804d6aa7e1b45",
+      "key_hashes": {
+       "biuro": "d53c646cb7ab",
+       "data_do": "75ea2ad87bd2",
+       "data_od": "f5b0aacf4c2a",
+       "komentarz": "38e89c9f0b03",
+       "numer": "54c021924798",
+       "obszary": "142df281a533",
+       "opublikowano": "cc833ae8bfb6",
+       "prawdopodobienstwo": "c05204d076c5",
+       "przebieg": "f8168fce756d",
+       "stopień": "6b54ef0f2b5a",
+       "zdarzenie": "d2c8f600f6dc"
+      },
+      "changes": 0,
+      "published": "2026-08-07T08:19:41.000Z",
+      "valid_to": null,
+      "msg_type": null,
+      "event": "Susza hydrologiczna",
+      "level": "-1",
+      "n_areas": 6,
+      "last_seen": "2026-10-29T09:45:12.280Z",
+      "gone_at": "2026-10-30T14:24:27.108Z"
+     },
+     "hydro:2026:233:842c32a7": {
+      "first_seen": "2026-08-28T11:22:17.292Z",
+      "hash": "68f8e0ede64011090636d18f48995925493af4a104a8c51fe49fe653719f995d",
+      "key_hashes": {
+       "biuro": "d53c646cb7ab",
+       "data_do": "75ea2ad87bd2",
+       "data_od": "11b87fca9ff8",
+       "komentarz": "38e89c9f0b03",
+       "numer": "bc8754734f14",
+       "obszary": "3f69d7a3e445",
+       "opublikowano": "2e9aac71d827",
+       "prawdopodobienstwo": "05d16921ba94",
+       "przebieg": "24481dcef1a2",
+       "stopień": "6b54ef0f2b5a",
+       "zdarzenie": "d2c8f600f6dc"
+      },
+      "changes": 0,
+      "published": "2026-08-28T07:32:15.000Z",
+      "valid_to": null,
+      "msg_type": null,
+      "event": "Susza hydrologiczna",
+      "level": "-1",
+      "n_areas": 2,
+      "last_seen": "2026-10-29T09:45:12.280Z",
+      "gone_at": "2026-10-30T14:24:27.108Z"
      }
     },
-    "last_poll_t": "2026-10-29T09:45:12.280Z"
+    "last_poll_t": "2026-10-30T14:24:27.108Z"
    },
-   "last_feed_hash": "a2e709cf86ef98a7e10f9df88504c3a8ea651f958c8c3a03510d0d5556089d2c",
+   "last_feed_hash": "6b0de174e0b944d236f3b629c1e6ffe9929507eaf6f053b8c5dbbf816fff7ffb",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -3232,151 +3210,18 @@
      ]
     }
    },
-   "last_success": "2026-10-29T09:45:12.280Z",
-   "consecutive_failures": 4,
-   "last_snapshot_day": "2026-10-29",
+   "last_success": "2026-10-30T14:24:27.108Z",
+   "consecutive_failures": 0,
+   "last_snapshot_day": "2026-10-30",
    "last_fail_body_hash": null,
-   "n_items": 68,
+   "n_items": 66,
    "zero_since": null,
-   "last_snapshot_t": "2026-10-29T09:45:12.280Z"
+   "last_snapshot_t": "2026-10-30T14:24:27.108Z"
   },
   "imgw-osmet": {
    "ledger": {
-    "active": {
-     "Sk20261029105217663": {
-      "first_seen": "2026-10-29T16:26:56.429Z",
-      "hash": "7ad0ee2b325cac10f281f6f85b0f532714cc89fd6c4c1e0d2483e0427665f486",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "d277c5ffb971",
-       "EnComments": "45f1160f7272",
-       "EnContent": "0895ef402ee6",
-       "EnPhenomenonName": "a67bf4b3e2d4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "15e93c86f6ff",
-       "LxValidFrom": "484d635ea79a",
-       "LxValidTo": "22ce4f66fe4f",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "1de6f2e7f5e8",
-       "PhenomenonName": "d08aa294a89e",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "03d9d688cf3c",
-       "SMS": "a84ee555d235",
-       "ValidFrom": "62885cb5e4ec",
-       "ValidTo": "55da3731c0ef",
-       "_teryt": "ba2cd99cf79f"
-      },
-      "changes": 1,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": null,
-      "event": "MG:Gęsta mgła",
-      "level": "1",
-      "n_areas": 18
-     },
-     "Sk20261029192544112": {
-      "first_seen": "2026-10-29T21:21:40.301Z",
-      "hash": "0446ccd03cc2e5defe1db52ff2d254eb82162d71a4e58bf5d6fcde48a20cb0c2",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "9fa252dc2937",
-       "EnComments": "45f1160f7272",
-       "EnContent": "0895ef402ee6",
-       "EnPhenomenonName": "a67bf4b3e2d4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "1f6d3275c80c",
-       "LxValidFrom": "07c083c6e50a",
-       "LxValidTo": "22ce4f66fe4f",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "1de6f2e7f5e8",
-       "PhenomenonName": "d08aa294a89e",
-       "Probability": "7b1a278f5abe",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "72cb05d68aee",
-       "SMS": "c23a84a2fcca",
-       "ValidFrom": "f9bc79c2cc00",
-       "ValidTo": "55da3731c0ef",
-       "_teryt": "68334cfc09de"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": null,
-      "event": "MG:Gęsta mgła",
-      "level": "1",
-      "n_areas": 16
-     }
-    },
+    "active": {},
     "gone": {
-     "Sk20261015092234170": {
-      "first_seen": "2026-10-15T10:05:40.805Z",
-      "hash": "f5edbdd3c673ec2a00ce55942fb3a586edc298bade8530b4b520cf9760c73528",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "89afd238c041",
-       "EnComments": "45f1160f7272",
-       "EnContent": "0895ef402ee6",
-       "EnPhenomenonName": "a67bf4b3e2d4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "aca4fad3cdf4",
-       "LxValidFrom": "4916a92e5c89",
-       "LxValidTo": "62dfc293f0d7",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "1de6f2e7f5e8",
-       "PhenomenonName": "d08aa294a89e",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "9839a5cb378e",
-       "SMS": "4d4e845ee802",
-       "ValidFrom": "389b6e86d078",
-       "ValidTo": "061de7875e22",
-       "_teryt": "3bc2b263329b"
-      },
-      "changes": 5,
-      "published": "2026-10-15T09:22:00.000Z",
-      "valid_to": "2026-10-16T07:00:00.000Z",
-      "msg_type": null,
-      "event": "MG:Gęsta mgła",
-      "level": "1",
-      "n_areas": 122,
-      "last_seen": "2026-10-16T04:56:22.392Z",
-      "gone_at": "2026-10-16T09:39:03.781Z"
-     },
-     "Sk20261015092237247": {
-      "first_seen": "2026-10-15T10:05:40.805Z",
-      "hash": "24dfcc0c9d88f6597c10bafbf258398932dec275a23f02210ff8795f693c1d8f",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "89afd238c041",
-       "EnComments": "45f1160f7272",
-       "EnContent": "0895ef402ee6",
-       "EnPhenomenonName": "a67bf4b3e2d4",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "aca4fad3cdf4",
-       "LxValidFrom": "4916a92e5c89",
-       "LxValidTo": "16534b00fc60",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "1de6f2e7f5e8",
-       "PhenomenonName": "d08aa294a89e",
-       "Probability": "48449a14a4ff",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "9839a5cb378e",
-       "SMS": "3347b24ae9ba",
-       "ValidFrom": "389b6e86d078",
-       "ValidTo": "f935475362b0",
-       "_teryt": "c7db3e9be263"
-      },
-      "changes": 0,
-      "published": "2026-10-15T09:22:00.000Z",
-      "valid_to": "2026-10-16T09:00:00.000Z",
-      "msg_type": null,
-      "event": "MG:Gęsta mgła",
-      "level": "1",
-      "n_areas": 17,
-      "last_seen": "2026-10-16T04:56:22.392Z",
-      "gone_at": "2026-10-16T09:39:03.781Z"
-     },
      "Sk20261016093614055": {
       "first_seen": "2026-10-16T14:18:39.619Z",
       "hash": "211e4cd3924e77858992f260e911afa7bf268b61155a7eb6be49883d28915cd5",
@@ -4090,11 +3935,79 @@
       "n_areas": 32,
       "last_seen": "2026-10-29T02:52:53.070Z",
       "gone_at": "2026-10-29T09:45:12.625Z"
+     },
+     "Sk20261029105217663": {
+      "first_seen": "2026-10-29T16:26:56.429Z",
+      "hash": "7ad0ee2b325cac10f281f6f85b0f532714cc89fd6c4c1e0d2483e0427665f486",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "d277c5ffb971",
+       "EnComments": "45f1160f7272",
+       "EnContent": "0895ef402ee6",
+       "EnPhenomenonName": "a67bf4b3e2d4",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "15e93c86f6ff",
+       "LxValidFrom": "484d635ea79a",
+       "LxValidTo": "22ce4f66fe4f",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "1de6f2e7f5e8",
+       "PhenomenonName": "d08aa294a89e",
+       "Probability": "48449a14a4ff",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "03d9d688cf3c",
+       "SMS": "a84ee555d235",
+       "ValidFrom": "62885cb5e4ec",
+       "ValidTo": "55da3731c0ef",
+       "_teryt": "ba2cd99cf79f"
+      },
+      "changes": 1,
+      "published": "2026-10-29T10:52:00.000Z",
+      "valid_to": "2026-10-30T09:00:00.000Z",
+      "msg_type": null,
+      "event": "MG:Gęsta mgła",
+      "level": "1",
+      "n_areas": 18,
+      "last_seen": "2026-10-30T07:19:52.703Z",
+      "gone_at": "2026-10-30T14:24:27.430Z"
+     },
+     "Sk20261029192544112": {
+      "first_seen": "2026-10-29T21:21:40.301Z",
+      "hash": "0446ccd03cc2e5defe1db52ff2d254eb82162d71a4e58bf5d6fcde48a20cb0c2",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "9fa252dc2937",
+       "EnComments": "45f1160f7272",
+       "EnContent": "0895ef402ee6",
+       "EnPhenomenonName": "a67bf4b3e2d4",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "1f6d3275c80c",
+       "LxValidFrom": "07c083c6e50a",
+       "LxValidTo": "22ce4f66fe4f",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "1de6f2e7f5e8",
+       "PhenomenonName": "d08aa294a89e",
+       "Probability": "7b1a278f5abe",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "72cb05d68aee",
+       "SMS": "c23a84a2fcca",
+       "ValidFrom": "f9bc79c2cc00",
+       "ValidTo": "55da3731c0ef",
+       "_teryt": "68334cfc09de"
+      },
+      "changes": 0,
+      "published": "2026-10-29T19:25:00.000Z",
+      "valid_to": "2026-10-30T09:00:00.000Z",
+      "msg_type": null,
+      "event": "MG:Gęsta mgła",
+      "level": "1",
+      "n_areas": 16,
+      "last_seen": "2026-10-30T07:19:52.703Z",
+      "gone_at": "2026-10-30T14:24:27.430Z"
      }
     },
-    "last_poll_t": "2026-10-30T07:19:52.703Z"
+    "last_poll_t": "2026-10-30T14:24:27.430Z"
    },
-   "last_feed_hash": "12a33baea3ac9885a6ad35ae81c4c0242968d42f3e81bec56b9c4faf5c11bdd9",
+   "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -4152,13 +4065,13 @@
      ]
     }
    },
-   "last_success": "2026-10-30T07:19:52.703Z",
+   "last_success": "2026-10-30T14:24:27.430Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-30",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-10-30T07:19:52.703Z",
-   "n_items": 2,
-   "zero_since": null
+   "last_snapshot_t": "2026-10-30T14:24:27.430Z",
+   "n_items": 0,
+   "zero_since": "2026-10-30T14:24:27.430Z"
   },
   "meteoalarm-json": {
    "ledger": {
@@ -23980,7 +23893,7 @@
       "gone_at": "2026-10-30T07:19:53.808Z"
      }
     },
-    "last_poll_t": "2026-10-30T07:19:53.808Z"
+    "last_poll_t": "2026-10-30T14:24:28.484Z"
    },
    "last_feed_hash": "13474db4e2faa0c69e3ebdf6024c54d4b868e4c59de705d9d30fc53532466ae1",
    "schema": {
@@ -24066,7 +23979,7 @@
      ]
     }
    },
-   "last_success": "2026-10-30T07:19:53.808Z",
+   "last_success": "2026-10-30T14:24:28.484Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-30",
    "last_fail_body_hash": null,
@@ -51986,7 +51899,7 @@
       "gone_at": "2026-10-30T07:19:56.169Z"
      }
     },
-    "last_poll_t": "2026-10-30T07:19:56.169Z"
+    "last_poll_t": "2026-10-30T14:24:30.054Z"
    },
    "last_feed_hash": "33431a4593b265ef6789b7431f6e193351a4b99eb5bc4ceda40e2598c738e2ab",
    "schema": {
@@ -52068,7 +51981,7 @@
      ]
     }
    },
-   "last_success": "2026-10-30T07:19:56.169Z",
+   "last_success": "2026-10-30T14:24:30.054Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-10-30",
    "last_fail_body_hash": null,
