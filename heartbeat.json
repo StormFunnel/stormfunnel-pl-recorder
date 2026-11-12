@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-12T10:11:50.207Z",
+ "updated": "2026-11-12T18:25:30.611Z",
  "sources": {
   "imgw-meteo": {
-   "last_success": "2026-11-10T23:58:27.016Z",
-   "consecutive_failures": 5,
-   "active_ids": 1,
-   "n_items": 1,
+   "last_success": "2026-11-12T18:25:30.612Z",
+   "consecutive_failures": 0,
+   "active_ids": 4,
+   "n_items": 4,
    "zero_since": null,
    "schema_hash": "cd6c64de970696386cb234bbe656f68ffff51cf749f7048d3e4566b5c08a7d43"
   },
   "imgw-hydro": {
-   "last_success": "2026-11-12T10:11:51.195Z",
+   "last_success": "2026-11-12T18:25:31.590Z",
    "consecutive_failures": 0,
-   "active_ids": 49,
-   "n_items": 49,
+   "active_ids": 51,
+   "n_items": 51,
    "zero_since": null,
    "schema_hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532"
   },
   "imgw-osmet": {
-   "last_success": "2026-11-12T10:11:51.510Z",
+   "last_success": "2026-11-12T18:25:31.968Z",
    "consecutive_failures": 0,
-   "active_ids": 0,
-   "n_items": 0,
-   "zero_since": "2026-11-11T05:58:00.472Z",
+   "active_ids": 4,
+   "n_items": 4,
+   "zero_since": null,
    "schema_hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb"
   },
   "meteoalarm-json": {
-   "last_success": "2026-11-12T10:11:51.939Z",
+   "last_success": "2026-11-12T18:25:32.532Z",
    "consecutive_failures": 0,
-   "active_ids": 456,
-   "n_items": 456,
+   "active_ids": 491,
+   "n_items": 491,
    "zero_since": null,
    "schema_hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b"
   },
   "meteoalarm-atom": {
-   "last_success": "2026-11-12T10:11:55.192Z",
+   "last_success": "2026-11-12T18:25:36.467Z",
    "consecutive_failures": 0,
-   "active_ids": 18,
-   "n_items": 18,
+   "active_ids": 53,
+   "n_items": 53,
    "zero_since": null,
    "schema_hash": "b016417e7714dec7d2424de8362607abe242fa37e56cd0238a67ef494b2559da"
   }
