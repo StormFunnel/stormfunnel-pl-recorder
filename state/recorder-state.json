@@ -3,30 +3,6 @@
   "imgw-meteo": {
    "ledger": {
     "active": {
-     "Sk20261117212132804": {
-      "first_seen": "2026-11-18T02:24:30.849Z",
-      "hash": "68db0b3374b7c4c8b041783507054ba9b280fcfb1d446f92f921d8865b72ec2f",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "090e85c843c0",
-       "komentarz": "4a73b4378094",
-       "nazwa_zdarzenia": "28ffd1dda388",
-       "obowiazuje_do": "7ef46320a378",
-       "obowiazuje_od": "227c0ca367b1",
-       "opublikowano": "035957be1076",
-       "prawdopodobienstwo": "12b8c0944c94",
-       "stopien": "391552c099c1",
-       "teryt": "d43d2adc5cc4",
-       "tresc": "4647cfc1f0bd"
-      },
-      "changes": 0,
-      "published": "2026-11-17T21:21:00.000Z",
-      "valid_to": "2026-11-18T09:00:00.000Z",
-      "msg_type": null,
-      "event": "Silny wiatr",
-      "level": "1",
-      "n_areas": 8
-     },
      "Sk20261117212133431": {
       "first_seen": "2026-11-18T02:24:30.849Z",
       "hash": "15f3e50808e6854222d2b2eaf7f40cb27176ee03d94189132dc7e72136762685",
@@ -884,11 +860,37 @@
       "n_areas": 11,
       "last_seen": "2026-11-17T20:03:13.823Z",
       "gone_at": "2026-11-18T02:24:30.849Z"
+     },
+     "Sk20261117212132804": {
+      "first_seen": "2026-11-18T02:24:30.849Z",
+      "hash": "68db0b3374b7c4c8b041783507054ba9b280fcfb1d446f92f921d8865b72ec2f",
+      "key_hashes": {
+       "biuro": "f624642a0e44",
+       "id": "090e85c843c0",
+       "komentarz": "4a73b4378094",
+       "nazwa_zdarzenia": "28ffd1dda388",
+       "obowiazuje_do": "7ef46320a378",
+       "obowiazuje_od": "227c0ca367b1",
+       "opublikowano": "035957be1076",
+       "prawdopodobienstwo": "12b8c0944c94",
+       "stopien": "391552c099c1",
+       "teryt": "d43d2adc5cc4",
+       "tresc": "4647cfc1f0bd"
+      },
+      "changes": 0,
+      "published": "2026-11-17T21:21:00.000Z",
+      "valid_to": "2026-11-18T09:00:00.000Z",
+      "msg_type": null,
+      "event": "Silny wiatr",
+      "level": "1",
+      "n_areas": 8,
+      "last_seen": "2026-11-18T02:24:30.849Z",
+      "gone_at": "2026-11-18T10:36:58.554Z"
      }
     },
-    "last_poll_t": "2026-11-18T02:24:30.849Z"
+    "last_poll_t": "2026-11-18T10:36:58.554Z"
    },
-   "last_feed_hash": "fa43d66bd979c80883042d1d995556c95255d6a54b797d1904a173fdbc9b4464",
+   "last_feed_hash": "4016fd2c9667a5b6deffe70777da47d96010f4100d9409e1a43b12fd8eb7e613",
    "schema": {
     "hash": "cd6c64de970696386cb234bbe656f68ffff51cf749f7048d3e4566b5c08a7d43",
     "seen": {
@@ -924,13 +926,13 @@
      ]
     }
    },
-   "last_success": "2026-11-18T02:24:30.849Z",
+   "last_success": "2026-11-18T10:36:58.554Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-18",
    "last_fail_body_hash": null,
-   "n_items": 2,
+   "n_items": 1,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-18T02:24:30.849Z"
+   "last_snapshot_t": "2026-11-18T10:36:58.554Z"
   },
   "imgw-hydro": {
    "ledger": {
@@ -1391,30 +1393,6 @@
       "level": "-1",
       "n_areas": 5
      },
-     "hydro:2026:145:842c32a7": {
-      "first_seen": "2026-08-16T04:51:08.768Z",
-      "hash": "4c7093d500c67b153ef16aa32c6c657ce8def97c5ebf1e9bc34e36209c082fd7",
-      "key_hashes": {
-       "biuro": "d53c646cb7ab",
-       "data_do": "75ea2ad87bd2",
-       "data_od": "25a535af164b",
-       "komentarz": "38e89c9f0b03",
-       "numer": "8a1ca3d14181",
-       "obszary": "7b434a03fc61",
-       "opublikowano": "4b2bddb90ab6",
-       "prawdopodobienstwo": "d77ccb69e3f9",
-       "przebieg": "be654825e4e4",
-       "stopień": "6b54ef0f2b5a",
-       "zdarzenie": "d2c8f600f6dc"
-      },
-      "changes": 0,
-      "published": "2026-07-03T07:30:57.000Z",
-      "valid_to": null,
-      "msg_type": null,
-      "event": "Susza hydrologiczna",
-      "level": "-1",
-      "n_areas": 4
-     },
      "hydro:2026:62:0921701b": {
       "first_seen": "2026-08-16T04:51:08.768Z",
       "hash": "5eaa835217e6ed32e09cf8ea5602053fbe836d14b71d5a7b57ec069d87a47191",
@@ -1678,30 +1656,6 @@
       "event": "Susza hydrologiczna",
       "level": "-1",
       "n_areas": 1
-     },
-     "hydro:2026:168:842c32a7": {
-      "first_seen": "2026-08-16T04:51:08.768Z",
-      "hash": "b63bab5466ab34df1b44e2c90d0527193e7c57fc1ce72133b3d702e96e07d95a",
-      "key_hashes": {
-       "biuro": "d53c646cb7ab",
-       "data_do": "75ea2ad87bd2",
-       "data_od": "d99f2828e4b3",
-       "komentarz": "38e89c9f0b03",
-       "numer": "6ccb2a4ee2a2",
-       "obszary": "2e63fdcb4406",
-       "opublikowano": "e793324096c6",
-       "prawdopodobienstwo": "d77ccb69e3f9",
-       "przebieg": "114f7acf65a4",
-       "stopień": "6b54ef0f2b5a",
-       "zdarzenie": "d2c8f600f6dc"
-      },
-      "changes": 0,
-      "published": "2026-07-15T07:25:49.000Z",
-      "valid_to": null,
-      "msg_type": null,
-      "event": "Susza hydrologiczna",
-      "level": "-1",
-      "n_areas": 8
      },
      "hydro:2026:210:842c32a7": {
       "first_seen": "2026-08-16T04:51:08.768Z",
@@ -2388,11 +2342,63 @@
       "n_areas": 4,
       "last_seen": "2026-11-17T02:51:42.576Z",
       "gone_at": "2026-11-17T11:39:46.043Z"
+     },
+     "hydro:2026:145:842c32a7": {
+      "first_seen": "2026-08-16T04:51:08.768Z",
+      "hash": "4c7093d500c67b153ef16aa32c6c657ce8def97c5ebf1e9bc34e36209c082fd7",
+      "key_hashes": {
+       "biuro": "d53c646cb7ab",
+       "data_do": "75ea2ad87bd2",
+       "data_od": "25a535af164b",
+       "komentarz": "38e89c9f0b03",
+       "numer": "8a1ca3d14181",
+       "obszary": "7b434a03fc61",
+       "opublikowano": "4b2bddb90ab6",
+       "prawdopodobienstwo": "d77ccb69e3f9",
+       "przebieg": "be654825e4e4",
+       "stopień": "6b54ef0f2b5a",
+       "zdarzenie": "d2c8f600f6dc"
+      },
+      "changes": 0,
+      "published": "2026-07-03T07:30:57.000Z",
+      "valid_to": null,
+      "msg_type": null,
+      "event": "Susza hydrologiczna",
+      "level": "-1",
+      "n_areas": 4,
+      "last_seen": "2026-11-18T02:24:31.767Z",
+      "gone_at": "2026-11-18T10:36:59.953Z"
+     },
+     "hydro:2026:168:842c32a7": {
+      "first_seen": "2026-08-16T04:51:08.768Z",
+      "hash": "b63bab5466ab34df1b44e2c90d0527193e7c57fc1ce72133b3d702e96e07d95a",
+      "key_hashes": {
+       "biuro": "d53c646cb7ab",
+       "data_do": "75ea2ad87bd2",
+       "data_od": "d99f2828e4b3",
+       "komentarz": "38e89c9f0b03",
+       "numer": "6ccb2a4ee2a2",
+       "obszary": "2e63fdcb4406",
+       "opublikowano": "e793324096c6",
+       "prawdopodobienstwo": "d77ccb69e3f9",
+       "przebieg": "114f7acf65a4",
+       "stopień": "6b54ef0f2b5a",
+       "zdarzenie": "d2c8f600f6dc"
+      },
+      "changes": 0,
+      "published": "2026-07-15T07:25:49.000Z",
+      "valid_to": null,
+      "msg_type": null,
+      "event": "Susza hydrologiczna",
+      "level": "-1",
+      "n_areas": 8,
+      "last_seen": "2026-11-18T02:24:31.767Z",
+      "gone_at": "2026-11-18T10:36:59.953Z"
      }
     },
-    "last_poll_t": "2026-11-18T02:24:31.767Z"
+    "last_poll_t": "2026-11-18T10:36:59.953Z"
    },
-   "last_feed_hash": "84f4c4e8c70986b11ad0e6f119f5aef72ad7d87fcd837b996e59e3e5a51b9a56",
+   "last_feed_hash": "0cb3d42e23f5f2d53bd40dcb135c84366fd8d8a5bfa1536aee215a5ef65034bd",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -2428,49 +2434,17 @@
      ]
     }
    },
-   "last_success": "2026-11-18T02:24:31.767Z",
+   "last_success": "2026-11-18T10:36:59.953Z",
    "consecutive_failures": 0,
-   "last_snapshot_day": "2026-11-17",
+   "last_snapshot_day": "2026-11-18",
    "last_fail_body_hash": null,
-   "n_items": 41,
+   "n_items": 39,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-17T11:39:46.043Z"
+   "last_snapshot_t": "2026-11-18T10:36:59.953Z"
   },
   "imgw-osmet": {
    "ledger": {
     "active": {
-     "Sk20261117212132804": {
-      "first_seen": "2026-11-18T02:24:32.103Z",
-      "hash": "a5dffc86f52ed21da6437f5a9887d50c636119011a7ad35dc8197a91e048b4e2",
-      "key_hashes": {
-       "Comments": "4a73b4378094",
-       "Content": "4647cfc1f0bd",
-       "EnComments": "45f1160f7272",
-       "EnContent": "951953a5fbbf",
-       "EnPhenomenonName": "31be5f4d7414",
-       "Level": "391552c099c1",
-       "LxReleaseDateTime": "74b99f6f09d2",
-       "LxValidFrom": "c0e8a2e44a32",
-       "LxValidTo": "52045d0c525b",
-       "Name2": "f624642a0e44",
-       "PhenomenonCode": "d4bb165db73a",
-       "PhenomenonName": "28ffd1dda388",
-       "Probability": "ff5a1ae012af",
-       "Rcb": "5feceb66ffc8",
-       "ReleaseDateTime": "295f0ca9eb52",
-       "SMS": "2a7cb05b3264",
-       "ValidFrom": "1c3fd58772a3",
-       "ValidTo": "5cdd0334861e",
-       "_teryt": "d43d2adc5cc4"
-      },
-      "changes": 0,
-      "published": "2026-11-17T21:21:00.000Z",
-      "valid_to": "2026-11-18T09:00:00.000Z",
-      "msg_type": null,
-      "event": "SW:Silny wiatr",
-      "level": "1",
-      "n_areas": 8
-     },
      "Sk20261117212133431": {
       "first_seen": "2026-11-18T02:24:32.103Z",
       "hash": "7bb7afa65455f4c08d6195cec10e63a151482a0184194f8038d540c79999297a",
@@ -3558,11 +3532,45 @@
       "n_areas": 11,
       "last_seen": "2026-11-17T20:03:14.845Z",
       "gone_at": "2026-11-18T02:24:32.103Z"
+     },
+     "Sk20261117212132804": {
+      "first_seen": "2026-11-18T02:24:32.103Z",
+      "hash": "a5dffc86f52ed21da6437f5a9887d50c636119011a7ad35dc8197a91e048b4e2",
+      "key_hashes": {
+       "Comments": "4a73b4378094",
+       "Content": "4647cfc1f0bd",
+       "EnComments": "45f1160f7272",
+       "EnContent": "951953a5fbbf",
+       "EnPhenomenonName": "31be5f4d7414",
+       "Level": "391552c099c1",
+       "LxReleaseDateTime": "74b99f6f09d2",
+       "LxValidFrom": "c0e8a2e44a32",
+       "LxValidTo": "52045d0c525b",
+       "Name2": "f624642a0e44",
+       "PhenomenonCode": "d4bb165db73a",
+       "PhenomenonName": "28ffd1dda388",
+       "Probability": "ff5a1ae012af",
+       "Rcb": "5feceb66ffc8",
+       "ReleaseDateTime": "295f0ca9eb52",
+       "SMS": "2a7cb05b3264",
+       "ValidFrom": "1c3fd58772a3",
+       "ValidTo": "5cdd0334861e",
+       "_teryt": "d43d2adc5cc4"
+      },
+      "changes": 0,
+      "published": "2026-11-17T21:21:00.000Z",
+      "valid_to": "2026-11-18T09:00:00.000Z",
+      "msg_type": null,
+      "event": "SW:Silny wiatr",
+      "level": "1",
+      "n_areas": 8,
+      "last_seen": "2026-11-18T02:24:32.103Z",
+      "gone_at": "2026-11-18T10:37:00.339Z"
      }
     },
-    "last_poll_t": "2026-11-18T02:24:32.103Z"
+    "last_poll_t": "2026-11-18T10:37:00.339Z"
    },
-   "last_feed_hash": "4dd7aa1662f8e2a3f1ad1f9a7f097ecb85cf123b69a5db39ac4ef9a9736b9b6c",
+   "last_feed_hash": "7a2261c7a063ca1a015594e4ecd3f375996dbb11a6e091e9ded5475f5d05cf06",
    "schema": {
     "hash": "bb5b461dfb5ef0630ed9274378148858418949bf647e0a3216012db0f07ce8eb",
     "seen": {
@@ -3620,12 +3628,12 @@
      ]
     }
    },
-   "last_success": "2026-11-18T02:24:32.103Z",
+   "last_success": "2026-11-18T10:37:00.339Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-18",
    "last_fail_body_hash": null,
-   "last_snapshot_t": "2026-11-18T02:24:32.103Z",
-   "n_items": 2,
+   "last_snapshot_t": "2026-11-18T10:37:00.339Z",
+   "n_items": 1,
    "zero_since": null
   },
   "meteoalarm-json": {
@@ -4999,921 +5007,53 @@
       "event": "Yellow Wind warning",
       "level": "2; yellow; Moderate",
       "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.261118101616.PL803_01601": {
+      "first_seen": "2026-11-18T10:37:00.954Z",
+      "hash": "79282d72bb12c8db2ce0c07ed74799fd2ca54088d988d26a8088b4bd58cbd5ca",
+      "key_hashes": {
+       "identifier": "0471f1c7eb8e",
+       "incidents": "e177b5907768",
+       "info": "71319d74eb9a",
+       "msgType": "e177b5907768",
+       "scope": "ff2e96a9a685",
+       "sender": "3bb2238993e1",
+       "sent": "2a3aac68be9c",
+       "status": "516a5bec7439",
+       "uuid": "83db5310ffcc"
+      },
+      "changes": 0,
+      "published": "2026-11-18T10:16:16.000Z",
+      "valid_to": "2026-11-19T05:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": "2; yellow; Moderate",
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.261118102055.PL804_01501": {
+      "first_seen": "2026-11-18T10:37:00.954Z",
+      "hash": "ea0eda8f134871122dc604a6a3994ca3113e67cf16e118a5c9eb03a309fa88c1",
+      "key_hashes": {
+       "identifier": "fa57f458c6d9",
+       "incidents": "e177b5907768",
+       "info": "c3f69f6010e6",
+       "msgType": "e177b5907768",
+       "scope": "ff2e96a9a685",
+       "sender": "3bb2238993e1",
+       "sent": "6335f513e7bb",
+       "status": "516a5bec7439",
+       "uuid": "190b896e13d7"
+      },
+      "changes": 0,
+      "published": "2026-11-18T10:20:55.000Z",
+      "valid_to": "2026-11-18T15:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": "2; yellow; Moderate",
+      "n_areas": 1
      }
     },
     "gone": {
-     "2.49.0.0.616.0.PL.261029081102.PL803_01481": {
-      "first_seen": "2026-10-29T09:45:13.112Z",
-      "hash": "e8506cf598d60e0ae1aea632c8a5f5e05f6add8c2be7ab8beced20a4db32e525",
-      "key_hashes": {
-       "identifier": "54ae1cece06a",
-       "incidents": "e177b5907768",
-       "info": "23dd590684af",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "b1fe2c07819e",
-       "status": "516a5bec7439",
-       "uuid": "707e0c5c7a76"
-      },
-      "changes": 0,
-      "published": "2026-10-29T08:11:02.000Z",
-      "valid_to": "2026-10-29T10:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0206": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "1dddd1a3db85cd7bfae55a66e3f7f1833a9297918a699775af3760a6be964a45",
-      "key_hashes": {
-       "identifier": "3ce7ea4b0415",
-       "incidents": "e177b5907768",
-       "info": "67a722e2558d",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "43ceb3432322"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0207": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "04abefd823140519b73fa0c0128ad23ef1935a84ee072472f639d08833de0c8d",
-      "key_hashes": {
-       "identifier": "7ebcd42ba9c7",
-       "incidents": "e177b5907768",
-       "info": "498d88554f1a",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "4743b2c597d9"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0212": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "4b0165ed0ce50f6582d79e6634e0e3e0e5b5ce8a4d247e4e449b0afabdc9bb27",
-      "key_hashes": {
-       "identifier": "b3a96a9b325b",
-       "incidents": "e177b5907768",
-       "info": "fc26c8d1c90b",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "92f1f9f0a365"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0210": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "9d50e1f46c4c1a7cbaef15f428dea6e5d0a191dbab9a23ae7567b56c26f0b4c5",
-      "key_hashes": {
-       "identifier": "c60d3886bfb8",
-       "incidents": "e177b5907768",
-       "info": "0a112bb184f0",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "e5d6896c3863"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0225": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "c0993c9bdd5b1a7a0cf63fbee49a4510c5bcdc6db52284a7c50c11105b42f4ea",
-      "key_hashes": {
-       "identifier": "f4299a7e97bc",
-       "incidents": "e177b5907768",
-       "info": "cb364d88686d",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "7fad2a2889eb"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0261": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "2a8256a662223e6e7fd0a1166f262faaa499c6557dac631c396249416ea4dd5a",
-      "key_hashes": {
-       "identifier": "e196dd3abb50",
-       "incidents": "e177b5907768",
-       "info": "d8db3d90b055",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "da41f78c501f"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0221": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "26b36a2bc6cacc6d1fc98e84459017a0f3255c541e261888b19e6c4be06deab4",
-      "key_hashes": {
-       "identifier": "d9cffcf1d3b0",
-       "incidents": "e177b5907768",
-       "info": "d331256e62a0",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "38a721e513d0"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL0265": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "f538f1f8df3bd1fe528b6105d061579916648ef3817124495dcf595ca3fb3470",
-      "key_hashes": {
-       "identifier": "0af967d1c693",
-       "incidents": "e177b5907768",
-       "info": "f7bb8db895aa",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "a023fc0aedde"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3207": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "5cde5644dcb03e11631f5a8ccaa0aaa79cc639bd170765cdf8caef0951f05dcf",
-      "key_hashes": {
-       "identifier": "7c7928a9bd6a",
-       "incidents": "e177b5907768",
-       "info": "02c1e9dd612c",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "b8c7978632c0"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3204": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "30b77c77b0f29dec19afe9def175fb3d9ecaf5723c70be3a9d31a384af315052",
-      "key_hashes": {
-       "identifier": "c71313352728",
-       "incidents": "e177b5907768",
-       "info": "49a45d10e0c6",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "80e2ff440d89"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3205": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "16f0476ed6c961355ca0cf945c5bbdf5559c08b074b0b5b7c32366b56e88c832",
-      "key_hashes": {
-       "identifier": "65a3075fcec2",
-       "incidents": "e177b5907768",
-       "info": "313b41dfbe7d",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "ab96f573c17e"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3208": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "47bb4b4b7477b504197775761011744b111974145283a28ec1de13c7690ed99b",
-      "key_hashes": {
-       "identifier": "535f7df1bdbe",
-       "incidents": "e177b5907768",
-       "info": "d162aff5e6c6",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "ff3807d8c3d1"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3206": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "69f5f9a5a1225bcb0d4b3e81f7f8c4216bf094f4efd2e4746c50871790707c75",
-      "key_hashes": {
-       "identifier": "4fcd42cb69dd",
-       "incidents": "e177b5907768",
-       "info": "b769c59516c5",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "d7f727163769"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3212": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "6e39e2c512b4437df8477442dc081b13c4acb12ef51059a0f2e05cf46168ac7a",
-      "key_hashes": {
-       "identifier": "2ac43a8b3ff2",
-       "incidents": "e177b5907768",
-       "info": "547f2f20f3cb",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "5b369d86c8be"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3214": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "1e6930f27e5b98cb45caa4f475886e26a5ae7615d55b7439a6b7bbe307b05b1d",
-      "key_hashes": {
-       "identifier": "a1a1f1ac5fb1",
-       "incidents": "e177b5907768",
-       "info": "7a283a198766",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "d15e06d194f8"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3211": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "79bb0a68b65431abdc2253926461e728f0d9e546e8413ea983d345133974c3cc",
-      "key_hashes": {
-       "identifier": "9498e0ca38a4",
-       "incidents": "e177b5907768",
-       "info": "91f30fd79d38",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "b9f031434680"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3218": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "270cf810f3318b3c9cf63c221e9ab1944fa6bb756217149f9e7f8f9af6fe39c0",
-      "key_hashes": {
-       "identifier": "b7eec9944db5",
-       "incidents": "e177b5907768",
-       "info": "8211d27ec5c2",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "43a83fed1593"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029105217663.PL3262": {
-      "first_seen": "2026-10-29T16:26:57.247Z",
-      "hash": "ce6d9859e1ba3fefcdefebfd8a02e6f38e65391a4376130484e24cf8563f24c7",
-      "key_hashes": {
-       "identifier": "47c212e674f9",
-       "incidents": "e177b5907768",
-       "info": "c67d2ff9c119",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "15e93c86f6ff",
-       "status": "516a5bec7439",
-       "uuid": "24e1a947f85b"
-      },
-      "changes": 0,
-      "published": "2026-10-29T10:52:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.261029171141.PL803_01491": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "18851ae9d6f064505fdf45627eaa7c06593eeb699e1dcc3b07ab8880c3e8f36b",
-      "key_hashes": {
-       "identifier": "d6a9bc14d075",
-       "incidents": "e177b5907768",
-       "info": "4e74c9419808",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "72d46e3595f6",
-       "status": "516a5bec7439",
-       "uuid": "462db4789fc3"
-      },
-      "changes": 0,
-      "published": "2026-10-29T17:11:41.000Z",
-      "valid_to": "2026-10-29T20:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Orange Fog warning",
-      "level": "3; orange; Severe",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1205": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "678fd81d4760736930a1e3d4171d3a185e213b9fd7fed2eef7e8c082dd076568",
-      "key_hashes": {
-       "identifier": "e8643c852342",
-       "incidents": "e177b5907768",
-       "info": "733ebda64d64",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "470521dd5da2"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1207": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "13214ea2e44ea9ca54e5e79b4877dfc4084981c3fb2a5b6b198f2448ecc4a9e2",
-      "key_hashes": {
-       "identifier": "d2a67a098c48",
-       "incidents": "e177b5907768",
-       "info": "9900fc4f4b93",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "055cf8512e3e"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1210": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "6221772d72828d46179c72f46ae3c8bd158512e199aa71dbafee2732b1470edc",
-      "key_hashes": {
-       "identifier": "1654ed966213",
-       "incidents": "e177b5907768",
-       "info": "1a7652af5012",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "f586da842c47"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1211": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "e231fab4a365b0b306c21215f8eb122fbbab253fe4a08177f1186428d2101776",
-      "key_hashes": {
-       "identifier": "18ceaf3374ee",
-       "incidents": "e177b5907768",
-       "info": "52d336cd6889",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "02ccfb742b9f"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1215": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "1f9fba3de541a7d2fc8e4be818a01444a21a06ed71d9fd4b6620762302768f8c",
-      "key_hashes": {
-       "identifier": "448fd860641e",
-       "incidents": "e177b5907768",
-       "info": "31210df69d95",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "5bce3eec054d"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1217": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "078f2808066c81d1e9a89656f73009507e4052d423b1924384ef6573ee479f34",
-      "key_hashes": {
-       "identifier": "78cb8e543a61",
-       "incidents": "e177b5907768",
-       "info": "caf92aca15ea",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "9f9d6d666999"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1801": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "4bcac93d96dbd77cb6d0a0f2100fc8c63d5b8c3c6c1a1c64683eda8ea636375a",
-      "key_hashes": {
-       "identifier": "6ea9fd39e69b",
-       "incidents": "e177b5907768",
-       "info": "409ff4b95f0a",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "a2b496c8c3db"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1805": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "3721c030fa4e26fe872c383cf37087da79d081b38409b7c75cff9685d024b1f1",
-      "key_hashes": {
-       "identifier": "d744504bddac",
-       "incidents": "e177b5907768",
-       "info": "9fa6a73cf9fa",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "300f8f8ca51d"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1807": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "b41f2ff51120e994b94e8e1b5fd7517a606f7f562a6a2e6f7050506dd8559987",
-      "key_hashes": {
-       "identifier": "e575fc56c634",
-       "incidents": "e177b5907768",
-       "info": "9eb4d455376b",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "9c2539ac9d6a"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1817": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "0922c5a6b6e5ecb2bbee0b6090bd53cbc5cb371d4d3e8c4f90ac64a0c99f2e43",
-      "key_hashes": {
-       "identifier": "55b571671ee7",
-       "incidents": "e177b5907768",
-       "info": "5462e4751e20",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "d3209410b49e"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1821": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "d863c6aab136ea6699b28a9b6c396667d9d4ae51f19b6e84d2329286c417290a",
-      "key_hashes": {
-       "identifier": "c50ee98cb96e",
-       "incidents": "e177b5907768",
-       "info": "e5c92030ec84",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "ca9558fc2492"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL2402": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "a05d375a63d6c2cf22949318c07c0349612af9d0b023943e6985be2b3e5e7805",
-      "key_hashes": {
-       "identifier": "246334456fbe",
-       "incidents": "e177b5907768",
-       "info": "34cf2cc918b1",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "ac86c6c8e098"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL1861": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "b2340d2408c94cb11ca59fc9d4abf001135c3caf694bbbf95bb09af6782caf10",
-      "key_hashes": {
-       "identifier": "5602aa7642dc",
-       "incidents": "e177b5907768",
-       "info": "cd6530cf34b8",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "337b1f5aa8ea"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL2403": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "2bfc211a771b90c20e6548dc50f1e1d12f937ad85bcb610e36fc1bedfa2900df",
-      "key_hashes": {
-       "identifier": "5e41a788e052",
-       "incidents": "e177b5907768",
-       "info": "b71afd40d693",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "d48e2bd81d3c"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL2417": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "fd54ca544e3f8d2e695533e122f45b8d5c4da73313129e6170b955674825363d",
-      "key_hashes": {
-       "identifier": "b31a90de116e",
-       "incidents": "e177b5907768",
-       "info": "3d24d348c521",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "fbac6dcbd77d"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.Sk20261029192544112.PL2461": {
-      "first_seen": "2026-10-29T21:21:40.975Z",
-      "hash": "1b7f73a3fdd9239a28493fc48cbd574988d8e99520507467087c13599fd2a597",
-      "key_hashes": {
-       "identifier": "2a0243f52072",
-       "incidents": "e177b5907768",
-       "info": "5b7df8c68059",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1f6d3275c80c",
-       "status": "516a5bec7439",
-       "uuid": "ed7baea83261"
-      },
-      "changes": 0,
-      "published": "2026-10-29T19:25:00.000Z",
-      "valid_to": "2026-10-30T09:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.261029220316.PL803_01501": {
-      "first_seen": "2026-10-30T01:17:44.957Z",
-      "hash": "a24a86cdc9f2d88956e18cb1e5feabe8ee51156206c7a3694201aa061bd62a25",
-      "key_hashes": {
-       "identifier": "3f4176bba77c",
-       "incidents": "e177b5907768",
-       "info": "29cd7775b0a7",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "1311ae30e8d7",
-       "status": "516a5bec7439",
-       "uuid": "dc121b31d653"
-      },
-      "changes": 0,
-      "published": "2026-10-29T22:03:16.000Z",
-      "valid_to": "2026-10-30T00:30:00.000Z",
-      "msg_type": "Alert",
-      "event": "Orange Fog warning",
-      "level": "3; orange; Severe",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
-     "2.49.0.0.616.0.PL.261030001554.PL803_01511": {
-      "first_seen": "2026-10-30T01:17:44.957Z",
-      "hash": "bd20fc837ded3239280686abcf7ed5d203db4c290c52928603e2df0b7e10e65b",
-      "key_hashes": {
-       "identifier": "4ff609714b4d",
-       "incidents": "e177b5907768",
-       "info": "a63827e17ea9",
-       "msgType": "e177b5907768",
-       "scope": "ff2e96a9a685",
-       "sender": "3bb2238993e1",
-       "sent": "201be4ac99b5",
-       "status": "516a5bec7439",
-       "uuid": "bd289c9fec3e"
-      },
-      "changes": 0,
-      "published": "2026-10-30T00:15:54.000Z",
-      "valid_to": "2026-10-30T04:00:00.000Z",
-      "msg_type": "Alert",
-      "event": "Yellow Fog warning",
-      "level": "2; yellow; Moderate",
-      "n_areas": 1,
-      "last_seen": "2026-11-03T22:35:19.200Z",
-      "gone_at": "2026-11-04T02:42:13.502Z"
-     },
      "2.49.0.0.616.0.PL.261030052450.PL803_01521": {
       "first_seen": "2026-10-30T07:19:53.808Z",
       "hash": "ef524d28e0da30d0657105d0fc30f872e162870dc4ed6ba00439919952163497",
@@ -42798,9 +41938,9 @@
       "gone_at": "2026-11-18T02:24:32.724Z"
      }
     },
-    "last_poll_t": "2026-11-18T02:24:32.724Z"
+    "last_poll_t": "2026-11-18T10:37:00.954Z"
    },
-   "last_feed_hash": "dbc5aaedcea90319f13981c9d1bd4a66da9e6957d6712c1bcef732981de63575",
+   "last_feed_hash": "6bdf9389ec34a5e6c2306932789d20dfa04c60d137b48687f8c6d8a74879b937",
    "schema": {
     "hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b",
     "seen": {
@@ -42884,13 +42024,13 @@
      ]
     }
    },
-   "last_success": "2026-11-18T02:24:32.724Z",
+   "last_success": "2026-11-18T10:37:00.954Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-18",
    "last_fail_body_hash": null,
-   "n_items": 62,
+   "n_items": 64,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-18T02:24:32.724Z"
+   "last_snapshot_t": "2026-11-18T10:37:00.954Z"
   },
   "meteoalarm-atom": {
    "ledger": {
@@ -43946,6 +43086,70 @@
       "changes": 0,
       "published": "2026-11-17T21:21:00.000Z",
       "valid_to": "2026-11-18T09:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": null,
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.261118102055.PL804_01501": {
+      "first_seen": "2026-11-18T10:37:02.271Z",
+      "hash": "28c13ef85bfc1fca282224ee21d34001a448ee7a73050fd5db707a1d4c779f7c",
+      "key_hashes": {
+       "areaDesc": "f3a1c0d5e207",
+       "cap_link": "e2535610ecc4",
+       "certainty": "a93a3a106e9b",
+       "effective": "7fcced91d9df",
+       "entry_xml_hash": "5d419fe24c5e",
+       "event": "0b769654efcd",
+       "expires": "30e965e044df",
+       "geocodes": "6c7ca984a58b",
+       "identifier": "fa57f458c6d9",
+       "message_type": "e177b5907768",
+       "onset": "5c22ce67e7b8",
+       "published": "5177b920788e",
+       "scope": "ff2e96a9a685",
+       "sent": "eb587eb5b11c",
+       "severity": "3f41c1ae844e",
+       "status": "516a5bec7439",
+       "title": "1fefce0d216e",
+       "updated": "5177b920788e",
+       "urgency": "8bb56d632ef7"
+      },
+      "changes": 0,
+      "published": "2026-11-18T10:20:55.000Z",
+      "valid_to": "2026-11-18T15:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": null,
+      "n_areas": 1
+     },
+     "2.49.0.0.616.0.PL.261118101616.PL803_01601": {
+      "first_seen": "2026-11-18T10:37:02.271Z",
+      "hash": "0ad34c2b084d8324c35356f28151b11d794f9efa256fb621f5ce102d4520a20c",
+      "key_hashes": {
+       "areaDesc": "7ed0d7a1ebf4",
+       "cap_link": "c755d8421625",
+       "certainty": "a93a3a106e9b",
+       "effective": "96a55113bb68",
+       "entry_xml_hash": "cf0d1c234a9d",
+       "event": "0b769654efcd",
+       "expires": "f4b9cd2eb508",
+       "geocodes": "e50fbe4f4b07",
+       "identifier": "0471f1c7eb8e",
+       "message_type": "e177b5907768",
+       "onset": "5c22ce67e7b8",
+       "published": "d609b26a0100",
+       "scope": "ff2e96a9a685",
+       "sent": "8bbdda2df81f",
+       "severity": "3f41c1ae844e",
+       "status": "516a5bec7439",
+       "title": "e9cf3a2fa6d8",
+       "updated": "d609b26a0100",
+       "urgency": "8bb56d632ef7"
+      },
+      "changes": 0,
+      "published": "2026-11-18T10:16:16.000Z",
+      "valid_to": "2026-11-19T05:00:00.000Z",
       "msg_type": "Alert",
       "event": "Yellow Wind warning",
       "level": null,
@@ -97096,9 +96300,9 @@
       "gone_at": "2026-11-18T02:24:34.340Z"
      }
     },
-    "last_poll_t": "2026-11-18T02:24:34.340Z"
+    "last_poll_t": "2026-11-18T10:37:02.271Z"
    },
-   "last_feed_hash": "f59617ec191ddcfb87682aaf1ab5d3622f9045f1d7e2d7368a09b7ee6cc66426",
+   "last_feed_hash": "5c963a0cce5d9b4a2d9382b9f0a2f210abb6378c44f4dcc0e86c45dea8cec0f5",
    "schema": {
     "hash": "b016417e7714dec7d2424de8362607abe242fa37e56cd0238a67ef494b2559da",
     "seen": {
@@ -97178,13 +96382,13 @@
      ]
     }
    },
-   "last_success": "2026-11-18T02:24:34.340Z",
+   "last_success": "2026-11-18T10:37:02.271Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-18",
    "last_fail_body_hash": null,
-   "n_items": 33,
+   "n_items": 35,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-18T02:24:34.340Z"
+   "last_snapshot_t": "2026-11-18T10:37:02.271Z"
   }
  }
 }
