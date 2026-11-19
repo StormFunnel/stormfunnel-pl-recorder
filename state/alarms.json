@@ -1,8 +1,14 @@
 {
  "imgw-meteo:stale": {
   "first_failed_at": "2026-11-19T01:11:23.441Z",
-  "last_notified_at": "2026-11-19T08:54:06.065Z",
-  "notified": 2,
-  "message": "imgw-meteo: last successful poll 13.8h ago (2026-11-18T19:04:11.308Z), 2 consecutive failures"
+  "last_notified_at": "2026-11-19T18:08:44.614Z",
+  "notified": 3,
+  "message": "imgw-meteo: last successful poll 23.1h ago (2026-11-18T19:04:11.308Z), 3 consecutive failures"
+ },
+ "imgw-osmet:zero-items": {
+  "first_failed_at": "2026-11-19T18:08:44.614Z",
+  "last_notified_at": "2026-11-19T18:08:44.614Z",
+  "notified": 1,
+  "message": "imgw-osmet: 0 items for 17.0h while sibling imgw-meteo serves 1 — parser silently broken? Check data/snapshots for imgw-osmet."
  }
 }
