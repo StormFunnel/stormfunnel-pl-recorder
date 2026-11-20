@@ -927,7 +927,7 @@
     }
    },
    "last_success": "2026-11-18T19:04:11.308Z",
-   "consecutive_failures": 6,
+   "consecutive_failures": 7,
    "last_snapshot_day": "2026-11-18",
    "last_fail_body_hash": "571a53e5e9a7a43042d47000b531fed3f9d580d3ece5183a038fd7af8088de8b",
    "n_items": 1,
@@ -1752,6 +1752,54 @@
       "event": "Wezbranie z przekroczeniem stanów ostrzegawczych",
       "level": "2",
       "n_areas": 3
+     },
+     "hydro:2026:119:0921701b": {
+      "first_seen": "2026-11-20T22:46:23.089Z",
+      "hash": "de9bc16e510b8bfc9737a0b46e7d26169222be085bb7b3a4cd99f3d01dc44e21",
+      "key_hashes": {
+       "biuro": "141cd13b595d",
+       "data_do": "8361478291bc",
+       "data_od": "de5f64ec2abb",
+       "komentarz": "0a840b17d2b5",
+       "numer": "818b0427c4bb",
+       "obszary": "086025abb421",
+       "opublikowano": "14930a0964b8",
+       "prawdopodobienstwo": "dfff24769b1b",
+       "przebieg": "b01ff92eb5c0",
+       "stopień": "391552c099c1",
+       "zdarzenie": "98b3faedc67d"
+      },
+      "changes": 0,
+      "published": "2026-11-20T21:03:05.000Z",
+      "valid_to": "2026-11-21T07:00:00.000Z",
+      "msg_type": null,
+      "event": "Gwałtowne wzrosty stanów wody",
+      "level": "1",
+      "n_areas": 3
+     },
+     "hydro:2026:114:0988565c": {
+      "first_seen": "2026-11-20T22:46:23.089Z",
+      "hash": "9535f0f3c041f224f871cd86ea5f8580b1c437ea18c71231ce60984a7237631d",
+      "key_hashes": {
+       "biuro": "6acee8d2c85b",
+       "data_do": "8361478291bc",
+       "data_od": "f49d360a6518",
+       "komentarz": "0a840b17d2b5",
+       "numer": "18f04adca71c",
+       "obszary": "c74b4be008a6",
+       "opublikowano": "b00417635169",
+       "prawdopodobienstwo": "9728ac83eb87",
+       "przebieg": "56aa6d8689e3",
+       "stopień": "391552c099c1",
+       "zdarzenie": "98b3faedc67d"
+      },
+      "changes": 0,
+      "published": "2026-11-20T21:12:56.000Z",
+      "valid_to": "2026-11-21T07:00:00.000Z",
+      "msg_type": null,
+      "event": "Gwałtowne wzrosty stanów wody",
+      "level": "1",
+      "n_areas": 1
      }
     },
     "gone": {
@@ -2432,9 +2480,9 @@
       "gone_at": "2026-11-20T16:26:18.028Z"
      }
     },
-    "last_poll_t": "2026-11-20T16:26:18.028Z"
+    "last_poll_t": "2026-11-20T22:46:23.089Z"
    },
-   "last_feed_hash": "062fa8bcb5783c0890b3040a7b16755979b16cea0f308c2fbdeda8fe27368f45",
+   "last_feed_hash": "6013799aa5c664e2e81e24939253cb8da45515143527462c1b5aa5e846620f22",
    "schema": {
     "hash": "815e7689dc98ae139e3b7fdcbe97d9bbe6e452d4b3e0fa76aec400808e79b532",
     "seen": {
@@ -2470,13 +2518,13 @@
      ]
     }
    },
-   "last_success": "2026-11-20T16:26:18.028Z",
+   "last_success": "2026-11-20T22:46:23.089Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-20",
    "last_fail_body_hash": null,
-   "n_items": 34,
+   "n_items": 36,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-20T16:26:18.028Z"
+   "last_snapshot_t": "2026-11-20T22:46:23.089Z"
   },
   "imgw-osmet": {
    "ledger": {
@@ -3503,7 +3551,7 @@
       "gone_at": "2026-11-19T01:11:21.168Z"
      }
     },
-    "last_poll_t": "2026-11-20T16:26:18.453Z"
+    "last_poll_t": "2026-11-20T22:46:23.407Z"
    },
    "last_feed_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "schema": {
@@ -3563,7 +3611,7 @@
      ]
     }
    },
-   "last_success": "2026-11-20T16:26:18.453Z",
+   "last_success": "2026-11-20T22:46:23.407Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-19",
    "last_fail_body_hash": null,
@@ -5666,24 +5714,25 @@
       "level": "2; yellow; Moderate",
       "n_areas": 1
      },
-     "2.49.0.0.616.0.PL.261120123417.PL804_01521": {
-      "first_seen": "2026-11-20T16:26:20.907Z",
-      "hash": "932595063a4fa57a4cf513e35e3217b2dc24ee01217b53e6516b32b1a9025e4e",
+     "2.49.0.0.616.0.PL.261120184634.PL804_01521": {
+      "first_seen": "2026-11-20T22:46:23.832Z",
+      "hash": "5497a08dda29253479838d811ab85faf2f161e91cf8f8788d29e220e99cf58af",
       "key_hashes": {
-       "identifier": "52d78f922ba6",
-       "incidents": "e177b5907768",
-       "info": "92c684491857",
-       "msgType": "e177b5907768",
+       "identifier": "42aca1a17d2d",
+       "incidents": "71060b462f3d",
+       "info": "875df11b6093",
+       "msgType": "71060b462f3d",
+       "references": "ed00c26eb7d9",
        "scope": "ff2e96a9a685",
        "sender": "3bb2238993e1",
-       "sent": "4ed6e49c70f7",
+       "sent": "2cd9ec48b4ba",
        "status": "516a5bec7439",
-       "uuid": "172aff1a0073"
+       "uuid": "3454fe2dbf00"
       },
       "changes": 0,
-      "published": "2026-11-20T12:34:17.000Z",
-      "valid_to": "2026-11-20T19:00:00.000Z",
-      "msg_type": "Alert",
+      "published": "2026-11-20T18:46:34.000Z",
+      "valid_to": "2026-11-20T23:00:00.000Z",
+      "msg_type": "Update",
       "event": "Yellow Wind warning",
       "level": "2; yellow; Moderate",
       "n_areas": 1
@@ -42960,11 +43009,35 @@
       "n_areas": 1,
       "last_seen": "2026-11-20T00:38:16.259Z",
       "gone_at": "2026-11-20T07:46:58.564Z"
+     },
+     "2.49.0.0.616.0.PL.261120123417.PL804_01521": {
+      "first_seen": "2026-11-20T16:26:20.907Z",
+      "hash": "932595063a4fa57a4cf513e35e3217b2dc24ee01217b53e6516b32b1a9025e4e",
+      "key_hashes": {
+       "identifier": "52d78f922ba6",
+       "incidents": "e177b5907768",
+       "info": "92c684491857",
+       "msgType": "e177b5907768",
+       "scope": "ff2e96a9a685",
+       "sender": "3bb2238993e1",
+       "sent": "4ed6e49c70f7",
+       "status": "516a5bec7439",
+       "uuid": "172aff1a0073"
+      },
+      "changes": 0,
+      "published": "2026-11-20T12:34:17.000Z",
+      "valid_to": "2026-11-20T19:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": "2; yellow; Moderate",
+      "n_areas": 1,
+      "last_seen": "2026-11-20T16:26:20.907Z",
+      "gone_at": "2026-11-20T22:46:23.832Z"
      }
     },
-    "last_poll_t": "2026-11-20T16:26:20.907Z"
+    "last_poll_t": "2026-11-20T22:46:23.832Z"
    },
-   "last_feed_hash": "ebca41d1b29cca52f923b733d5b07e4d4cda64d431278150b4ed640ba9f83fed",
+   "last_feed_hash": "fd7ee4fa4404b4699a7a9516ec09bfc26b00835f502476078ef1e0edcd3a813b",
    "schema": {
     "hash": "30af7b8008a1f6d76138d3a627845612cbfe8104a6140d88eecc8b1181decf2b",
     "seen": {
@@ -43048,13 +43121,13 @@
      ]
     }
    },
-   "last_success": "2026-11-20T16:26:20.907Z",
+   "last_success": "2026-11-20T22:46:23.832Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-20",
    "last_fail_body_hash": null,
    "n_items": 96,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-20T16:26:20.907Z"
+   "last_snapshot_t": "2026-11-20T22:46:23.832Z"
   },
   "meteoalarm-atom": {
    "ledger": {
@@ -44627,34 +44700,34 @@
       "level": null,
       "n_areas": 1
      },
-     "2.49.0.0.616.0.PL.261120123417.PL804_01521": {
-      "first_seen": "2026-11-20T16:26:23.088Z",
-      "hash": "b37c38d862a0d5c49e5b5f3ea97ddf2403715e18d2a0634139a19439240891bf",
+     "2.49.0.0.616.0.PL.261120184634.PL804_01521": {
+      "first_seen": "2026-11-20T22:46:25.344Z",
+      "hash": "4f85823ed5d291faa5d7779934cc1282d374804029faf3cefa98d25aab444db2",
       "key_hashes": {
        "areaDesc": "f3a1c0d5e207",
-       "cap_link": "b2bda72b3c51",
+       "cap_link": "605d719078c5",
        "certainty": "a93a3a106e9b",
-       "effective": "3cee54b58755",
-       "entry_xml_hash": "3d914118ba8d",
+       "effective": "2bd7739352c4",
+       "entry_xml_hash": "e4011615c9e9",
        "event": "0b769654efcd",
-       "expires": "467ea6c88268",
+       "expires": "4e3e9839b20e",
        "geocodes": "6c7ca984a58b",
-       "identifier": "52d78f922ba6",
-       "message_type": "e177b5907768",
-       "onset": "1608710762c6",
-       "published": "38af0c1eda90",
+       "identifier": "42aca1a17d2d",
+       "message_type": "71060b462f3d",
+       "onset": "467ea6c88268",
+       "published": "ce4b256f2c6c",
        "scope": "ff2e96a9a685",
-       "sent": "e83e3a95d1d1",
+       "sent": "b672225328f1",
        "severity": "3f41c1ae844e",
        "status": "516a5bec7439",
        "title": "1fefce0d216e",
-       "updated": "38af0c1eda90",
+       "updated": "ce4b256f2c6c",
        "urgency": "8bb56d632ef7"
       },
       "changes": 0,
-      "published": "2026-11-20T12:34:17.000Z",
-      "valid_to": "2026-11-20T19:00:00.000Z",
-      "msg_type": "Alert",
+      "published": "2026-11-20T18:46:34.000Z",
+      "valid_to": "2026-11-20T23:00:00.000Z",
+      "msg_type": "Update",
       "event": "Yellow Wind warning",
       "level": null,
       "n_areas": 1
@@ -98992,11 +99065,45 @@
       "n_areas": 1,
       "last_seen": "2026-11-19T18:08:44.289Z",
       "gone_at": "2026-11-20T00:38:17.848Z"
+     },
+     "2.49.0.0.616.0.PL.261120123417.PL804_01521": {
+      "first_seen": "2026-11-20T16:26:23.088Z",
+      "hash": "b37c38d862a0d5c49e5b5f3ea97ddf2403715e18d2a0634139a19439240891bf",
+      "key_hashes": {
+       "areaDesc": "f3a1c0d5e207",
+       "cap_link": "b2bda72b3c51",
+       "certainty": "a93a3a106e9b",
+       "effective": "3cee54b58755",
+       "entry_xml_hash": "3d914118ba8d",
+       "event": "0b769654efcd",
+       "expires": "467ea6c88268",
+       "geocodes": "6c7ca984a58b",
+       "identifier": "52d78f922ba6",
+       "message_type": "e177b5907768",
+       "onset": "1608710762c6",
+       "published": "38af0c1eda90",
+       "scope": "ff2e96a9a685",
+       "sent": "e83e3a95d1d1",
+       "severity": "3f41c1ae844e",
+       "status": "516a5bec7439",
+       "title": "1fefce0d216e",
+       "updated": "38af0c1eda90",
+       "urgency": "8bb56d632ef7"
+      },
+      "changes": 0,
+      "published": "2026-11-20T12:34:17.000Z",
+      "valid_to": "2026-11-20T19:00:00.000Z",
+      "msg_type": "Alert",
+      "event": "Yellow Wind warning",
+      "level": null,
+      "n_areas": 1,
+      "last_seen": "2026-11-20T16:26:23.088Z",
+      "gone_at": "2026-11-20T22:46:25.344Z"
      }
     },
-    "last_poll_t": "2026-11-20T16:26:23.088Z"
+    "last_poll_t": "2026-11-20T22:46:25.344Z"
    },
-   "last_feed_hash": "993e6b545293ab60184ebbf9782dea7a0edd88bd536fcc0fec486bd1ad438879",
+   "last_feed_hash": "fc73f7f82a7aabd982cf384f55c2c2a239087e12aee2cf39ffe21ae4e249ecec",
    "schema": {
     "hash": "b016417e7714dec7d2424de8362607abe242fa37e56cd0238a67ef494b2559da",
     "seen": {
@@ -99076,13 +99183,13 @@
      ]
     }
    },
-   "last_success": "2026-11-20T16:26:23.088Z",
+   "last_success": "2026-11-20T22:46:25.344Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-20",
    "last_fail_body_hash": null,
    "n_items": 50,
    "zero_since": null,
-   "last_snapshot_t": "2026-11-20T16:26:23.088Z"
+   "last_snapshot_t": "2026-11-20T22:46:25.344Z"
   }
  }
 }
