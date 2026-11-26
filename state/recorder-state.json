@@ -101,32 +101,6 @@
      }
     },
     "gone": {
-     "Sk20261110110536995": {
-      "first_seen": "2026-11-10T11:40:51.530Z",
-      "hash": "0bdee0dacb8a58f0f26ee07099048076fb0b946d168080bfa0cec0ac4e89de28",
-      "key_hashes": {
-       "biuro": "f624642a0e44",
-       "id": "ec237e42488d",
-       "komentarz": "6b6f22df5080",
-       "nazwa_zdarzenia": "bcca8db17972",
-       "obowiazuje_do": "5d05740bc8dd",
-       "obowiazuje_od": "014535c00c60",
-       "opublikowano": "638104e95b56",
-       "prawdopodobienstwo": "12b8c0944c94",
-       "stopien": "391552c099c1",
-       "teryt": "9593d118971f",
-       "tresc": "635d7192fae2"
-      },
-      "changes": 0,
-      "published": "2026-11-10T11:05:00.000Z",
-      "valid_to": "2026-11-11T04:00:00.000Z",
-      "msg_type": null,
-      "event": "Opady śniegu",
-      "level": "1",
-      "n_areas": 18,
-      "last_seen": "2026-11-10T23:58:27.016Z",
-      "gone_at": "2026-11-12T18:25:30.612Z"
-     },
      "Sk20261112115329929": {
       "first_seen": "2026-11-12T18:25:30.612Z",
       "hash": "0bcbbc3f66bf38902f19508621f44fe9fafe8fd19991c760d1dd96d109090ca3",
@@ -752,7 +726,7 @@
       "gone_at": "2026-11-26T10:44:36.536Z"
      }
     },
-    "last_poll_t": "2026-11-26T10:44:36.536Z"
+    "last_poll_t": "2026-11-26T19:52:28.407Z"
    },
    "last_feed_hash": "7a2c6d142c80cdeca23803c4eba92bd52dfa0f133899503c88e029b27a18df30",
    "schema": {
@@ -790,7 +764,7 @@
      ]
     }
    },
-   "last_success": "2026-11-26T10:44:36.536Z",
+   "last_success": "2026-11-26T19:52:28.407Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-26",
    "last_fail_body_hash": null,
@@ -2402,7 +2376,7 @@
       "gone_at": "2026-11-26T10:44:37.745Z"
      }
     },
-    "last_poll_t": "2026-11-26T10:44:37.745Z"
+    "last_poll_t": "2026-11-26T19:52:29.419Z"
    },
    "last_feed_hash": "5337a13a5b360793b512c46a4dc8e8c6459ba4c4c19ff23b048987064ffdf24b",
    "schema": {
@@ -2440,7 +2414,7 @@
      ]
     }
    },
-   "last_success": "2026-11-26T10:44:37.745Z",
+   "last_success": "2026-11-26T19:52:29.419Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-26",
    "last_fail_body_hash": null,
@@ -3398,7 +3372,7 @@
       "gone_at": "2026-11-26T10:44:38.077Z"
      }
     },
-    "last_poll_t": "2026-11-26T10:44:38.077Z"
+    "last_poll_t": "2026-11-26T19:52:29.629Z"
    },
    "last_feed_hash": "430903837cd12292c7ba0c5cbb60201e1cc04e8ae8665f214d8fba5740ebf32d",
    "schema": {
@@ -3458,7 +3432,7 @@
      ]
     }
    },
-   "last_success": "2026-11-26T10:44:38.077Z",
+   "last_success": "2026-11-26T19:52:29.629Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-26",
    "last_fail_body_hash": null,
@@ -30227,7 +30201,7 @@
       "gone_at": "2026-11-26T01:58:58.450Z"
      }
     },
-    "last_poll_t": "2026-11-26T10:44:38.914Z"
+    "last_poll_t": "2026-11-26T19:52:30.184Z"
    },
    "last_feed_hash": "1fde80a574d1c6f659ad3e571ea1a186b238df0f2aaf08f972f3b39e318d546c",
    "schema": {
@@ -30313,7 +30287,7 @@
      ]
     }
    },
-   "last_success": "2026-11-26T10:44:38.914Z",
+   "last_success": "2026-11-26T19:52:30.184Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-26",
    "last_fail_body_hash": null,
@@ -53849,7 +53823,7 @@
       "gone_at": "2026-11-26T01:59:00.786Z"
      }
     },
-    "last_poll_t": "2026-11-26T10:44:42.956Z"
+    "last_poll_t": "2026-11-26T19:52:32.963Z"
    },
    "last_feed_hash": "fd1db1d9bcd017230d824df0df176f619fc6092384f071526754259265811cbe",
    "schema": {
@@ -53931,7 +53905,7 @@
      ]
     }
    },
-   "last_success": "2026-11-26T10:44:42.956Z",
+   "last_success": "2026-11-26T19:52:32.963Z",
    "consecutive_failures": 0,
    "last_snapshot_day": "2026-11-26",
    "last_fail_body_hash": null,
